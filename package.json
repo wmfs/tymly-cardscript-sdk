@@ -3,6 +3,10 @@
   "description": "Tymly Cardscript SDK",
   "version": "0.0.0",
   "author": "WMFS",
+  "keywords": [
+    "tymly",
+    "cardscript"
+  ],
   "main": "./lib/index.js",
   "dependencies": {
     "dexie": "2.0.4",
