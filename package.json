@@ -1,8 +1,8 @@
 {
   "name": "@wmfs/tymly-cardscript-sdk",
   "description": "Tymly Cardscript SDK",
-  "version": "0.0.0",
-  "author": "WMFS",
+  "version": "0.0.0-semantically-released",
+  "author": "West Midlands Fire Service",
   "keywords": [
     "tymly",
     "cardscript"
@@ -20,9 +20,6 @@
     "babel-preset-env": "1.7.0",
     "babel-polyfill": "6.26.0",
     "babel-plugin-transform-object-rest-spread": "6.26.0",
-    "chai": "4.1.2",
-    "mocha": "5.1.1",
-    "standard": "11.0.1",
     "@wmfs/tymly": "1.75.0",
     "@wmfs/tymly-express-plugin": "1.20.0",
     "@wmfs/tymly-users-plugin": "1.12.0",
@@ -30,18 +27,39 @@
     "@wmfs/tymly-rbac-plugin": "1.12.1",
     "indexeddbshim": "4.1.0",
     "vuex": "3.0.1",
-    "vue": "2.5.21"
+    "vue": "2.5.21",
+    "chai": "4.2.0",
+    "codecov": "3.1.0",
+    "conventional-changelog-metahub": "2.0.2",
+    "cz-conventional-changelog": "2.1.0",
+    "mocha": "5.2.0",
+    "nyc": "13.1.0",
+    "semantic-release": "15.13.1",
+    "standard": "12.0.1",
+    "@semantic-release/changelog": "3.0.1",
+    "@semantic-release/git": "7.0.6"
   },
   "scripts": {
     "lint": "standard",
-    "test": "mocha --require babel-register --require babel-polyfill"
+    "test": "nyc mocha && standard",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "semantic-release": "semantic-release",
+    "testold": "mocha --require babel-register --require babel-polyfill"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wmfs/cardscript/tree/master/packages/tymly-cardscript-sdk"
+    "url": "https://github.com/wmfs/tymly-cardscript-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/wmfs/cardscript/issues"
+    "url": "https://github.com/wmfs/tymly-cardscript-sdk/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
