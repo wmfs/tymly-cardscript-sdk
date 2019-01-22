@@ -42,7 +42,7 @@ describe('Set up', function () {
           require.resolve('@wmfs/tymly-rbac-plugin')
         ],
         blueprintPaths: [
-          path.resolve(__dirname, './fixtures/pizza-blueprint')
+          path.resolve(__dirname, './fixtures/pizza-blueprint') // todo: refactor to import @wmfs/pizza-blueprint
         ],
         config: {
           auth: {
@@ -163,7 +163,7 @@ describe('General tests', function () {
 
     expect(token).to.not.eql(null)
     expect(logs.length).to.eql(1)
-    expect(cards.length).to.eql(3)
+    expect(cards.length).to.eql(1)
     expect(startables.length).to.eql(3)
     expect(watching.length).to.eql(0)
     expect(favourites.length).to.eql(0)
