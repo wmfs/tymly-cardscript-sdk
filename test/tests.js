@@ -151,7 +151,7 @@ describe('General tests', function () {
       startables,
       watching,
       todos,
-      cards,
+      templates,
       logs,
       favourites,
       settings
@@ -163,7 +163,7 @@ describe('General tests', function () {
 
     expect(token).to.not.eql(null)
     expect(logs.length).to.eql(1)
-    expect(cards.length).to.eql(1)
+    expect(templates.length).to.eql(1)
     expect(startables.length).to.eql(3)
     expect(watching.length).to.eql(0)
     expect(favourites.length).to.eql(0)

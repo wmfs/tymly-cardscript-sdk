@@ -11,12 +11,12 @@ module.exports = {
         watching: [],
         todos: [],
         logs: [],
-        cards: [],
+        templates: [],
         execution: {}
       },
       mutations: {
         execution: (state, execution) => { state.execution = execution },
-        cards: (state, cards) => { state.cards = cards },
+        templates: (state, templates) => { state.templates = templates },
         logs: (state, logs) => { state.logs = logs },
         todos: (state, todos) => { state.todos = todos },
         watching: (state, watching) => { state.watching = watching },
