@@ -139,7 +139,7 @@ describe('General tests', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it('load the logs from db to store', async () => {
-    await sdk.logs.loadLogs()
+    await sdk.logs.loadLogs({})
   })
 
   it('load the auth token from db to store', async () => {
@@ -409,7 +409,7 @@ describe('Logs', function () {
   })
 
   it('load the logs from db to store', async () => {
-    await sdk.logs.loadLogs()
+    await sdk.logs.loadLogs({})
   })
 
   it('check the store for the new logs', () => {
@@ -422,7 +422,7 @@ describe('Logs', function () {
   })
 
   it('load the logs to the store', async () => {
-    await sdk.logs.loadLogs()
+    await sdk.logs.loadLogs({})
 
     const { logs } = store.state.app
     expect(logs.length).to.eql(LOG_LIMIT)
