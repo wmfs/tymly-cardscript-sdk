@@ -413,9 +413,18 @@ describe('Logs', function () {
     await sdk.logs.loadLogs({})
   })
 
-  it('check the store for the new logs', () => {
+  it('check the store for the (13) new logs, receive first 10', async () => {
     const {logs} = store.state.app
-    expect(logs.length).to.eql(LOG_LIMIT + 3)
+    expect(logs.length).to.eql(LOG_LIMIT)
+  })
+
+  it('refresh logs from db to store', async () => {
+    await sdk.logs.loadLogs({offset: 10})
+  })
+
+  it('check the store for the (13) new logs, receive last 3', async () => {
+    const {logs} = store.state.app
+    expect(logs.length).to.eql(3)
   })
 
   it('apply policy on logs', async () => {
@@ -472,6 +481,17 @@ describe('Logs', function () {
     await sdk.logs.loadLogs({logLevel: 'OFF'})
     const {logs} = store.state.app
     expect(logs).eql([])
+  })
+
+  it('should try to get a `page` of logs with offset=0 and size=3', async () => {
+    await sdk.logs.loadLogs({
+      offset: 0,
+      limit: 3,
+      logLevel: 'ALL'
+    })
+
+    const {logs} = store.state.app
+    expect(logs.length).eql(3)
   })
 })
 
