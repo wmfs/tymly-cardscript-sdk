@@ -415,7 +415,7 @@ describe('Logs', function () {
 
   it('check the store for the new logs', () => {
     const {logs} = store.state.app
-    expect(logs.length).to.eql(LOG_LIMIT)
+    expect(logs.length).to.eql(LOG_LIMIT + 3)
   })
 
   it('apply policy on logs', async () => {
