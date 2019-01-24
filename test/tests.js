@@ -6,7 +6,7 @@ const PORT = 3210
 const TYMLY_API_URL = `http://localhost:${PORT}/executions`
 const LOG_LIMIT = 10
 
-const {TymlySDK, Auth0} = require('../lib')
+const { TymlySDK, Auth0 } = require('../lib')
 const vuexStore = require('./fixtures/store')
 const tymly = require('@wmfs/tymly')
 const path = require('path')
@@ -14,7 +14,7 @@ const expect = require('chai').expect
 const setGlobalVars = require('indexeddbshim')
 const Vuex = require('vuex')
 const Vue = require('vue')
-const logLevels = ['FATAL', 'ERROR', 'WARN', 'INFO', 'DEBUG', 'TRACE']
+const LOG_LEVELS = ['FATAL', 'ERROR', 'WARN', 'INFO', 'DEBUG', 'TRACE']
 
 let sdk, auth, tymlyServices, indexedDB, IDBKeyRange, store, todoId, watchId, execName, authToken
 
@@ -414,16 +414,16 @@ describe('Logs', function () {
   })
 
   it('check the store for the (13) new logs, receive first 10', async () => {
-    const {logs} = store.state.app
+    const { logs } = store.state.app
     expect(logs.length).to.eql(LOG_LIMIT)
   })
 
   it('refresh logs from db to store', async () => {
-    await sdk.logs.loadLogs({offset: 10})
+    await sdk.logs.loadLogs({ offset: 10 })
   })
 
   it('check the store for the (13) new logs, receive last 3', async () => {
-    const {logs} = store.state.app
+    const { logs } = store.state.app
     expect(logs.length).to.eql(3)
   })
 
@@ -434,7 +434,7 @@ describe('Logs', function () {
   it('load the logs to the store', async () => {
     await sdk.logs.loadLogs({})
 
-    const {logs} = store.state.app
+    const { logs } = store.state.app
     expect(logs.length).to.eql(LOG_LIMIT)
   })
 
@@ -452,7 +452,7 @@ describe('Logs', function () {
 
   it('should clear all logs and add one per type', async () => {
     await sdk.logs.clearLogs()
-    for (const type of logLevels) {
+    for (const type of LOG_LEVELS) {
       console.log('Adding log: ', type)
       await sdk.logs.addLog({
         type,
@@ -464,22 +464,22 @@ describe('Logs', function () {
 
   it('Cycle log levels an see increasing levels of logs. See comment for explanation', async () => {
     // A log request of level p in a logger with level q is enabled if p >= q
-    for (const level of logLevels) {
+    for (const level of LOG_LEVELS) {
       await sdk.logs.loadLogs({logLevel: level})
       const {logs} = store.state.app
-      expect(logs.length).eql(logLevels.indexOf(level) + 1)
+      expect(logs.length).eql(LOG_LEVELS.indexOf(level) + 1)
     }
   })
 
   it('Should get logs with logLevel = `ALL`', async () => {
-    await sdk.logs.loadLogs({logLevel: 'ALL'})
-    const {logs} = store.state.app
+    await sdk.logs.loadLogs({ logLevel: 'ALL' })
+    const { logs } = store.state.app
     expect(logs.length).eql(logs.length)
   })
 
   it('Should get no logs with logLevel = `OFF`', async () => {
-    await sdk.logs.loadLogs({logLevel: 'OFF'})
-    const {logs} = store.state.app
+    await sdk.logs.loadLogs({ logLevel: 'OFF' })
+    const { logs } = store.state.app
     expect(logs).eql([])
   })
 
@@ -490,7 +490,7 @@ describe('Logs', function () {
       logLevel: 'ALL'
     })
 
-    const {logs} = store.state.app
+    const { logs } = store.state.app
     expect(logs.length).eql(3)
   })
 })
