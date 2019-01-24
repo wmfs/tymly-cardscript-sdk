@@ -402,7 +402,7 @@ describe('Logs', function () {
   it(`add ${LOG_LIMIT + 2} logs where log limit is ${LOG_LIMIT}`, async () => {
     for (let i = 1; i <= LOG_LIMIT + 2; i++) {
       await sdk.logs.addLog({
-        type: 'INFO',
+        level: 'INFO',
         code: 'TEST',
         title: `Test ${i}`
       })
@@ -438,10 +438,10 @@ describe('Logs', function () {
     expect(logs.length).to.eql(LOG_LIMIT)
   })
 
-  it('should try to add log with unsupported type', async () => {
+  it('should try to add log with unsupported level', async () => {
     try {
       await sdk.logs.addLog({
-        type: 'NOT_SUPPORTED',
+        level: 'NOT_SUPPORTED',
         code: 'TEST',
         title: `Faulty log`
       })
@@ -450,14 +450,14 @@ describe('Logs', function () {
     }
   })
 
-  it('should clear all logs and add one per type', async () => {
+  it('should clear all logs and add one per level', async () => {
     await sdk.logs.clearLogs()
-    for (const type of LOG_LEVELS) {
-      console.log('Adding log: ', type)
+    for (const level of LOG_LEVELS) {
+      console.log('Adding log: ', level)
       await sdk.logs.addLog({
-        type,
-        code: `${type} TEST`,
-        title: `${type} log`
+        level,
+        code: `${level} TEST`,
+        title: `${level} log`
       })
     }
   })
