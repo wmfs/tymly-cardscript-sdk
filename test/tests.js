@@ -398,10 +398,10 @@ describe('Logs', function () {
 
   // clear the logs to start fresh?
 
-  it(`add ${LOG_LIMIT + 2} logs`, async () => {
+  it(`add ${LOG_LIMIT + 2} logs where log limit is ${LOG_LIMIT}`, async () => {
     for (let i = 1; i <= LOG_LIMIT + 2; i++) {
       await sdk.logs.addLog({
-        type: 'POSITIVE',
+        type: 'INFO',
         code: 'TEST',
         title: `Test ${i}`
       })
@@ -414,7 +414,7 @@ describe('Logs', function () {
 
   it('check the store for the new logs', () => {
     const { logs } = store.state.app
-    expect(logs.length).to.eql(LOG_LIMIT + 3)
+    expect(logs.length).to.eql(LOG_LIMIT)
   })
 
   it('apply policy on logs', async () => {
@@ -426,6 +426,18 @@ describe('Logs', function () {
 
     const { logs } = store.state.app
     expect(logs.length).to.eql(LOG_LIMIT)
+  })
+
+  it('should try to add log with unsupported type', async () => {
+    try {
+      await sdk.logs.addLog({
+        type: 'NOT_SUPPORTED',
+        code: 'TEST',
+        title: `Faulty log`
+      })
+    } catch (e) {
+      expect(e instanceof TypeError)
+    }
   })
 })
 
