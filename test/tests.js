@@ -139,7 +139,7 @@ describe('General tests', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it('load the logs from db to store', async () => {
-    await sdk.logs.loadLogs()
+    await sdk.logs.loadLogs({})
   })
 
   it('load the auth token from db to store', async () => {
@@ -398,10 +398,10 @@ describe('Logs', function () {
 
   // clear the logs to start fresh?
 
-  it(`add ${LOG_LIMIT + 2} logs`, async () => {
+  it(`add ${LOG_LIMIT + 2} logs where log limit is ${LOG_LIMIT}`, async () => {
     for (let i = 1; i <= LOG_LIMIT + 2; i++) {
       await sdk.logs.addLog({
-        type: 'POSITIVE',
+        type: 'INFO',
         code: 'TEST',
         title: `Test ${i}`
       })
@@ -409,12 +409,12 @@ describe('Logs', function () {
   })
 
   it('load the logs from db to store', async () => {
-    await sdk.logs.loadLogs()
+    await sdk.logs.loadLogs({})
   })
 
   it('check the store for the new logs', () => {
     const { logs } = store.state.app
-    expect(logs.length).to.eql(LOG_LIMIT + 3)
+    expect(logs.length).to.eql(LOG_LIMIT)
   })
 
   it('apply policy on logs', async () => {
@@ -422,10 +422,22 @@ describe('Logs', function () {
   })
 
   it('load the logs to the store', async () => {
-    await sdk.logs.loadLogs()
+    await sdk.logs.loadLogs({})
 
     const { logs } = store.state.app
     expect(logs.length).to.eql(LOG_LIMIT)
+  })
+
+  it('should try to add log with unsupported type', async () => {
+    try {
+      await sdk.logs.addLog({
+        type: 'NOT_SUPPORTED',
+        code: 'TEST',
+        title: `Faulty log`
+      })
+    } catch (e) {
+      expect(e instanceof TypeError)
+    }
   })
 })
 
