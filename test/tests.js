@@ -6,7 +6,7 @@ const PORT = 3210
 const TYMLY_API_URL = `http://localhost:${PORT}/executions`
 const LOG_LIMIT = 10
 
-const { TymlySDK, Auth0 } = require('../lib')
+const {TymlySDK, Auth0} = require('../lib')
 const vuexStore = require('./fixtures/store')
 const tymly = require('@wmfs/tymly')
 const path = require('path')
@@ -14,6 +14,7 @@ const expect = require('chai').expect
 const setGlobalVars = require('indexeddbshim')
 const Vuex = require('vuex')
 const Vue = require('vue')
+const logLevels = ['FATAL', 'ERROR', 'WARN', 'INFO', 'DEBUG', 'TRACE']
 
 let sdk, auth, tymlyServices, indexedDB, IDBKeyRange, store, todoId, watchId, execName, authToken
 
@@ -63,7 +64,7 @@ describe('Set up', function () {
   })
 
   it('start Tymly server', done => {
-    const { server } = tymlyServices
+    const {server} = tymlyServices
     server.listen(PORT, () => {
       console.log(`Tymly server listening at ${PORT}`)
       done()
@@ -88,7 +89,7 @@ describe('Set up', function () {
   it('set up IndexedDB shim', () => {
     const shim = {}
     global.window = global
-    setGlobalVars(shim, { checkOrigin: false, memoryDatabase: ':memory:' })
+    setGlobalVars(shim, {checkOrigin: false, memoryDatabase: ':memory:'})
     indexedDB = shim.indexedDB
     IDBKeyRange = shim.IDBKeyRange
 
@@ -180,22 +181,22 @@ describe('Favourites', function () {
   })
 
   it(`check the vuex store if the favourite startable 'test_orderPizza_1_0' has been added`, () => {
-    const { favourites } = store.state.app
+    const {favourites} = store.state.app
     expect(favourites).to.eql(['test_orderPizza_1_0'])
   })
 
   it(`check indexedDB if the favourite startable 'test_orderPizza_1_0 has been added'`, async () => {
-    const { favourites } = await sdk.db.favourites.get('favourites')
+    const {favourites} = await sdk.db.favourites.get('favourites')
     expect(favourites).to.eql(['test_orderPizza_1_0'])
   })
 
   it(`check the favourites on the server for the added entry`, async () => {
-    const { ctx } = await sdk.executions.execute({
+    const {ctx} = await sdk.executions.execute({
       stateMachineName: 'tymly_getFavouriteStartableNames_1_0',
       token: authToken
     })
 
-    expect(ctx.results).to.eql([ 'test_orderPizza_1_0' ])
+    expect(ctx.results).to.eql(['test_orderPizza_1_0'])
   })
 
   it(`should unfavourite a startable 'test_orderPizza_1_0'`, async () => {
@@ -203,17 +204,17 @@ describe('Favourites', function () {
   })
 
   it(`check the vuex store if the favourite startable 'test_orderPizza_1_0' has been removed`, () => {
-    const { favourites } = store.state.app
+    const {favourites} = store.state.app
     expect(favourites).to.eql([])
   })
 
   it(`check indexedDB if the favourite startable 'test_orderPizza_1_0 has been removed'`, async () => {
-    const { favourites } = await sdk.db.favourites.get('favourites')
+    const {favourites} = await sdk.db.favourites.get('favourites')
     expect(favourites).to.eql([])
   })
 
   it(`check the favourites on the server for the removed entry`, async () => {
-    const { ctx } = await sdk.executions.execute({
+    const {ctx} = await sdk.executions.execute({
       stateMachineName: 'tymly_getFavouriteStartableNames_1_0',
       token: authToken
     })
@@ -226,12 +227,12 @@ describe('Settings', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it('apply the adjsuted settings', async () => {
-    await sdk.settings.apply({ categoryRelevance: ['pizza', 'food'] })
+    await sdk.settings.apply({categoryRelevance: ['pizza', 'food']})
   })
 
   it('check the settings have changed in the db', async () => {
-    const { settings } = await sdk.db.settings.get('settings')
-    expect(settings.categoryRelevance).to.eql([ 'pizza', 'food' ])
+    const {settings} = await sdk.db.settings.get('settings')
+    expect(settings.categoryRelevance).to.eql(['pizza', 'food'])
   })
 })
 
@@ -239,7 +240,7 @@ describe('To-dos', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it('create todo entry for Prepare Pizza', async () => {
-    const { ctx } = await sdk.executions.execute({
+    const {ctx} = await sdk.executions.execute({
       stateMachineName: 'tymly_createTodoEntry_1_0',
       input: {
         todoTitle: 'Prepare Pizza',
@@ -256,7 +257,7 @@ describe('To-dos', function () {
   it('refresh user query, check new todo entry exists', async () => {
     await sdk.requestUserQuery()
 
-    const { todos } = store.state.app
+    const {todos} = store.state.app
     expect(todos.length).to.eql(1)
     expect(todos[0].id).to.eql(todoId)
   })
@@ -265,7 +266,7 @@ describe('To-dos', function () {
     await sdk.todo.remove(todoId)
     await sdk.requestUserQuery()
 
-    const { todos } = store.state.app
+    const {todos} = store.state.app
     expect(todos.length).to.eql(0)
   })
 })
@@ -274,7 +275,7 @@ describe('Watching', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it(`watch 'test_orderPizza_1_0' instance`, async () => {
-    const { ctx } = await sdk.watching.watch({
+    const {ctx} = await sdk.watching.watch({
       stateMachineName: 'test_orderPizza_1_0',
       title: 'Pizza Order XYZ123', // Get from card
       category: 'Food',
@@ -296,13 +297,13 @@ describe('Watching', function () {
   it(`refresh user query, check the watching entry exists`, async () => {
     await sdk.requestUserQuery()
 
-    const { watching } = store.state.app
+    const {watching} = store.state.app
     expect(watching.length).to.eql(1)
     expect(watching[0].subscriptionId).to.eql(watchId)
   })
 
   it(`unwatch 'test_orderPizza_1_0' instance`, async () => {
-    const { ctx } = await sdk.watching.unwatch({
+    const {ctx} = await sdk.watching.unwatch({
       subscriptionId: watchId
     })
 
@@ -312,7 +313,7 @@ describe('Watching', function () {
   it(`refresh user query, check the watching entry exists`, async () => {
     await sdk.requestUserQuery()
 
-    const { watching } = store.state.app
+    const {watching} = store.state.app
     expect(watching.length).to.eql(0)
   })
 })
@@ -339,7 +340,7 @@ describe('Executions', function () {
 
   it('load execution into store', async () => {
     await sdk.executions.load(execName)
-    const { execution } = store.state.app
+    const {execution} = store.state.app
     expect(execution.executionName).to.eql(execName)
   })
 
@@ -413,7 +414,7 @@ describe('Logs', function () {
   })
 
   it('check the store for the new logs', () => {
-    const { logs } = store.state.app
+    const {logs} = store.state.app
     expect(logs.length).to.eql(LOG_LIMIT)
   })
 
@@ -424,7 +425,7 @@ describe('Logs', function () {
   it('load the logs to the store', async () => {
     await sdk.logs.loadLogs({})
 
-    const { logs } = store.state.app
+    const {logs} = store.state.app
     expect(logs.length).to.eql(LOG_LIMIT)
   })
 
@@ -438,6 +439,39 @@ describe('Logs', function () {
     } catch (e) {
       expect(e instanceof TypeError)
     }
+  })
+
+  it('should clear all logs and add one per type', async () => {
+    await sdk.logs.clearLogs()
+    for (const type of logLevels) {
+      console.log('Adding log: ', type)
+      await sdk.logs.addLog({
+        type,
+        code: `${type} TEST`,
+        title: `${type} log`
+      })
+    }
+  })
+
+  it('Cycle log levels an see increasing levels of logs. See comment for explanation', async () => {
+    // A log request of level p in a logger with level q is enabled if p >= q
+    for (const level of logLevels) {
+      await sdk.logs.loadLogs({logLevel: level})
+      const {logs} = store.state.app
+      expect(logs.length).eql(logLevels.indexOf(level) + 1)
+    }
+  })
+
+  it('Should get logs with logLevel = `ALL`', async () => {
+    await sdk.logs.loadLogs({logLevel: 'ALL'})
+    const {logs} = store.state.app
+    expect(logs.length).eql(logs.length)
+  })
+
+  it('Should get no logs with logLevel = `OFF`', async () => {
+    await sdk.logs.loadLogs({logLevel: 'OFF'})
+    const {logs} = store.state.app
+    expect(logs).eql([])
   })
 })
 
