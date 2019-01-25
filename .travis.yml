@@ -9,7 +9,7 @@ branches:
   only:
     - master
 env:
-    - CI=false
+  - CI=false
 install:
   - travis_retry npm install
 test:
