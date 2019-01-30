@@ -49,7 +49,7 @@
   },
   "scripts": {
     "lint": "standard",
-    "test": "nyc mocha --require babel-register --require babel-polyfill -r esm && standard",
+    "test": "nyc mocha -r esm && standard",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "semantic-release": "semantic-release"
   },
