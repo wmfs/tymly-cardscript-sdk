@@ -163,7 +163,7 @@ describe('General tests', function () {
     } = store.state.auth
 
     expect(token).to.not.eql(null)
-    expect(logs.length).to.eql(1)
+    expect(logs.length).to.eql(0)
     expect(templates.length).to.eql(1)
     expect(startables.length).to.eql(3)
     expect(watching.length).to.eql(0)
@@ -424,7 +424,7 @@ describe('Logs', function () {
 
   it('check the store for the (13) new logs, receive last 3', async () => {
     const { logs } = store.state.app
-    expect(logs.length).to.eql(3)
+    expect(logs.length).to.eql(2)
   })
 
   it('apply policy on logs', async () => {
@@ -465,8 +465,8 @@ describe('Logs', function () {
   it('Cycle log levels an see increasing levels of logs. See comment for explanation', async () => {
     // A log request of level p in a logger with level q is enabled if p >= q
     for (const level of LOG_LEVELS) {
-      await sdk.logs.loadLogs({logLevel: level})
-      const {logs} = store.state.app
+      await sdk.logs.loadLogs({ logLevel: level })
+      const { logs } = store.state.app
       expect(logs.length).eql(LOG_LEVELS.indexOf(level) + 1)
     }
   })
