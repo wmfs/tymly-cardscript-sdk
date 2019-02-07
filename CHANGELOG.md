@@ -1,3 +1,61 @@
+# [1.1.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.0.0...v1.1.0) (2019-02-07)
+
+
+### ✨ Features
+
+* **Auth0:** implementation for starting/cancelling refresh timers ([0d1e48f](https://github.com/wmfs/tymly-cardscript-sdk/commit/0d1e48f))
+* add route api ([e742113](https://github.com/wmfs/tymly-cardscript-sdk/commit/e742113))
+* changes to Executions ([5d6cbb0](https://github.com/wmfs/tymly-cardscript-sdk/commit/5d6cbb0))
+* More ignoring of package-lock.json. ([db97c7e](https://github.com/wmfs/tymly-cardscript-sdk/commit/db97c7e))
+
+
+### 🐛 Bug Fixes
+
+* ammend test script ([1f97b79](https://github.com/wmfs/tymly-cardscript-sdk/commit/1f97b79))
+* remove babel and amend tests ([0432383](https://github.com/wmfs/tymly-cardscript-sdk/commit/0432383))
+
+
+### 📦 Code Refactoring
+
+* addded waitUntilReady in sdk client ([d68ea2e](https://github.com/wmfs/tymly-cardscript-sdk/commit/d68ea2e))
+* Correct for cardscript-vue-sdk shifting to CommonJS module. ([2a9b2cd](https://github.com/wmfs/tymly-cardscript-sdk/commit/2a9b2cd))
+* executions class ([1361639](https://github.com/wmfs/tymly-cardscript-sdk/commit/1361639))
+* in progress becomes drafts ([3d9f419](https://github.com/wmfs/tymly-cardscript-sdk/commit/3d9f419))
+* parse search options and adjust auth0 table ([373535e](https://github.com/wmfs/tymly-cardscript-sdk/commit/373535e))
+* recieve execution title ([c747dfa](https://github.com/wmfs/tymly-cardscript-sdk/commit/c747dfa))
+* set data on execution when saving ([a9433c0](https://github.com/wmfs/tymly-cardscript-sdk/commit/a9433c0))
+
+
+### 📚 Documentation
+
+* added jsdoc for database ([1b505aa](https://github.com/wmfs/tymly-cardscript-sdk/commit/1b505aa))
+* added jsdoc for executions class ([f64307d](https://github.com/wmfs/tymly-cardscript-sdk/commit/f64307d))
+* added jsdoc for Search class ([475d790](https://github.com/wmfs/tymly-cardscript-sdk/commit/475d790))
+* added jsdoc for Search class ([425d89e](https://github.com/wmfs/tymly-cardscript-sdk/commit/425d89e))
+* added jsdoc for Settings class ([5049383](https://github.com/wmfs/tymly-cardscript-sdk/commit/5049383))
+* added jsdoc for Startables class ([50e854c](https://github.com/wmfs/tymly-cardscript-sdk/commit/50e854c))
+* added jsdoc for Templates class ([8210226](https://github.com/wmfs/tymly-cardscript-sdk/commit/8210226))
+* added jsdoc for Todo class ([4d64e9f](https://github.com/wmfs/tymly-cardscript-sdk/commit/4d64e9f))
+* added jsdoc for Watching class ([68d6de9](https://github.com/wmfs/tymly-cardscript-sdk/commit/68d6de9))
+* adding some JSDoc for the SDK class ([16e13bb](https://github.com/wmfs/tymly-cardscript-sdk/commit/16e13bb))
+* testing commit ([fc1ddc3](https://github.com/wmfs/tymly-cardscript-sdk/commit/fc1ddc3))
+
+
+### 🚨 Tests
+
+* No longer need -r esm flag ([e0a1cad](https://github.com/wmfs/tymly-cardscript-sdk/commit/e0a1cad))
+
+
+### ⚙️ Continuous Integrations
+
+* **travis:** allow testing again ([24d1937](https://github.com/wmfs/tymly-cardscript-sdk/commit/24d1937))
+* **travis:** skip tests ([38bd099](https://github.com/wmfs/tymly-cardscript-sdk/commit/38bd099))
+
+
+### 💎 Styles
+
+* Standard fixes ([c483bcb](https://github.com/wmfs/tymly-cardscript-sdk/commit/c483bcb))
+
 # 1.0.0 (2019-01-25)
 
 
