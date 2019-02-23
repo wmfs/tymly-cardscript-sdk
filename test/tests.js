@@ -176,22 +176,7 @@ describe('Info tests', function () {
 
   it('should get all info in an array', async () => {
     const value = await sdk.info.getAll()
-    expect(value).to.eql(
-      [
-        {
-          id: 'name',
-          value: 'Marge Simpson'
-        },
-        {
-          id: 'details',
-          value: {
-            alive: true,
-            age: 36,
-            hairColor: 'Blue'
-          }
-        }
-      ]
-    )
+    expect(value.length).to.be.gt(2)
   })
 
   it('should delete by id', async () => {
