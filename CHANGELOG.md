@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.2.0...v1.3.0) (2019-02-23)
+
+
+### ✨ Features
+
+* Wire-in some startup timestamps via new Info API. ([ab3c3dd](https://github.com/wmfs/tymly-cardscript-sdk/commit/ab3c3dd))
+
 # [1.2.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.1.0...v1.2.0) (2019-02-23)
 
 
