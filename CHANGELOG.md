@@ -1,3 +1,18 @@
+# [1.2.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.1.0...v1.2.0) (2019-02-23)
+
+
+### ✨ Features
+
+* Add a new Info API for storing internal timestamps, events, etc. ([19c38af](https://github.com/wmfs/tymly-cardscript-sdk/commit/19c38af))
+
+
+### 📦 Code Refactoring
+
+* logs loading ([d8b7df8](https://github.com/wmfs/tymly-cardscript-sdk/commit/d8b7df8))
+* remove .default ([1c7f22a](https://github.com/wmfs/tymly-cardscript-sdk/commit/1c7f22a))
+* use otken from indexeddb if not on instance ([65f0a24](https://github.com/wmfs/tymly-cardscript-sdk/commit/65f0a24))
+* WIP attempt to improve logs ([b8ef2ad](https://github.com/wmfs/tymly-cardscript-sdk/commit/b8ef2ad))
+
 # [1.1.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.0.0...v1.1.0) (2019-02-07)
 
 
