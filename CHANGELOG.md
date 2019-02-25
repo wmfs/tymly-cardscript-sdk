@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.5.0...v1.6.0) (2019-02-25)
+
+
+### ✨ Features
+
+* Add debug and storage of useful Auth0 credentials. ([632afbd](https://github.com/wmfs/tymly-cardscript-sdk/commit/632afbd))
+
 # [1.5.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.4.0...v1.5.0) (2019-02-25)
 
 
