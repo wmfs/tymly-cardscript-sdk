@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.4.0...v1.5.0) (2019-02-25)
+
+
+### ✨ Features
+
+* Add support for loading auth creds from IndexedDB. ([7c0cbbe](https://github.com/wmfs/tymly-cardscript-sdk/commit/7c0cbbe))
+
 # [1.4.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.3.0...v1.4.0) (2019-02-25)
 
 
