@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.7.0...v1.8.0) (2019-02-26)
+
+
+### ✨ Features
+
+* Upgrade to support better Auth0 integration. ([0f4f64d](https://github.com/wmfs/tymly-cardscript-sdk/commit/0f4f64d))
+
 # [1.7.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.6.0...v1.7.0) (2019-02-26)
 
 
