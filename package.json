@@ -42,7 +42,7 @@
     "esm": "3.1.1",
     "indexeddbshim": "4.1.0",
     "mocha": "5.2.0",
-    "nyc": "13.1.0",
+    "nyc": "13.3.0",
     "semantic-release": "15.13.3",
     "standard": "12.0.1",
     "vue": "2.5.22",
