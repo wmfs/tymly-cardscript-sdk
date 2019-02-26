@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.6.0...v1.7.0) (2019-02-26)
+
+
+### 🛠 Builds
+
+* **deps:** update many packages ([e705914](https://github.com/wmfs/tymly-cardscript-sdk/commit/e705914))
+
+
+### 📦 Code Refactoring
+
+* correct consolelog ([531bd26](https://github.com/wmfs/tymly-cardscript-sdk/commit/531bd26))
+
 # [1.6.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.5.0...v1.6.0) (2019-02-25)
 
 
