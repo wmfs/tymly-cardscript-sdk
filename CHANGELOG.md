@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.8.0...v1.9.0) (2019-02-27)
+
+
+### ✨ Features
+
+* beginning of suggestions implementation ([31c61ef](https://github.com/wmfs/tymly-cardscript-sdk/commit/31c61ef))
+
 # [1.8.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.7.0...v1.8.0) (2019-02-26)
 
 
