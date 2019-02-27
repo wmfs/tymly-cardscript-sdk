@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.10.0...v1.11.0) (2019-02-27)
+
+
+### ✨ Features
+
+* Removes Auth0 things that are now handled by "Lock". ([7cb4d19](https://github.com/wmfs/tymly-cardscript-sdk/commit/7cb4d19))
+
 # [1.10.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.9.0...v1.10.0) (2019-02-27)
 
 
