@@ -19,7 +19,7 @@ const util = require('util')
 const setTimeoutPromise = util.promisify(setTimeout)
 const LOG_LEVELS = ['FATAL', 'ERROR', 'WARN', 'INFO', 'DEBUG', 'TRACE']
 
-let sdk, auth, tymlyServices, indexedDB, IDBKeyRange, store, todoId, watchId, execName, authToken, timer
+let sdk, auth, tymlyServices, indexedDB, IDBKeyRange, store, todoId, watchId, execName, authToken
 
 describe('Set up', function () {
   this.timeout(process.env.TIMEOUT || 5000)
@@ -200,38 +200,6 @@ describe('Info tests', function () {
 
 describe('General tests', function () {
   this.timeout(process.env.TIMEOUT || 5000)
-
-  it('should start refreshTimer', async () => {
-    authToken = store.state.auth.token
-    timer = await auth.startRefreshTimer()
-  })
-
-  it('should check, after timer duration, that a new token was received', async () => {
-    await setTimeoutPromise(5 * 1000).then(async () => {
-      await auth.loadToken()
-      const tokenAfter = store.state.auth.token
-      console.log(`\n***token before: ${authToken}`)
-      console.log(`\n***token after: ${tokenAfter}`)
-
-      expect(authToken !== tokenAfter)
-      authToken = tokenAfter
-    })
-  })
-
-  it('should cancel the timer', () => {
-    auth.cancelRefreshTimer(timer)
-  })
-
-  it('should check, after timer duration, that a new token was NOT received', async () => {
-    await setTimeoutPromise(5 * 1000).then(async () => {
-      await auth.loadToken()
-      const tokenAfter = store.state.auth.token
-      console.log(`\n***token before: ${authToken}`)
-      console.log(`\n***token after: ${tokenAfter}`)
-
-      expect(authToken === tokenAfter)
-    })
-  })
 
   it('load the logs from db to store', async () => {
     await sdk.logs.loadLogs({})
