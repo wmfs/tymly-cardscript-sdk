@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.12.0...v1.13.0) (2019-02-27)
+
+
+### ✨ Features
+
+* Deprecates timer methods in favour of Lock. ([825d925](https://github.com/wmfs/tymly-cardscript-sdk/commit/825d925))
+
 # [1.12.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.11.0...v1.12.0) (2019-02-27)
 
 
