@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.11.0...v1.12.0) (2019-02-27)
+
+
+### ✨ Features
+
+* Restores isAuthenticated() method. ([569bec8](https://github.com/wmfs/tymly-cardscript-sdk/commit/569bec8))
+
 # [1.11.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.10.0...v1.11.0) (2019-02-27)
 
 
