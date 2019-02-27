@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.9.0...v1.10.0) (2019-02-27)
+
+
+### ✨ Features
+
+* enhance suggestions to support redirects & launches ([6019c02](https://github.com/wmfs/tymly-cardscript-sdk/commit/6019c02))
+
 # [1.9.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.8.0...v1.9.0) (2019-02-27)
 
 
