@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.13.0...v1.14.0) (2019-02-27)
+
+
+### ✨ Features
+
+* Remove some old logging. ([d4c8732](https://github.com/wmfs/tymly-cardscript-sdk/commit/d4c8732))
+
 # [1.13.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.12.0...v1.13.0) (2019-02-27)
 
 
