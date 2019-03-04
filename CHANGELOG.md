@@ -1,3 +1,11 @@
+# [1.15.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.14.0...v1.15.0) (2019-03-04)
+
+
+### ✨ Features
+
+* Add beginnings of category-based visualization. ([1567637](https://github.com/wmfs/tymly-cardscript-sdk/commit/1567637))
+* General polish tweaks. ([41253c0](https://github.com/wmfs/tymly-cardscript-sdk/commit/41253c0))
+
 # [1.14.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.13.0...v1.14.0) (2019-02-27)
 
 
