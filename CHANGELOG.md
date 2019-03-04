@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.16.0...v1.17.0) (2019-03-04)
+
+
+### ✨ Features
+
+* Collect more info for category-based visualization. ([4b4af21](https://github.com/wmfs/tymly-cardscript-sdk/commit/4b4af21))
+
 # [1.16.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.15.0...v1.16.0) (2019-03-04)
 
 
