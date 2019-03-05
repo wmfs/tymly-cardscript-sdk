@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.18.0...v1.19.0) (2019-03-05)
+
+
+### ✨ Features
+
+* Introduces a much-more brutal log out, with guard. ([9097015](https://github.com/wmfs/tymly-cardscript-sdk/commit/9097015))
+
 # [1.18.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.17.0...v1.18.0) (2019-03-05)
 
 
