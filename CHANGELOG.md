@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.17.0...v1.18.0) (2019-03-05)
+
+
+### ✨ Features
+
+* Add better tile summaries. ([2111a5f](https://github.com/wmfs/tymly-cardscript-sdk/commit/2111a5f))
+
 # [1.17.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.16.0...v1.17.0) (2019-03-04)
 
 
