@@ -1,3 +1,11 @@
+# [1.20.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.19.0...v1.20.0) (2019-03-06)
+
+
+### ✨ Features
+
+* Beginnings of interactive summary tiles. ([cd4f6ad](https://github.com/wmfs/tymly-cardscript-sdk/commit/cd4f6ad))
+* Fixes a typo. "Guard", "Guard", "Guard" "Guard"... ([a8fc56c](https://github.com/wmfs/tymly-cardscript-sdk/commit/a8fc56c))
+
 # [1.19.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.18.0...v1.19.0) (2019-03-05)
 
 
