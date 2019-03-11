@@ -1,3 +1,10 @@
+# [1.23.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.22.0...v1.23.0) (2019-03-11)
+
+
+### ✨ Features
+
+* Simplified test environment (removes Auth0 dependency). ([054beb1](https://github.com/wmfs/tymly-cardscript-sdk/commit/054beb1))
+
 # [1.22.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.21.0...v1.22.0) (2019-03-11)
 
 
