@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.20.0...v1.21.0) (2019-03-11)
+
+
+### ✨ Features
+
+* Removes failing tests, to sort a build. Be back soon. ([8eef2dd](https://github.com/wmfs/tymly-cardscript-sdk/commit/8eef2dd))
+
 # [1.20.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.19.0...v1.20.0) (2019-03-06)
 
 
