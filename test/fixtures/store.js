@@ -14,6 +14,13 @@ module.exports = {
         templates: [],
         execution: {}
       },
+      getters: {
+        getByStateMachineName (state) {
+          return (stateMachineName) => {
+            return state.startables.find(startable => startable.name === stateMachineName)
+          }
+        }
+      },
       mutations: {
         execution: (state, execution) => { state.execution = execution },
         templates: (state, templates) => { state.templates = templates },

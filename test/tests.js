@@ -5,7 +5,9 @@
 const PORT = 3210
 const TYMLY_API_URL = `http://localhost:${PORT}/executions`
 const LOG_LIMIT = 10
-
+const PRETEND_AUTH_SECRET = 'Shhh!!!'
+const PRETEND_AUDIENCE = 'I am the audience'
+const TYMLY_USERNAME = 'Dave'
 const { TymlySDK, Auth0 } = require('../lib')
 const vuexStore = require('./fixtures/store')
 const tymly = require('@wmfs/tymly')
@@ -19,22 +21,10 @@ const Vue = require('vue')
 // const setTimeoutPromise = util.promisify(setTimeout)
 const LOG_LEVELS = ['FATAL', 'ERROR', 'WARN', 'INFO', 'DEBUG', 'TRACE']
 
-let sdk, auth, tymlyServices, indexedDB, IDBKeyRange, store, todoId, watchId, execName, authToken
+let sdk, auth, tymlyServices, indexedDB, IDBKeyRange, store, todoId, watchId, execName, authToken, server
 
 describe('Set up', function () {
   this.timeout(process.env.TIMEOUT || 5000)
-
-  before(function () {
-    if (!(
-      process.env.AUTH0_DOMAIN &&
-      process.env.AUTH0_CLIENT_ID &&
-      process.env.AUTH0_CLIENT_SECRET &&
-      process.env.AUTH0_AUDIENCE &&
-      process.env.TYMLY_CERT_PATH // `https://${process.env.AUTH0_DOMAIN}.auth0.com/pem`
-    )) {
-      this.skip()
-    }
-  })
 
   it('boot Tymly', done => {
     tymly.boot(
@@ -50,8 +40,8 @@ describe('Set up', function () {
         ],
         config: {
           auth: {
-            certificate: process.env.TYMLY_CERT_PATH,
-            audience: process.env.AUTH0_AUDIENCE
+            secret: PRETEND_AUTH_SECRET,
+            audience: PRETEND_AUDIENCE
           },
           defaultUsers: {
             'Dave': ['tymly_tymlyTestAdmin']
@@ -67,26 +57,40 @@ describe('Set up', function () {
   })
 
   it('start Tymly server', done => {
-    const { server } = tymlyServices
+    server = tymlyServices.server
     server.listen(PORT, () => {
       console.log(`Tymly server listening at ${PORT}`)
       done()
     })
   })
 
+  it('should get a token from the server service', () => {
+    authToken = tymlyServices.jwtAuth.generateToken(TYMLY_USERNAME)
+  })
+
   it('set up Auth', () => {
-    auth = new Auth0({
-      domain: process.env.AUTH0_DOMAIN,
-      grant_type: 'client_credentials',
-      client_id: process.env.AUTH0_CLIENT_ID,
-      client_secret: process.env.AUTH0_CLIENT_SECRET,
-      audience: process.env.AUTH0_AUDIENCE,
-      imageUrl: 'https://tymlystorage.blob.core.windows.net/tymly-application/tymly-logo-150x150.png',
-      tokenRefresh: {
-        seconds: 3,
-        mode: 'REPEAT' // or ONCE
+    auth = new Auth0(
+      {
+        domain: process.env.AUTH0_DOMAIN,
+        grant_type: 'client_credentials',
+        client_id: process.env.AUTH0_CLIENT_ID,
+        connection: process.env.AUTH_CONNECTION
       }
-    })
+    )
+    //
+    //
+    //
+    // auth = new Auth0({
+    // domain: process.env.AUTH0_DOMAIN,
+    // grant_type: 'client_credentials',
+    // client_id: process.env.AUTH0_CLIENT_ID,
+    // client_secret: process.env.AUTH0_CLIENT_SECRET,
+    // audience: process.env.AUTH0_AUDIENCE,
+    // imageUrl: 'https://tymlystorage.blob.core.windows.net/tymly-application/tymly-logo-150x150.png',
+    // tokenRefresh: {
+    //   seconds: 3,
+    //   mode: 'REPEAT' // or ONCE
+    // }
   })
 
   it('set up IndexedDB shim', () => {
@@ -120,23 +124,36 @@ describe('Set up', function () {
     })
   })
 
-  it('get an auth0 token', async () => {
-    authToken = await auth.setTokenFromRequest()
+  it('initialise the TymlySDK', async () => {
+    await sdk.init()
   })
 
-  it('initialise the TymlySDK', done => {
-    sdk
-      .init()
-      .then(() => {
-        done()
-      })
-      .catch(err => {
-        done(err)
-      })
+  it('get an auth0 token', async () => {
+    // authToken = await auth.setTokenFromRequest()
+
+    await auth.setFromCallbackPayload(
+      {
+        idToken: authToken,
+        accessToken: authToken,
+        tokenType: 'bearer',
+        scope: '????',
+        idTokenPayload: {
+          name: TYMLY_USERNAME,
+          picture: `${TYMLY_USERNAME}.png`,
+          email: `${TYMLY_USERNAME}@tymly.io`,
+          sub: 'SUB?',
+          exp: '1234567'
+        }
+      }
+    )
+  })
+
+  it('Should simulate a sync', async () => {
+    await sdk.requestUserQuery()
   })
 })
 
-xdescribe('Info tests', function () {
+describe('Info tests', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it('should return undefined for unset value', async () => {
@@ -198,15 +215,11 @@ xdescribe('Info tests', function () {
   })
 })
 
-xdescribe('General tests', function () {
+describe('General tests', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it('load the logs from db to store', async () => {
     await sdk.logs.loadLogs({})
-  })
-
-  it('load the auth token from db to store', async () => {
-    await auth.loadToken()
   })
 
   it('check if the vuex store has been populated', () => {
@@ -214,19 +227,12 @@ xdescribe('General tests', function () {
       startables,
       watching,
       todos,
-      templates,
       logs,
       favourites,
       settings
     } = store.state.app
 
-    const {
-      token
-    } = store.state.auth
-
-    expect(token).to.not.eql(null)
     expect(logs.length).to.eql(0)
-    expect(templates.length).to.eql(1)
     expect(startables.length).to.eql(3)
     expect(watching.length).to.eql(0)
     expect(favourites.length).to.eql(0)
@@ -235,7 +241,7 @@ xdescribe('General tests', function () {
   })
 })
 
-xdescribe('Favourites', function () {
+describe('Favourites', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it(`should favourite a startable 'test_orderPizza_1_0'`, async () => {
@@ -285,7 +291,7 @@ xdescribe('Favourites', function () {
   })
 })
 
-xdescribe('Settings', function () {
+describe('Settings', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it('apply the adjsuted settings', async () => {
@@ -298,7 +304,7 @@ xdescribe('Settings', function () {
   })
 })
 
-xdescribe('To-dos', function () {
+describe('To-dos', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it('create todo entry for Prepare Pizza', async () => {
@@ -333,7 +339,7 @@ xdescribe('To-dos', function () {
   })
 })
 
-xdescribe('Watching', function () {
+describe('Watching', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it(`watch 'test_orderPizza_1_0' instance`, async () => {
@@ -380,7 +386,7 @@ xdescribe('Watching', function () {
   })
 })
 
-xdescribe('Executions', function () {
+describe('Executions', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it('check the executions store in the db', async () => {
@@ -446,7 +452,7 @@ xdescribe('Executions', function () {
   })
 })
 
-xdescribe('Search', function () {
+describe('Search', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it(`attempt to search for 'Kebab'`, async () => {
@@ -456,7 +462,7 @@ xdescribe('Search', function () {
   })
 })
 
-xdescribe('Logs', function () {
+describe('Logs', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   // clear the logs to start fresh?
@@ -475,18 +481,13 @@ xdescribe('Logs', function () {
     await sdk.logs.loadLogs({})
   })
 
-  it('check the store for the (13) new logs, receive first 10', async () => {
+  it('check the store for logs', async () => {
     const { logs } = store.state.app
-    expect(logs.length).to.eql(LOG_LIMIT)
+    expect(logs.length).to.eql(12)
   })
 
   it('refresh logs from db to store', async () => {
     await sdk.logs.loadLogs({ offset: 10 })
-  })
-
-  it('check the store for the (13) new logs, receive last 3', async () => {
-    const { logs } = store.state.app
-    expect(logs.length).to.eql(2)
   })
 
   it('apply policy on logs', async () => {
@@ -557,7 +558,7 @@ xdescribe('Logs', function () {
   })
 })
 
-xdescribe('Shut down', function () {
+describe('Shut down', function () {
   it('shutdown Tymly', async () => {
     await tymlyServices.tymly.shutdown()
   })
