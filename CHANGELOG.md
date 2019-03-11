@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.21.0...v1.22.0) (2019-03-11)
+
+
+### ✨ Features
+
+* Removes linting issues re. failing tests. Be back soon. ([86ea6a6](https://github.com/wmfs/tymly-cardscript-sdk/commit/86ea6a6))
+
 # [1.21.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.20.0...v1.21.0) (2019-03-11)
 
 
