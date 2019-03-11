@@ -136,7 +136,7 @@ describe('Set up', function () {
   })
 })
 
-describe('Info tests', function () {
+xdescribe('Info tests', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it('should return undefined for unset value', async () => {
@@ -198,7 +198,7 @@ describe('Info tests', function () {
   })
 })
 
-describe('General tests', function () {
+xdescribe('General tests', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it('load the logs from db to store', async () => {
@@ -235,7 +235,7 @@ describe('General tests', function () {
   })
 })
 
-describe('Favourites', function () {
+xdescribe('Favourites', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it(`should favourite a startable 'test_orderPizza_1_0'`, async () => {
@@ -285,7 +285,7 @@ describe('Favourites', function () {
   })
 })
 
-describe('Settings', function () {
+xdescribe('Settings', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it('apply the adjsuted settings', async () => {
@@ -298,7 +298,7 @@ describe('Settings', function () {
   })
 })
 
-describe('To-dos', function () {
+xdescribe('To-dos', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it('create todo entry for Prepare Pizza', async () => {
@@ -333,7 +333,7 @@ describe('To-dos', function () {
   })
 })
 
-describe('Watching', function () {
+xdescribe('Watching', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it(`watch 'test_orderPizza_1_0' instance`, async () => {
@@ -380,7 +380,7 @@ describe('Watching', function () {
   })
 })
 
-describe('Executions', function () {
+xdescribe('Executions', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it('check the executions store in the db', async () => {
@@ -446,7 +446,7 @@ describe('Executions', function () {
   })
 })
 
-describe('Search', function () {
+xdescribe('Search', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it(`attempt to search for 'Kebab'`, async () => {
@@ -456,7 +456,7 @@ describe('Search', function () {
   })
 })
 
-describe('Logs', function () {
+xdescribe('Logs', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   // clear the logs to start fresh?
@@ -557,7 +557,7 @@ describe('Logs', function () {
   })
 })
 
-describe('Shut down', function () {
+xdescribe('Shut down', function () {
   it('shutdown Tymly', async () => {
     await tymlyServices.tymly.shutdown()
   })
