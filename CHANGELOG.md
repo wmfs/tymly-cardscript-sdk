@@ -1,3 +1,16 @@
+# [1.24.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.23.0...v1.24.0) (2019-03-14)
+
+
+### ✨ Features
+
+* pass the contents of each summary type so we can open them from the modal ([6166c75](https://github.com/wmfs/tymly-cardscript-sdk/commit/6166c75))
+
+
+### 📦 Code Refactoring
+
+* remove todo comment ([15fa2b5](https://github.com/wmfs/tymly-cardscript-sdk/commit/15fa2b5))
+* watching in summary ([99c9a4c](https://github.com/wmfs/tymly-cardscript-sdk/commit/99c9a4c))
+
 # [1.23.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.22.0...v1.23.0) (2019-03-11)
 
 
