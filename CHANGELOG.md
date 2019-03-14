@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.24.0...v1.25.0) (2019-03-14)
+
+
+### ✨ Features
+
+* pass contents in summary even if just one ([a2a8e10](https://github.com/wmfs/tymly-cardscript-sdk/commit/a2a8e10))
+
 # [1.24.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.23.0...v1.24.0) (2019-03-14)
 
 
