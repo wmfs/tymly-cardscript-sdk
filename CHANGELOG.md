@@ -1,3 +1,10 @@
+## [1.25.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.25.0...v1.25.1) (2019-03-14)
+
+
+### 🐛 Bug Fixes
+
+* pass item when only one item in summary ([61a81a5](https://github.com/wmfs/tymly-cardscript-sdk/commit/61a81a5))
+
 # [1.25.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.24.0...v1.25.0) (2019-03-14)
 
 
