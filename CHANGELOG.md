@@ -1,3 +1,10 @@
+# [1.27.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.26.0...v1.27.0) (2019-03-19)
+
+
+### ✨ Features
+
+* separation of apps and forms ([8d3d99b](https://github.com/wmfs/tymly-cardscript-sdk/commit/8d3d99b))
+
 # [1.26.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.25.1...v1.26.0) (2019-03-19)
 
 
