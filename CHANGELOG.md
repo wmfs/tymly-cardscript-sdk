@@ -1,3 +1,10 @@
+# [1.26.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.25.1...v1.26.0) (2019-03-19)
+
+
+### ✨ Features
+
+* pass itemCount through summary ([461bf85](https://github.com/wmfs/tymly-cardscript-sdk/commit/461bf85))
+
 ## [1.25.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.25.0...v1.25.1) (2019-03-14)
 
 
