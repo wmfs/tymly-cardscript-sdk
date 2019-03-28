@@ -1,3 +1,21 @@
+## [1.29.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.29.0...v1.29.1) (2019-03-28)
+
+
+### 🐛 Bug Fixes
+
+* release ([20c8fd9](https://github.com/wmfs/tymly-cardscript-sdk/commit/20c8fd9))
+
+
+### ⚙️ Continuous Integrations
+
+* **travis:**  run tests ([33a498e](https://github.com/wmfs/tymly-cardscript-sdk/commit/33a498e))
+
+
+### ♻️ Chores
+
+* **deps:** update dep version for cardscript-to-quasar ([9f82128](https://github.com/wmfs/tymly-cardscript-sdk/commit/9f82128))
+* **deps:** update deps (remove carets) ([17e8074](https://github.com/wmfs/tymly-cardscript-sdk/commit/17e8074))
+
 # [1.29.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.28.0...v1.29.0) (2019-03-20)
 
 
