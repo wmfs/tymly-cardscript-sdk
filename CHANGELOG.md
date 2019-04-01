@@ -1,3 +1,10 @@
+# [1.33.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.32.0...v1.33.0) (2019-04-01)
+
+
+### ✨ Features
+
+* Bring Quasar url() function into config. ([2aea1c1](https://github.com/wmfs/tymly-cardscript-sdk/commit/2aea1c1))
+
 # [1.32.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.31.0...v1.32.0) (2019-04-01)
 
 
