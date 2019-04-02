@@ -1,3 +1,10 @@
+# [1.36.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.35.0...v1.36.0) (2019-04-02)
+
+
+### ✨ Features
+
+* **generateSummary:** generate summary fn now returns offlineContents in preparation for offlineMode ([03c0a4d](https://github.com/wmfs/tymly-cardscript-sdk/commit/03c0a4d))
+
 # [1.35.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.34.0...v1.35.0) (2019-04-02)
 
 
