@@ -1,3 +1,15 @@
+## [1.39.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.39.0...v1.39.1) (2019-06-12)
+
+
+### 🐛 Bug Fixes
+
+* unwatch method expects event as an object with sub id ([aee0271](https://github.com/wmfs/tymly-cardscript-sdk/commit/aee0271))
+
+
+### 🚨 Tests
+
+* update unwatch param ([6a7f4ed](https://github.com/wmfs/tymly-cardscript-sdk/commit/6a7f4ed))
+
 # [1.39.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.38.0...v1.39.0) (2019-06-11)
 
 
