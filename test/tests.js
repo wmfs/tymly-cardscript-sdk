@@ -371,9 +371,7 @@ describe('Watching', function () {
   })
 
   it(`unwatch 'test_orderPizza_1_0' instance`, async () => {
-    const { ctx } = await sdk.watching.unwatch({
-      subscriptionId: watchId
-    })
+    const { ctx } = await sdk.watching.unwatch(watchId)
 
     expect(ctx.subscriptionId).to.eql(watchId)
   })
