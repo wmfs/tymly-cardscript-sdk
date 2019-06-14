@@ -1,3 +1,10 @@
+# [1.41.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.40.0...v1.41.0) (2019-06-14)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-schema requirement ([7b6a564](https://github.com/wmfs/tymly-cardscript-sdk/commit/7b6a564))
+
 # [1.40.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.39.1...v1.40.0) (2019-06-14)
 
 
