@@ -1,3 +1,10 @@
+# [1.42.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.41.0...v1.42.0) (2019-06-19)
+
+
+### ✨ Features
+
+* added wait until stopped running function to executions and allow specific request on user query ([7c65dd3](https://github.com/wmfs/tymly-cardscript-sdk/commit/7c65dd3))
+
 # [1.41.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.40.0...v1.41.0) (2019-06-14)
 
 
