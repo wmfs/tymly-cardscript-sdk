@@ -1,3 +1,12 @@
+# [1.45.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.44.0...v1.45.0) (2019-06-28)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar requirement ([1fbbac3](https://github.com/wmfs/tymly-cardscript-sdk/commit/1fbbac3))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([4ff074e](https://github.com/wmfs/tymly-cardscript-sdk/commit/4ff074e))
+* **deps-dev:** update semantic-release requirement ([92c77d2](https://github.com/wmfs/tymly-cardscript-sdk/commit/92c77d2))
+
 # [1.44.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.43.0...v1.44.0) (2019-06-27)
 
 
