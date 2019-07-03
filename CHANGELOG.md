@@ -1,3 +1,10 @@
+# [1.50.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.49.0...v1.50.0) (2019-07-03)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar requirement ([b18a5c5](https://github.com/wmfs/tymly-cardscript-sdk/commit/b18a5c5))
+
 # [1.49.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.48.0...v1.49.0) (2019-07-03)
 
 
