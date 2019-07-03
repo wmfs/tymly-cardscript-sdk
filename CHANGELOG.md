@@ -1,3 +1,10 @@
+# [1.51.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.50.0...v1.51.0) (2019-07-03)
+
+
+### 🛠 Builds
+
+* **deps:** update axios requirement from 0.18.0 to 0.19.0 ([89009e3](https://github.com/wmfs/tymly-cardscript-sdk/commit/89009e3))
+
 # [1.50.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.49.0...v1.50.0) (2019-07-03)
 
 
