@@ -1,3 +1,10 @@
+# [1.48.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.47.0...v1.48.0) (2019-07-03)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-vuelidate requirement ([424e852](https://github.com/wmfs/tymly-cardscript-sdk/commit/424e852))
+
 # [1.47.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.46.0...v1.47.0) (2019-07-03)
 
 
