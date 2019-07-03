@@ -1,3 +1,18 @@
+# [1.46.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.45.0...v1.46.0) (2019-07-03)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar requirement ([61cb49e](https://github.com/wmfs/tymly-cardscript-sdk/commit/61cb49e))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([33aeb37](https://github.com/wmfs/tymly-cardscript-sdk/commit/33aeb37))
+* **deps-dev:** update mocha requirement from 6.0.2 to 6.1.4 ([bd0d4fa](https://github.com/wmfs/tymly-cardscript-sdk/commit/bd0d4fa))
+* **deps-dev:** update vuex requirement from 3.1.0 to 3.1.1 ([e308c68](https://github.com/wmfs/tymly-cardscript-sdk/commit/e308c68))
+
+
+### ♻️ Chores
+
+* **deps-dev:** update vue requirement from 2.6.7 to 2.6.10 ([6d1c58e](https://github.com/wmfs/tymly-cardscript-sdk/commit/6d1c58e))
+
 # [1.45.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.44.0...v1.45.0) (2019-06-28)
 
 
