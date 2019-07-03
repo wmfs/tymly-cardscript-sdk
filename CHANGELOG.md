@@ -1,3 +1,15 @@
+# [1.49.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.48.0...v1.49.0) (2019-07-03)
+
+
+### ✨ Features
+
+* added checkTour and tourAllowed functions ([f5a9e52](https://github.com/wmfs/tymly-cardscript-sdk/commit/f5a9e52))
+
+
+### 🐛 Bug Fixes
+
+* added docs ([482a2ae](https://github.com/wmfs/tymly-cardscript-sdk/commit/482a2ae))
+
 # [1.48.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.47.0...v1.48.0) (2019-07-03)
 
 
