@@ -1,3 +1,21 @@
+# [1.53.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.52.0...v1.53.0) (2019-07-08)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-vuelidate requirement ([8142d41](https://github.com/wmfs/tymly-cardscript-sdk/commit/8142d41))
+
+
+### 📚 Documentation
+
+* Add CircleCI badge to readme ([b7cd1e4](https://github.com/wmfs/tymly-cardscript-sdk/commit/b7cd1e4))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** Add CircleCI config ([41483cc](https://github.com/wmfs/tymly-cardscript-sdk/commit/41483cc))
+* **travis:** Remove Travis config ([2c7fd57](https://github.com/wmfs/tymly-cardscript-sdk/commit/2c7fd57))
+
 # [1.52.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.51.0...v1.52.0) (2019-07-04)
 
 
