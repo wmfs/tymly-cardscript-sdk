@@ -1,7 +1,7 @@
-# tymly-cardscript-sdk
+t# tymly-cardscript-sdk
 
 [![Tymly Cardscript](https://img.shields.io/badge/tymly-cardscript-blue.svg)](https://tymly.io/)
-[![Build Status](https://travis-ci.com/wmfs/tymly-cardscript-sdk.svg?branch=master)](https://travis-ci.com/wmfs/tymly-cardscript-sdk)
+[![CircleCI](https://circleci.com/gh/wmfs/tymly-cardscript-sdk.svg?style=svg)](https://circleci.com/gh/wmfs/tymly-cardscript-sdk)
 [![npm (scoped)](https://img.shields.io/npm/v/@wmfs/tymly-cardscript-sdk.svg)](https://www.npmjs.com/package/@wmfs/tymly-cardscript-sdk)
 [![codecov](https://codecov.io/gh/wmfs/tymly-cardscript-sdk/branch/master/graph/badge.svg)](https://codecov.io/gh/wmfs/tymly-cardscript-sdk)
 [![CodeFactor](https://www.codefactor.io/repository/github/wmfs/tymly-cardscript-sdk/badge)](https://www.codefactor.io/repository/github/wmfs/tymly-cardscript-sdk)

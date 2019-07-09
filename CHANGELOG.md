@@ -1,3 +1,83 @@
+# [1.55.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.54.0...v1.55.0) (2019-07-09)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar to 1.57.0 ([3b57ae8](https://github.com/wmfs/tymly-cardscript-sdk/commit/3b57ae8))
+
+# [1.54.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.53.0...v1.54.0) (2019-07-09)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar requirement ([b2668db](https://github.com/wmfs/tymly-cardscript-sdk/commit/b2668db))
+
+# [1.53.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.52.0...v1.53.0) (2019-07-08)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-vuelidate requirement ([8142d41](https://github.com/wmfs/tymly-cardscript-sdk/commit/8142d41))
+
+
+### 📚 Documentation
+
+* Add CircleCI badge to readme ([b7cd1e4](https://github.com/wmfs/tymly-cardscript-sdk/commit/b7cd1e4))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** Add CircleCI config ([41483cc](https://github.com/wmfs/tymly-cardscript-sdk/commit/41483cc))
+* **travis:** Remove Travis config ([2c7fd57](https://github.com/wmfs/tymly-cardscript-sdk/commit/2c7fd57))
+
+# [1.52.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.51.0...v1.52.0) (2019-07-04)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar requirement ([a8b58aa](https://github.com/wmfs/tymly-cardscript-sdk/commit/a8b58aa))
+* **deps-dev:** update nyc requirement from 13.3.0 to 14.1.1 ([73b1218](https://github.com/wmfs/tymly-cardscript-sdk/commit/73b1218))
+
+# [1.51.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.50.0...v1.51.0) (2019-07-03)
+
+
+### 🛠 Builds
+
+* **deps:** update axios requirement from 0.18.0 to 0.19.0 ([89009e3](https://github.com/wmfs/tymly-cardscript-sdk/commit/89009e3))
+
+# [1.50.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.49.0...v1.50.0) (2019-07-03)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar requirement ([b18a5c5](https://github.com/wmfs/tymly-cardscript-sdk/commit/b18a5c5))
+
+# [1.49.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.48.0...v1.49.0) (2019-07-03)
+
+
+### ✨ Features
+
+* added checkTour and tourAllowed functions ([f5a9e52](https://github.com/wmfs/tymly-cardscript-sdk/commit/f5a9e52))
+
+
+### 🐛 Bug Fixes
+
+* added docs ([482a2ae](https://github.com/wmfs/tymly-cardscript-sdk/commit/482a2ae))
+
+# [1.48.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.47.0...v1.48.0) (2019-07-03)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-vuelidate requirement ([424e852](https://github.com/wmfs/tymly-cardscript-sdk/commit/424e852))
+
+# [1.47.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.46.0...v1.47.0) (2019-07-03)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar requirement ([226fb7e](https://github.com/wmfs/tymly-cardscript-sdk/commit/226fb7e))
+
 # [1.46.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.45.0...v1.46.0) (2019-07-03)
 
 
