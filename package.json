@@ -14,7 +14,7 @@
     "uuid": "3.3.2",
     "shasum": "1.0.2",
     "lodash.takeright": "4.1.1",
-    "@wmfs/cardscript-schema": "1.16.0",
+    "@wmfs/cardscript-schema": "1.17.0",
     "@wmfs/cardscript-vue-sdk": "1.1.1",
     "@wmfs/cardscript-extract-lists": "1.4.0",
     "@wmfs/cardscript-extract-graphs": "1.0.0",
