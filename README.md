@@ -1,4 +1,4 @@
-t# tymly-cardscript-sdk
+# tymly-cardscript-sdk
 
 [![Tymly Cardscript](https://img.shields.io/badge/tymly-cardscript-blue.svg)](https://tymly.io/)
 [![CircleCI](https://circleci.com/gh/wmfs/tymly-cardscript-sdk.svg?style=svg)](https://circleci.com/gh/wmfs/tymly-cardscript-sdk)
