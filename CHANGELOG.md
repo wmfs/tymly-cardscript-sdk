@@ -1,3 +1,15 @@
+## [1.69.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.69.0...v1.69.1) (2019-07-23)
+
+
+### 🐛 Bug Fixes
+
+* release ([d689421](https://github.com/wmfs/tymly-cardscript-sdk/commit/d689421))
+
+
+### 🛠 Builds
+
+* typo in last commit ([e66d223](https://github.com/wmfs/tymly-cardscript-sdk/commit/e66d223))
+
 # [1.69.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.68.0...v1.69.0) (2019-07-23)
 
 
