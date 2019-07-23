@@ -1,4 +1,4 @@
-t# tymly-cardscript-sdk
+# tymly-cardscript-sdk
 
 [![Tymly Cardscript](https://img.shields.io/badge/tymly-cardscript-blue.svg)](https://tymly.io/)
 [![CircleCI](https://circleci.com/gh/wmfs/tymly-cardscript-sdk.svg?style=svg)](https://circleci.com/gh/wmfs/tymly-cardscript-sdk)
@@ -9,8 +9,6 @@ t# tymly-cardscript-sdk
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/wmfs/tymly/blob/master/packages/concrete-paths/LICENSE)
-
-> ...
 
 ## <a name="install"></a>Install
 ```bash

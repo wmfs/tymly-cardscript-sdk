@@ -1,3 +1,36 @@
+## [1.69.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.69.0...v1.69.1) (2019-07-23)
+
+
+### 🐛 Bug Fixes
+
+* release ([d689421](https://github.com/wmfs/tymly-cardscript-sdk/commit/d689421))
+
+
+### 🛠 Builds
+
+* typo in last commit ([e66d223](https://github.com/wmfs/tymly-cardscript-sdk/commit/e66d223))
+
+# [1.69.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.68.0...v1.69.0) (2019-07-23)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-extract-defaults requirement ([08738f7](https://github.com/wmfs/tymly-cardscript-sdk/commit/08738f7))
+
+# [1.68.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.67.0...v1.68.0) (2019-07-23)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar requirement ([8dbdd48](https://github.com/wmfs/tymly-cardscript-sdk/commit/8dbdd48))
+
+# [1.67.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.66.0...v1.67.0) (2019-07-23)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-extract-lists requirement ([e57aeb4](https://github.com/wmfs/tymly-cardscript-sdk/commit/e57aeb4))
+
 # [1.66.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.65.0...v1.66.0) (2019-07-18)
 
 
