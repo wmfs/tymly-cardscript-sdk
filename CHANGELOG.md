@@ -1,3 +1,10 @@
+# [1.72.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.71.0...v1.72.0) (2019-07-25)
+
+
+### ✨ Features
+
+* load templates ([1d76f39](https://github.com/wmfs/tymly-cardscript-sdk/commit/1d76f39))
+
 # [1.71.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.70.0...v1.71.0) (2019-07-25)
 
 
