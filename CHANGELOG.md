@@ -1,3 +1,10 @@
+# [1.83.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.82.0...v1.83.0) (2019-08-20)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-extract-defaults requirement ([3021629](https://github.com/wmfs/tymly-cardscript-sdk/commit/3021629))
+
 # [1.82.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.81.0...v1.82.0) (2019-08-20)
 
 
