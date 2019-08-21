@@ -19,8 +19,8 @@
     "@wmfs/cardscript-extract-lists": "1.6.1",
     "@wmfs/cardscript-extract-graphs": "1.0.0",
     "@wmfs/cardscript-table-of-contents": "1.1.0",
-    "@wmfs/cardscript-extract-defaults": "1.8.0",
-    "@wmfs/cardscript-to-quasar": "1.72.0",
+    "@wmfs/cardscript-extract-defaults": "1.10.0",
+    "@wmfs/cardscript-to-quasar": "1.73.0",
     "@wmfs/cardscript-to-vuelidate": "1.9.0"
   },
   "devDependencies": {
