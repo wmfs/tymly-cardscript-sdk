@@ -1,3 +1,10 @@
+# [1.89.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.88.0...v1.89.0) (2019-09-04)
+
+
+### ✨ Features
+
+* return data on wait until stopped running ([c2df629](https://github.com/wmfs/tymly-cardscript-sdk/commit/c2df629))
+
 # [1.88.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.87.0...v1.88.0) (2019-08-28)
 
 
