@@ -37,7 +37,7 @@
     "babel-preset-env": "1.7.0",
     "babel-register": "6.26.0",
     "chai": "4.2.0",
-    "codecov": "3.5.0",
+    "codecov": "3.6.0",
     "conventional-changelog-metahub": "2.0.2",
     "cz-conventional-changelog": "3.0.2",
     "esm": "3.2.6",
