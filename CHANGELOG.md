@@ -1,3 +1,10 @@
+# [1.95.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.94.0...v1.95.0) (2019-10-07)
+
+
+### ✨ Features
+
+* Action.ReplaceCard ([61aebc8](https://github.com/wmfs/tymly-cardscript-sdk/commit/61aebc8))
+
 # [1.94.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.93.0...v1.94.0) (2019-09-24)
 
 
