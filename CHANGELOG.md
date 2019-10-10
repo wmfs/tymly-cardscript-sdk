@@ -1,3 +1,10 @@
+# [1.99.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.98.0...v1.99.0) (2019-10-10)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-extract-lists from 1.6.1 to 1.7.0 ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/f5fe6dd))
+
 # [1.98.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.97.0...v1.98.0) (2019-10-10)
 
 
