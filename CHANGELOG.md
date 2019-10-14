@@ -1,3 +1,31 @@
+# [1.99.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.98.0...v1.99.0) (2019-10-10)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-extract-lists from 1.6.1 to 1.7.0 ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/f5fe6dd))
+
+# [1.98.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.97.0...v1.98.0) (2019-10-10)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-extract-defaults ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/c0f3bbc))
+
+# [1.97.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.96.0...v1.97.0) (2019-10-10)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-vue-sdk from 1.1.1 to 1.2.0 ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/a1779cc))
+
+# [1.96.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.95.0...v1.96.0) (2019-10-10)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-to-quasar from 1.80.0 to 1.81.0 ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/234dd7f))
+
 # [1.95.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.94.0...v1.95.0) (2019-10-07)
 
 
