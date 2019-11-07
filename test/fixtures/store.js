@@ -12,7 +12,8 @@ module.exports = {
         todos: [],
         logs: [],
         templates: [],
-        execution: {}
+        execution: {},
+        categories: []
       },
       getters: {
         getByStateMachineName (state) {
@@ -37,7 +38,8 @@ module.exports = {
         unfavourite: (state, startable) => {
           const index = state.favourites.indexOf(startable)
           if (index > -1) state.favourites.splice(index, 1)
-        }
+        },
+        categories: (state, categories) => { state.categories = categories }
       }
     },
     auth: {
