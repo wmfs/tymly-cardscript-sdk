@@ -1,3 +1,31 @@
+# [1.104.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.103.0...v1.104.0) (2019-10-24)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/9d88c28))
+
+# [1.103.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.102.0...v1.103.0) (2019-10-24)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/1376dcc))
+
+# [1.102.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.101.0...v1.102.0) (2019-10-24)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/97b0981))
+
+# [1.101.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.100.0...v1.101.0) (2019-10-24)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/f1cfc37))
+
 # [1.100.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.99.0...v1.100.0) (2019-10-15)
 
 
