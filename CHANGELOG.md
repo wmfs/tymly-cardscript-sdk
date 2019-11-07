@@ -1,3 +1,20 @@
+# [1.105.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.104.0...v1.105.0) (2019-11-07)
+
+
+### ✨ Features
+
+* pass client manifest to get user query, starting with categories ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/a9f711d))
+
+
+### 🐛 Bug Fixes
+
+* tidy up, update tests ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/51962f7))
+* try again ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/298b211))
+* update cardscript plugin version ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/e4b49bd))
+* update remit for card templates ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/8bea7be))
+* user remit startables on manifest ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/524fd9b))
+* user remit todos on manifest ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/d41118a))
+
 # [1.104.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.103.0...v1.104.0) (2019-10-24)
 
 
