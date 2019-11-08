@@ -1,3 +1,10 @@
+# [1.107.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.106.0...v1.107.0) (2019-11-08)
+
+
+### 🛠 Builds
+
+* **deps:** update deps ([51d373e](https://github.com/wmfs/tymly-cardscript-sdk/commit/51d373e9042ffc6cc92263b8274724fb179cf2db))
+
 # [1.106.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.105.2...v1.106.0) (2019-11-08)
 
 
