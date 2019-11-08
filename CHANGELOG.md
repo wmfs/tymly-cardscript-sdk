@@ -1,3 +1,10 @@
+## [1.105.2](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.105.1...v1.105.2) (2019-11-08)
+
+
+### 🐛 Bug Fixes
+
+* process template on load ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/844f375))
+
 ## [1.105.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.105.0...v1.105.1) (2019-11-08)
 
 
