@@ -1,3 +1,48 @@
+# [1.107.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.106.0...v1.107.0) (2019-11-08)
+
+
+### 🛠 Builds
+
+* **deps:** update deps ([51d373e](https://github.com/wmfs/tymly-cardscript-sdk/commit/51d373e9042ffc6cc92263b8274724fb179cf2db))
+
+# [1.106.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.105.2...v1.106.0) (2019-11-08)
+
+
+### 🛠 Builds
+
+* **deps:** update deps ([e5c216e](https://github.com/wmfs/tymly-cardscript-sdk/commit/e5c216e8015db9fcc01fa4a372e6e6ef2d4d0f3f))
+
+## [1.105.2](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.105.1...v1.105.2) (2019-11-08)
+
+
+### 🐛 Bug Fixes
+
+* process template on load ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/844f375))
+
+## [1.105.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.105.0...v1.105.1) (2019-11-08)
+
+
+### 🐛 Bug Fixes
+
+* temporarily fix getting required human input from ctx ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/7a95387))
+
+# [1.105.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.104.0...v1.105.0) (2019-11-07)
+
+
+### ✨ Features
+
+* pass client manifest to get user query, starting with categories ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/a9f711d))
+
+
+### 🐛 Bug Fixes
+
+* tidy up, update tests ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/51962f7))
+* try again ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/298b211))
+* update cardscript plugin version ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/e4b49bd))
+* update remit for card templates ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/8bea7be))
+* user remit startables on manifest ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/524fd9b))
+* user remit todos on manifest ([](https://github.com/wmfs/tymly-cardscript-sdk/commit/d41118a))
+
 # [1.104.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.103.0...v1.104.0) (2019-10-24)
 
 

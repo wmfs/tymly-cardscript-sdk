@@ -31,7 +31,7 @@ describe('Set up', function () {
       {
         pluginPaths: [
           require.resolve('@wmfs/tymly-express-plugin'),
-          require.resolve('@wmfs/tymly-users-plugin'),
+          require.resolve('@wmfs/tymly-cardscript-plugin'),
           require.resolve('@wmfs/tymly-solr-plugin'),
           require.resolve('@wmfs/tymly-rbac-plugin')
         ],
@@ -443,9 +443,7 @@ describe('Executions', function () {
   // })
 
   it('try the hasDataChanged function with different data', async () => {
-    const hasDataChanged = sdk.executions.hasDataChanged(execName, {
-      code: 'PEPPERONI'
-    })
+    const hasDataChanged = sdk.executions.hasDataChanged(execName, { code: 'PEPPERONI' })
     expect(hasDataChanged).to.eql(true)
   })
 })
@@ -454,9 +452,7 @@ describe('Search', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   it(`attempt to search for 'Kebab'`, async () => {
-    await sdk.search.search({
-      query: 'Kebab'
-    })
+    await sdk.search.search({ query: 'Kebab' })
   })
 })
 
