@@ -1,3 +1,10 @@
+# [1.108.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.107.0...v1.108.0) (2019-11-11)
+
+
+### ✨ Features
+
+* store when categories/startables/templates last updated ([4ee6962](https://github.com/wmfs/tymly-cardscript-sdk/commit/4ee69623c312c67a811baf7784ed791ebc8c8d3b))
+
 # [1.107.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.106.0...v1.107.0) (2019-11-08)
 
 
