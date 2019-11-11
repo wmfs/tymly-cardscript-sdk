@@ -1,3 +1,10 @@
+# [1.109.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.108.0...v1.109.0) (2019-11-11)
+
+
+### ✨ Features
+
+* tour refactor ([f84e8c2](https://github.com/wmfs/tymly-cardscript-sdk/commit/f84e8c2043afb2d42d9126752e33828a5cee1b5b))
+
 # [1.108.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.107.0...v1.108.0) (2019-11-11)
 
 
