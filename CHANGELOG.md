@@ -1,3 +1,11 @@
+# [1.112.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.111.0...v1.112.0) (2019-11-14)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-extract-defaults ([e10cb6c](https://github.com/wmfs/tymly-cardscript-sdk/commit/e10cb6ccd3fe1ad3a46107dbd31f0a051726ab93))
+* **deps-dev:** bump vuex from 3.1.1 to 3.1.2 ([6ac0f19](https://github.com/wmfs/tymly-cardscript-sdk/commit/6ac0f19bd524908125aeb6022a962285c849d5f4))
+
 # [1.111.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.110.0...v1.111.0) (2019-11-11)
 
 
