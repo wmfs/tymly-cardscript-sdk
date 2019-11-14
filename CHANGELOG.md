@@ -1,3 +1,67 @@
+# [1.115.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.114.0...v1.115.0) (2019-11-14)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-to-quasar from 1.87.0 to 1.88.0 ([3022cc2](https://github.com/wmfs/tymly-cardscript-sdk/commit/3022cc252317879ce12077d413ee7d270049c19f))
+
+# [1.114.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.113.0...v1.114.0) (2019-11-14)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-to-quasar from 1.86.0 to 1.87.0 ([a7cd13c](https://github.com/wmfs/tymly-cardscript-sdk/commit/a7cd13ceefebe1dbd9e332bf43a9a5fd9e007faa))
+
+# [1.113.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.112.0...v1.113.0) (2019-11-14)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-schema from 1.17.0 to 1.18.0 ([37bd965](https://github.com/wmfs/tymly-cardscript-sdk/commit/37bd965e0541b0c744458425832e4903eda42b0b))
+
+# [1.112.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.111.0...v1.112.0) (2019-11-14)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-extract-defaults ([e10cb6c](https://github.com/wmfs/tymly-cardscript-sdk/commit/e10cb6ccd3fe1ad3a46107dbd31f0a051726ab93))
+* **deps-dev:** bump vuex from 3.1.1 to 3.1.2 ([6ac0f19](https://github.com/wmfs/tymly-cardscript-sdk/commit/6ac0f19bd524908125aeb6022a962285c849d5f4))
+
+# [1.111.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.110.0...v1.111.0) (2019-11-11)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-to-quasar from 1.85.1 to 1.86.0 ([97136fd](https://github.com/wmfs/tymly-cardscript-sdk/commit/97136fda3004e36c49cf0294946cbe4979aa0fb3))
+
+# [1.110.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.109.0...v1.110.0) (2019-11-11)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-to-quasar from 1.85.0 to 1.85.1 ([a6bc4cd](https://github.com/wmfs/tymly-cardscript-sdk/commit/a6bc4cd8cc40fb445e741a5b6413e5b29be70b9e))
+
+# [1.109.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.108.0...v1.109.0) (2019-11-11)
+
+
+### ✨ Features
+
+* tour refactor ([f84e8c2](https://github.com/wmfs/tymly-cardscript-sdk/commit/f84e8c2043afb2d42d9126752e33828a5cee1b5b))
+
+# [1.108.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.107.0...v1.108.0) (2019-11-11)
+
+
+### ✨ Features
+
+* store when categories/startables/templates last updated ([4ee6962](https://github.com/wmfs/tymly-cardscript-sdk/commit/4ee69623c312c67a811baf7784ed791ebc8c8d3b))
+
+# [1.107.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.106.0...v1.107.0) (2019-11-08)
+
+
+### 🛠 Builds
+
+* **deps:** update deps ([51d373e](https://github.com/wmfs/tymly-cardscript-sdk/commit/51d373e9042ffc6cc92263b8274724fb179cf2db))
+
 # [1.106.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.105.2...v1.106.0) (2019-11-08)
 
 
