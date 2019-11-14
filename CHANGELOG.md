@@ -1,3 +1,10 @@
+# [1.113.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.112.0...v1.113.0) (2019-11-14)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-schema from 1.17.0 to 1.18.0 ([37bd965](https://github.com/wmfs/tymly-cardscript-sdk/commit/37bd965e0541b0c744458425832e4903eda42b0b))
+
 # [1.112.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.111.0...v1.112.0) (2019-11-14)
 
 
