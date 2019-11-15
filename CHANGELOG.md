@@ -1,3 +1,16 @@
+# [1.116.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.115.0...v1.116.0) (2019-11-15)
+
+
+### ✨ Features
+
+* Add StopExecution. Renamed RefreshExecution to DescribeExecution. ([635410c](https://github.com/wmfs/tymly-cardscript-sdk/commit/635410c2c8c58c0362da226f24731f6e1b823679))
+* Added RefreshExecution call ([8cc485b](https://github.com/wmfs/tymly-cardscript-sdk/commit/8cc485b3260c62a244b986cf9b1f18ea633ad464))
+
+
+### ♻️ Chores
+
+* Bump cardscript-to-quasar and dev dependencies ([86ae130](https://github.com/wmfs/tymly-cardscript-sdk/commit/86ae1303d265c076ef2424dc8d36762f6ad6a147))
+
 # [1.115.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.114.0...v1.115.0) (2019-11-14)
 
 
