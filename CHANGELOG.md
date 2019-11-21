@@ -1,3 +1,11 @@
+# [1.117.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.116.0...v1.117.0) (2019-11-21)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-schema from 1.18.0 to 1.18.1 ([fe6e38a](https://github.com/wmfs/tymly-cardscript-sdk/commit/fe6e38acfc201303014afe7a434798c1daa1ccbb))
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-to-quasar from 1.89.0 to 1.90.0 ([3a3ed5c](https://github.com/wmfs/tymly-cardscript-sdk/commit/3a3ed5ce85080612bd184bd8110b747274b8c4e1))
+
 # [1.116.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.115.0...v1.116.0) (2019-11-15)
 
 
