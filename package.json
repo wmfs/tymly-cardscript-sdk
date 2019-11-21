@@ -24,7 +24,7 @@
     "@wmfs/cardscript-to-vuelidate": "1.11.0"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "3.0.5",
+    "@semantic-release/changelog": "3.0.6",
     "@semantic-release/git": "7.0.18",
     "@wmfs/tymly": "1.102.0",
     "@wmfs/tymly-express-plugin": "1.27.1",
