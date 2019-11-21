@@ -20,7 +20,7 @@
     "@wmfs/cardscript-extract-graphs": "1.0.0",
     "@wmfs/cardscript-table-of-contents": "1.1.0",
     "@wmfs/cardscript-extract-defaults": "1.13.0",
-    "@wmfs/cardscript-to-quasar": "1.89.0",
+    "@wmfs/cardscript-to-quasar": "1.90.0",
     "@wmfs/cardscript-to-vuelidate": "1.11.0"
   },
   "devDependencies": {
