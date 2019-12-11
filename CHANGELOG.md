@@ -1,3 +1,10 @@
+## [1.126.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.126.0...v1.126.1) (2019-12-11)
+
+
+### 🐛 Bug Fixes
+
+* ensure ctx exists before accessing requiredHumanInput ([e5307fe](https://github.com/wmfs/tymly-cardscript-sdk/commit/e5307fe40c4a07ee5ec945fd4f8a07b6f3c0bd74))
+
 # [1.126.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.125.0...v1.126.0) (2019-12-10)
 
 
