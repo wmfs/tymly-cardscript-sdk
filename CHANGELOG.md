@@ -1,3 +1,10 @@
+## [1.127.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.127.0...v1.127.1) (2019-12-11)
+
+
+### 🐛 Bug Fixes
+
+* reset token after invalidating ([234f2e4](https://github.com/wmfs/tymly-cardscript-sdk/commit/234f2e43cc6eab4018a82742057d4c23f1cf8d56))
+
 # [1.127.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.126.1...v1.127.0) (2019-12-11)
 
 
