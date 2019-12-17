@@ -1,3 +1,10 @@
+# [1.129.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.128.0...v1.129.0) (2019-12-17)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-vue-sdk from 1.2.0 to 1.2.1 ([5b64960](https://github.com/wmfs/tymly-cardscript-sdk/commit/5b649606ffd8ce73ad2db166e894d3e13a59c9fe))
+
 # [1.128.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.127.1...v1.128.0) (2019-12-16)
 
 
