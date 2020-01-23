@@ -1,3 +1,12 @@
+# [1.139.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.138.0...v1.139.0) (2020-01-23)
+
+
+### 🛠 Builds
+
+* **deps:** bump axios from 0.19.0 to 0.19.2 ([32771cb](https://github.com/wmfs/tymly-cardscript-sdk/commit/32771cb7676459352ef73273156fb96f33648d0f))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.112.0 to 1.112.1 ([1646dca](https://github.com/wmfs/tymly-cardscript-sdk/commit/1646dcab2e5a49927f6980211855835d635e82dd))
+* **deps-dev:** bump indexeddbshim from 6.0.0 to 6.0.1 ([eae378b](https://github.com/wmfs/tymly-cardscript-sdk/commit/eae378bbc9bd5e8b57e6733bbd000272935173d5))
+
 # [1.138.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.137.0...v1.138.0) (2020-01-22)
 
 
