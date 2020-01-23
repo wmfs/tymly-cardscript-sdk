@@ -1,3 +1,15 @@
+# [1.142.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.141.0...v1.142.0) (2020-01-23)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-to-quasar from 1.104.0 to 1.105.0 ([14e2025](https://github.com/wmfs/tymly-cardscript-sdk/commit/14e20252cbeec2f5faf2489df89d0899478c7e1b))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.112.1 to 1.113.0 ([ca69872](https://github.com/wmfs/tymly-cardscript-sdk/commit/ca698722c40069395743cc741ed90cf1f8f84642))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin from 1.9.1 to 1.10.0 ([6fbc324](https://github.com/wmfs/tymly-cardscript-sdk/commit/6fbc3246e7496c38fbf76b79761f3525e988fb2f))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-express-plugin from 1.31.0 to 1.32.0 ([0d056f6](https://github.com/wmfs/tymly-cardscript-sdk/commit/0d056f635d0bc8c4f18c5863f966118afa4277c7))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.2.1 to 2.3.0 ([a91803d](https://github.com/wmfs/tymly-cardscript-sdk/commit/a91803d230dcae4dc753f70a320eb580cce9640b))
+* **deps-dev:** bump codecov from 3.6.1 to 3.6.2 ([fa15e9e](https://github.com/wmfs/tymly-cardscript-sdk/commit/fa15e9e34ac33a0033a5b7638d64dd5bff6fcc9c))
+
 # [1.141.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.140.0...v1.141.0) (2020-01-23)
 
 
