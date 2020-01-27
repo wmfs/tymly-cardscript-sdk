@@ -44,7 +44,7 @@ describe('Set up', function () {
             audience: PRETEND_AUDIENCE
           },
           defaultUsers: {
-            'Dave': ['tymly_tymlyTestAdmin']
+            Dave: ['tymly_tymlyTestAdmin']
           }
         }
       },
@@ -244,21 +244,21 @@ describe('General tests', function () {
 describe('Favourites', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
-  it(`should favourite a startable 'test_orderPizza_1_0'`, async () => {
+  it('should favourite a startable \'test_orderPizza_1_0\'', async () => {
     await sdk.startables.favourite('test_orderPizza_1_0')
   })
 
-  it(`check the vuex store if the favourite startable 'test_orderPizza_1_0' has been added`, () => {
+  it('check the vuex store if the favourite startable \'test_orderPizza_1_0\' has been added', () => {
     const { favourites } = store.state.app
     expect(favourites).to.eql(['test_orderPizza_1_0'])
   })
 
-  it(`check indexedDB if the favourite startable 'test_orderPizza_1_0 has been added'`, async () => {
+  it('check indexedDB if the favourite startable \'test_orderPizza_1_0 has been added\'', async () => {
     const { favourites } = await sdk.db.favourites.get('favourites')
     expect(favourites).to.eql(['test_orderPizza_1_0'])
   })
 
-  it(`check the favourites on the server for the added entry`, async () => {
+  it('check the favourites on the server for the added entry', async () => {
     const { ctx } = await sdk.executions.execute({
       stateMachineName: 'tymly_getFavouriteStartableNames_1_0',
       token: authToken
@@ -267,21 +267,21 @@ describe('Favourites', function () {
     expect(ctx.results).to.eql(['test_orderPizza_1_0'])
   })
 
-  it(`should unfavourite a startable 'test_orderPizza_1_0'`, async () => {
+  it('should unfavourite a startable \'test_orderPizza_1_0\'', async () => {
     await sdk.startables.unfavourite('test_orderPizza_1_0')
   })
 
-  it(`check the vuex store if the favourite startable 'test_orderPizza_1_0' has been removed`, () => {
+  it('check the vuex store if the favourite startable \'test_orderPizza_1_0\' has been removed', () => {
     const { favourites } = store.state.app
     expect(favourites).to.eql([])
   })
 
-  it(`check indexedDB if the favourite startable 'test_orderPizza_1_0 has been removed'`, async () => {
+  it('check indexedDB if the favourite startable \'test_orderPizza_1_0 has been removed\'', async () => {
     const { favourites } = await sdk.db.favourites.get('favourites')
     expect(favourites).to.eql([])
   })
 
-  it(`check the favourites on the server for the removed entry`, async () => {
+  it('check the favourites on the server for the removed entry', async () => {
     const { ctx } = await sdk.executions.execute({
       stateMachineName: 'tymly_getFavouriteStartableNames_1_0',
       token: authToken
@@ -342,7 +342,7 @@ describe('To-dos', function () {
 describe('Watching', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
-  it(`watch 'test_orderPizza_1_0' instance`, async () => {
+  it('watch \'test_orderPizza_1_0\' instance', async () => {
     const { ctx } = await sdk.watching.watch({
       stateMachineName: 'test_orderPizza_1_0',
       title: 'Pizza Order XYZ123', // Get from card
@@ -362,7 +362,7 @@ describe('Watching', function () {
     watchId = ctx.subscriptionId
   })
 
-  it(`refresh user query, check the watching entry exists`, async () => {
+  it('refresh user query, check the watching entry exists', async () => {
     await sdk.requestUserQuery()
 
     const { watching } = store.state.app
@@ -370,13 +370,13 @@ describe('Watching', function () {
     expect(watching[0].subscriptionId).to.eql(watchId)
   })
 
-  it(`unwatch 'test_orderPizza_1_0' instance`, async () => {
+  it('unwatch \'test_orderPizza_1_0\' instance', async () => {
     const { ctx } = await sdk.watching.unwatch(watchId)
 
     expect(ctx.subscriptionId).to.eql(watchId)
   })
 
-  it(`refresh user query, check the watching entry exists`, async () => {
+  it('refresh user query, check the watching entry exists', async () => {
     await sdk.requestUserQuery()
 
     const { watching } = store.state.app
@@ -451,7 +451,7 @@ describe('Executions', function () {
 describe('Search', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
-  it(`attempt to search for 'Kebab'`, async () => {
+  it('attempt to search for \'Kebab\'', async () => {
     await sdk.search.search({ query: 'Kebab' })
   })
 })
@@ -500,7 +500,7 @@ describe('Logs', function () {
       await sdk.logs.addLog({
         level: 'NOT_SUPPORTED',
         code: 'TEST',
-        title: `Faulty log`
+        title: 'Faulty log'
       })
     } catch (e) {
       expect(e instanceof TypeError)
