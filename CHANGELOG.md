@@ -1,3 +1,23 @@
+# [1.143.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.142.0...v1.143.0) (2020-01-27)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-to-vuelidate from 1.11.0 to 1.12.0 ([fa71740](https://github.com/wmfs/tymly-cardscript-sdk/commit/fa7174035d82d43d7675ea9f044ad420e6af3d37))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.113.0 to 1.114.0 ([bde4a9d](https://github.com/wmfs/tymly-cardscript-sdk/commit/bde4a9dd15276755d328b1b6f36de7195f901f89))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-express-plugin from 1.32.0 to 1.33.0 ([e685767](https://github.com/wmfs/tymly-cardscript-sdk/commit/e68576720fad6ac56873b066d4d6142deca32287))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.3.0 to 2.4.0 ([2d1c8c7](https://github.com/wmfs/tymly-cardscript-sdk/commit/2d1c8c7c8f441ebb17d269fec97ca8f11c9e4ecd))
+* **deps-dev:** bump mocha from 7.0.0 to 7.0.1 ([1e5b3d4](https://github.com/wmfs/tymly-cardscript-sdk/commit/1e5b3d4af9439d88882be8d1b456312865708151))
+* **deps-dev:** update standard requirement from 12.0.1 to 14.3.1 ([53f03d7](https://github.com/wmfs/tymly-cardscript-sdk/commit/53f03d7f1470027d90ce984aab786318d61dd5d2))
+
+
+### 💎 Styles
+
+* Do not access Object.prototype method 'hasOwnProperty' from target object ([04c4364](https://github.com/wmfs/tymly-cardscript-sdk/commit/04c4364ea6e970e87c43e941efa7ce9c1cc11e6b))
+* Promise executor functions should not be async ([da8951f](https://github.com/wmfs/tymly-cardscript-sdk/commit/da8951f21dcb08c3e3b2c9e7bdd4aa0cb92239fd))
+* Promise executor functions should not be async ([fd3264c](https://github.com/wmfs/tymly-cardscript-sdk/commit/fd3264c71c233b7fca780163c17be49cc7d24060))
+* standard --fix ([609a603](https://github.com/wmfs/tymly-cardscript-sdk/commit/609a603bda11380afe401fe51562ea6284f03d79))
+
 # [1.142.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.141.0...v1.142.0) (2020-01-23)
 
 
