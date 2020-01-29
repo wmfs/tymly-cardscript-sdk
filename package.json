@@ -16,7 +16,7 @@
     "lodash.takeright": "4.1.1",
     "@wmfs/cardscript-schema": "1.21.0",
     "@wmfs/cardscript-vue-sdk": "1.2.1",
-    "@wmfs/cardscript-extract-lists": "1.7.0",
+    "@wmfs/cardscript-extract-lists": "1.8.0",
     "@wmfs/cardscript-extract-graphs": "1.0.0",
     "@wmfs/cardscript-table-of-contents": "1.1.0",
     "@wmfs/cardscript-extract-defaults": "1.15.0",
