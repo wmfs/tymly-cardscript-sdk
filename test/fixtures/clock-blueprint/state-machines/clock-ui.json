@@ -1,0 +1,51 @@
+{
+  "Comment": "A Clock",
+  "name": "The Time",
+  "version": "1.0",
+  "instigators": [
+    "user"
+  ],
+  "instigatorGroup": "app",
+  "StartAt": "GenerateTimestamp",
+  "States": {
+    "GenerateTimestamp": {
+      "Type": "Task",
+      "Resource": "module:timestamp",
+      "ResultPath": "$.startTimestamp",
+      "Next": "FillInitialTimestamp"
+    },
+    "FillInitialTimestamp": {
+      "Type": "Pass",
+      "InputPath": "$.startTimestamp",
+      "ResultPath": "$.timestamp",
+      "Next": "StartCountdown"
+    },
+    "StartCountdown": {
+      "Type": "Task",
+      "Resource": "module:launchStateMachine",
+      "ResourceConfig": {
+        "stateMachine": "clock_clock_1_0"
+      },
+      "Next": "AwaitingHumanInput"
+    },
+    "AwaitingHumanInput": {
+      "Type": "Task",
+      "Resource": "module:awaitingHumanInput",
+      "ResourceConfig": {
+        "uiType": "progress",
+        "uiName": "clock_countdown",
+        "uiRefresh": 10,
+        "dataPath": "$"
+      },
+      "End": true
+    }
+  },
+  "restrictions": [
+    {
+      "roleId": "$authenticated",
+      "allows": [
+        "*"
+      ]
+    }
+  ]
+}

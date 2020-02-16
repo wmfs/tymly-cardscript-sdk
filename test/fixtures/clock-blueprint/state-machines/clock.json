@@ -1,0 +1,53 @@
+{
+  "Comment": "A Clock",
+  "name": "Five Minute Countdown",
+  "version": "1.0",
+  "StartAt": "Wait",
+  "States": {
+    "Wait": {
+      "Type": "Wait",
+      "Seconds": 1,
+      "Next": "GenerateTimestamp"
+    },
+    "GenerateTimestamp": {
+      "Type": "Task",
+      "Resource": "module:timestamp",
+      "ResultPath": "$.timestamp",
+      "Next": "UpdateParent"
+    },
+    "UpdateParent": {
+      "Type": "Task",
+      "Resource": "module:sendTaskHeartbeat",
+      "Parameters": {
+        "executionName.$": "$.launcher.executionName",
+        "result": {
+          "requiredHumanInput": {
+            "data": {
+              "timestamp.$": "$.timestamp"
+            }
+          }
+        }
+      },
+      "Next": "Wait",
+      "Catch": [
+        {
+          "ErrorEquals": [
+            "States.ALL"
+          ],
+          "Next": "Finish"
+        }
+      ]
+    },
+    "Finish": {
+      "Type": "Succeed"
+    }
+  },
+  "restrictions": [
+    {
+      "roleId": "$authenticated",
+      "allows": [
+        "*"
+      ]
+    }
+  ]
+}

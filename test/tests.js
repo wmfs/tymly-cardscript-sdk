@@ -36,7 +36,8 @@ describe('Set up', function () {
           require.resolve('@wmfs/tymly-rbac-plugin')
         ],
         blueprintPaths: [
-          path.resolve(__dirname, './fixtures/pizza-blueprint') // todo: refactor to import @wmfs/pizza-blueprint
+          path.resolve(__dirname, './fixtures/pizza-blueprint'), // todo: refactor to import @wmfs/pizza-blueprint
+          path.resolve(__dirname, './fixtures/clock-blueprint')
         ],
         config: {
           auth: {
@@ -381,6 +382,39 @@ describe('Watching', function () {
 
     const { watching } = store.state.app
     expect(watching.length).to.eql(0)
+  })
+})
+
+describe('Long Running Tasks', function () {
+  this.timeout(process.env.TIMEOUT || 5000)
+
+  let clockExecutionName;
+
+  it('no long running tasks', () => {
+    expect.fail('not done yet')
+  })
+
+  it('start clock', async () => {
+    const { executionName } = await sdk.executions.execute({
+      stateMachineName: 'clock_clockUi_1_0',
+      input: { },
+      sendResponse: 'AFTER_RESOURCE_CALLBACK.TYPE:awaitingHumanInput',
+      token: authToken
+    })
+
+    clockExecutionName = executionName
+  })
+
+  it('one task running', () => {
+    expect.fail('not done yet')
+  })
+
+  it('stop clock', async () => {
+    await sdk.executions.StopExecution(clockExecutionName)
+  })
+
+  it('one task completed', () => {
+    expect.fail('not done yet')
   })
 })
 
