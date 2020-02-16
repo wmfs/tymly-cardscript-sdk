@@ -376,7 +376,7 @@ describe('Watching', function () {
     expect(ctx.subscriptionId).to.eql(watchId)
   })
 
-  it('refresh user query, check the watching entry exists', async () => {
+  it('refresh user query, check the watching entry has been removed', async () => {
     await sdk.requestUserQuery()
 
     const { watching } = store.state.app
