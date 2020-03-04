@@ -1,3 +1,12 @@
+# [1.149.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.148.0...v1.149.0) (2020-02-26)
+
+
+### 🛠 Builds
+
+* **deps:** bump uuid from 3.4.0 to 7.0.1 ([402252a](https://github.com/wmfs/tymly-cardscript-sdk/commit/402252a68b13067d8f9fa297c6fb1421ee90e723))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.119.0 to 1.120.0 ([872f639](https://github.com/wmfs/tymly-cardscript-sdk/commit/872f639690cf4275b60032f36ef61ffc5974c99a))
+* **deps-dev:** bump indexeddbshim from 6.0.1 to 6.1.0 ([0fc2c1f](https://github.com/wmfs/tymly-cardscript-sdk/commit/0fc2c1fbb1297b6e15e412eecb3431ce6cc73114))
+
 # [1.148.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.147.1...v1.148.0) (2020-02-13)
 
 
