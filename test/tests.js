@@ -388,7 +388,7 @@ describe('Watching', function () {
 describe('Long Running Tasks', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
-  let clockExecutionName;
+  let clockExecutionName
 
   it('no long running tasks', async () => {
     await sdk.tasks.update(authToken)
