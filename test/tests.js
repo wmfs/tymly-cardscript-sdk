@@ -391,8 +391,8 @@ describe('Long Running Tasks', function () {
   let clockExecutionName;
 
   it('no long running tasks', () => {
-    expect(sdk.tasks.running.length).to.equal(0)
     expect(sdk.tasks.complete.length).to.equal(0)
+    expect(sdk.tasks.running.length).to.equal(0)
   })
 
   it('start clock', async () => {
@@ -407,7 +407,11 @@ describe('Long Running Tasks', function () {
   })
 
   it('one task running', () => {
-    expect.fail('not done yet')
+    expect(sdk.tasks.complete.length).to.equal(0)
+
+    const running = sdk.tasks.running
+    expect(running.length).to.equal(1)
+    expect(running[0].executionName).to.equal(clockExecutionName)
   })
 
   it('stop clock', async () => {
