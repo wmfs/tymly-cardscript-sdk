@@ -1,3 +1,19 @@
+## [1.149.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.149.0...v1.149.1) (2020-03-09)
+
+
+### 🐛 Bug Fixes
+
+* Fixed require uuid for version 7.* ([daad86a](https://github.com/wmfs/tymly-cardscript-sdk/commit/daad86a0781613819cc5dc037eb07fcd0b5d16f7))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([9bb54c9](https://github.com/wmfs/tymly-cardscript-sdk/commit/9bb54c97a926100a9709abf30f299af16743046e))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-express-plugin from 1.34.0 to 1.35.0 ([5424d5c](https://github.com/wmfs/tymly-cardscript-sdk/commit/5424d5cedc88afa87fc0336138190862c9eda90f))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.6.0 to 2.7.0 ([e4bfd7c](https://github.com/wmfs/tymly-cardscript-sdk/commit/e4bfd7c4611f9a670008d1ef6966ee6ef8a32e46))
+* **deps-dev:** bump conventional-changelog-metahub from 4.0.0 to 4.0.1 ([1139822](https://github.com/wmfs/tymly-cardscript-sdk/commit/11398223b3447abe14af036dfee378872f19d0f4))
+* **deps-dev:** bump mocha from 7.0.1 to 7.1.0 ([9172686](https://github.com/wmfs/tymly-cardscript-sdk/commit/9172686cdad28288bd148330de25672b545e8701))
+
 # [1.149.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.148.0...v1.149.0) (2020-02-26)
 
 
