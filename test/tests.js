@@ -436,7 +436,7 @@ describe('Executions', function () {
 
   it('check the executions store in the db', async () => {
     const data = await sdk.db.executions.toArray()
-    expect(data.length).to.eql(19)
+    expect(data.length).to.eql(23)
 
     execName = data[0].executionName
   })
