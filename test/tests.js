@@ -391,9 +391,15 @@ describe('Long Running Tasks', function () {
   let clockExecutionName
 
   it('no long running tasks', async () => {
-    await sdk.tasks.update(authToken)
+    await sdk.requestUserQuery()
+
+    const { tasks } = store.state.app
+
     expect(sdk.tasks.complete.length).to.equal(0)
     expect(sdk.tasks.running.length).to.equal(0)
+
+    expect(tasks.complete.length).to.equal(0)
+    expect(tasks.running.length).to.equal(0)
   })
 
   it('start clock', async () => {
@@ -407,7 +413,7 @@ describe('Long Running Tasks', function () {
   })
 
   it('one task running', async () => {
-    await sdk.tasks.update()
+    await sdk.requestUserQuery()
 
     expect(sdk.tasks.complete.length).to.equal(0)
 
@@ -421,7 +427,7 @@ describe('Long Running Tasks', function () {
   })
 
   it('one task completed', async () => {
-    await sdk.tasks.update()
+    await sdk.requestUserQuery()
 
     expect(sdk.tasks.running.length).to.equal(0)
 
@@ -436,7 +442,7 @@ describe('Executions', function () {
 
   it('check the executions store in the db', async () => {
     const data = await sdk.db.executions.toArray()
-    expect(data.length).to.eql(23)
+    expect(data.length).to.eql(34)
 
     execName = data[0].executionName
   })
