@@ -400,15 +400,14 @@ describe('Long Running Tasks', function () {
     const { executionName } = await sdk.executions.execute({
       stateMachineName: 'clock_clockUi_1_0',
       input: { },
-      sendResponse: 'AFTER_RESOURCE_CALLBACK.TYPE:awaitingHumanInput',
-      token: authToken
+      sendResponse: 'AFTER_RESOURCE_CALLBACK.TYPE:awaitingHumanInput'
     })
 
     clockExecutionName = executionName
   })
 
   it('one task running', async () => {
-    await sdk.tasks.update(authToken)
+    await sdk.tasks.update()
 
     expect(sdk.tasks.complete.length).to.equal(0)
 
@@ -422,7 +421,7 @@ describe('Long Running Tasks', function () {
   })
 
   it('one task completed', async () => {
-    await sdk.tasks.update(authToken)
+    await sdk.tasks.update()
 
     expect(sdk.tasks.running.length).to.equal(0)
 
