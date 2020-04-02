@@ -20,13 +20,13 @@
     "@wmfs/cardscript-extract-graphs": "1.0.0",
     "@wmfs/cardscript-table-of-contents": "1.1.0",
     "@wmfs/cardscript-extract-defaults": "1.15.0",
-    "@wmfs/cardscript-to-quasar": "1.109.0",
-    "@wmfs/cardscript-to-vuelidate": "1.12.0"
+    "@wmfs/cardscript-to-quasar": "1.111.0",
+    "@wmfs/cardscript-to-vuelidate": "1.13.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.0",
-    "@wmfs/tymly": "1.128.0",
+    "@wmfs/tymly": "1.129.0",
     "@wmfs/tymly-express-plugin": "1.35.0",
     "@wmfs/tymly-rbac-plugin": "1.17.0",
     "@wmfs/tymly-solr-plugin": "2.7.0",
