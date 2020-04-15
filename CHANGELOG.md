@@ -1,3 +1,18 @@
+# [1.156.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.155.0...v1.156.0) (2020-04-14)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar ([015c72b](https://github.com/wmfs/tymly-cardscript-sdk/commit/015c72b28a6f79818614e6397f47f5afad15af6d))
+
+# [1.155.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.154.0...v1.155.0) (2020-04-09)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-extract-defaults ([45a521a](https://github.com/wmfs/tymly-cardscript-sdk/commit/45a521aa9bd19bdfc28d793116bb05fc72ac3a67))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-express-plugin from 1.36.0 to 1.37.0 ([e190fa0](https://github.com/wmfs/tymly-cardscript-sdk/commit/e190fa08e483a4093d0c699877c46885270b4409))
+
 # [1.154.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.153.0...v1.154.0) (2020-04-08)
 
 
