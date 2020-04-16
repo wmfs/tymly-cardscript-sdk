@@ -1,3 +1,50 @@
+# [1.157.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.156.0...v1.157.0) (2020-04-16)
+
+
+### ✨ Features
+
+* Add getByLocalState() to align with Executions ([155a762](https://github.com/wmfs/tymly-cardscript-sdk/commit/155a7629eaad7758ef9d0af981b120386c651cd7))
+* Added Tasks.updateAndPersist, for those times when we know we've done something to a long runn ([26cd482](https://github.com/wmfs/tymly-cardscript-sdk/commit/26cd482993b7bb4824b3c55fe4c462730cbb079d))
+* Bring Tasks interface more into line with other parts of the SDK ([b722749](https://github.com/wmfs/tymly-cardscript-sdk/commit/b7227495a5ed6119f88eec59dcb640b5245e451c))
+* Include execution title, created, and modified dates in the long running tasks list ([8f35909](https://github.com/wmfs/tymly-cardscript-sdk/commit/8f359095052c8da119156b230a965317886227c0))
+* Include long running tasks in suggestions list ([a6d8465](https://github.com/wmfs/tymly-cardscript-sdk/commit/a6d846585f33dc0d2d250c2ffa35d4e75d86e574))
+* Initial shape of Tasks sdk ([054dd6d](https://github.com/wmfs/tymly-cardscript-sdk/commit/054dd6db563d58726be6e14a5b44fd659d8b40d8))
+
+
+### 🐛 Bug Fixes
+
+* Adding tasks tables to a new database version, rather than bodging the previous one. ([706bcf1](https://github.com/wmfs/tymly-cardscript-sdk/commit/706bcf1b1c0021e3fc2d4e833fc4b48c3723b3a1))
+* DescribeExecution calls storeFromServerRequest to update the local execution details ([a57ff11](https://github.com/wmfs/tymly-cardscript-sdk/commit/a57ff1167b3ab1449a50a187e20dd71b3593c55b))
+* No need to pass authToken into Tasks.update ([3f1ab37](https://github.com/wmfs/tymly-cardscript-sdk/commit/3f1ab37a71b0f69c8727408912695fc51e8ba7c7))
+* Pluralise draft & form properly in suggestions list ([e25f3c8](https://github.com/wmfs/tymly-cardscript-sdk/commit/e25f3c8cf2f4411829a501ea876a804bb887ae79))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/git from 7.0.18 to 9.0.0 ([27f0699](https://github.com/wmfs/tymly-cardscript-sdk/commit/27f06990093e8a38c5f4bc37f249f22a7da8f507))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.126.2 to 1.127.0 ([d0d6fc9](https://github.com/wmfs/tymly-cardscript-sdk/commit/d0d6fc9dc01fc12d8808cd0fa130dbe244b86b5f))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([686e8f4](https://github.com/wmfs/tymly-cardscript-sdk/commit/686e8f4c91369fb2079bc4ae8cd3a5b5990643fa))
+* **deps-dev:** bump mocha from 7.1.0 to 7.1.1 ([915086e](https://github.com/wmfs/tymly-cardscript-sdk/commit/915086e47e77ccc493e34e8270a04f2cd68d4aa8))
+* **deps-dev:** bump semantic-release from 15.14.0 to 17.0.4 ([bfca410](https://github.com/wmfs/tymly-cardscript-sdk/commit/bfca4102b60266012c9cd823f70772144d7c3d45))
+* **deps-dev:** bump standard from 14.3.1 to 14.3.2 ([e8a834f](https://github.com/wmfs/tymly-cardscript-sdk/commit/e8a834f814892146fafb917252a43d6366f4d790))
+* **deps-dev:** bump standard from 14.3.2 to 14.3.3 ([b030817](https://github.com/wmfs/tymly-cardscript-sdk/commit/b03081738d04021285900f35650fbee95bcf0c12))
+* **dev-deps:** Bump tymly-cardscript-plugin from 1.12.0 to 1.13.0 ([e0dd7ac](https://github.com/wmfs/tymly-cardscript-sdk/commit/e0dd7ace4f7f2609257cf5629a03656cea4a1d60))
+
+
+### 🚨 Tests
+
+* Corrected executions test ([046d45c](https://github.com/wmfs/tymly-cardscript-sdk/commit/046d45c60f38c9aa89f3e8f8c5d40ad5d06db0e6))
+
+
+### 💎 Styles
+
+* Couple of belated lint fixes. ([4eca6d8](https://github.com/wmfs/tymly-cardscript-sdk/commit/4eca6d8386f83f98a9a3068b06560d002fedb6bb))
+
+
+### 🗑 Reverts
+
+* Added Tasks.archive method ([295c3cd](https://github.com/wmfs/tymly-cardscript-sdk/commit/295c3cdcd5b4919f846ba86477a4f3f056fa28b4))
+
 # [1.156.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.155.0...v1.156.0) (2020-04-14)
 
 
