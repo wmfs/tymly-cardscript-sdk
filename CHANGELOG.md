@@ -1,3 +1,15 @@
+## [1.157.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.157.0...v1.157.1) (2020-04-16)
+
+
+### 🐛 Bug Fixes
+
+* chain upgrade to dexie database version ([aeacc25](https://github.com/wmfs/tymly-cardscript-sdk/commit/aeacc25af6bdce0cb3e2e344f9d10e69576fea73))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.135.0 to 1.135.1 ([46d916b](https://github.com/wmfs/tymly-cardscript-sdk/commit/46d916b4ee7704b16683559cd55d58a8f955cb28))
+
 # [1.157.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.156.0...v1.157.0) (2020-04-16)
 
 
