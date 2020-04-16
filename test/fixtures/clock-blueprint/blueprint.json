@@ -1,0 +1,10 @@
+{
+  "namespace": "clock",
+  "name": "clock-blueprint",
+  "version": "1.0.0",
+  "label": "",
+  "organisation": "West Midlands Fire Service",
+  "author": "Jez Higgins",
+  "description": "A Clock. An example of a long-running task in Tymly",
+  "categories": []
+}

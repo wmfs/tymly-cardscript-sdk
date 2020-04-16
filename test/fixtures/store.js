@@ -13,7 +13,8 @@ module.exports = {
         logs: [],
         templates: [],
         execution: {},
-        categories: []
+        categories: [],
+        tasks: []
       },
       getters: {
         getByStateMachineName (state) {
@@ -39,7 +40,8 @@ module.exports = {
           const index = state.favourites.indexOf(startable)
           if (index > -1) state.favourites.splice(index, 1)
         },
-        categories: (state, categories) => { state.categories = categories }
+        categories: (state, categories) => { state.categories = categories },
+        tasks: (state, tasks) => { state.tasks = tasks }
       }
     },
     auth: {

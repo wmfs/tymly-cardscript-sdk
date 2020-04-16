@@ -1,0 +1,36 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Jumbotron",
+      "title": "THE TIME"
+    },
+    {
+      "type": "TextBlock",
+      "text": "You wanted to know the time at {{formatDate(data.startTimestamp, 'HH:mm')}}."
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "large",
+      "size": "medium",
+      "text": "The time is now {{formatDate(data.timestamp, 'HH:mm')}}."
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Stop",
+      "title": "Close"
+    }
+  ],
+  "templateMeta": {
+    "name": "countdown",
+    "title": "The Time",
+    "category": "dataManagement"
+  },
+  "meta": {
+    "generatedOn": "4/10/2019, 14:07:31 PM",
+    "generatedWith": "@wmfs/tymly-scaffold 0.0.0-semantically-released"
+  }
+}

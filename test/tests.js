@@ -36,7 +36,8 @@ describe('Set up', function () {
           require.resolve('@wmfs/tymly-rbac-plugin')
         ],
         blueprintPaths: [
-          path.resolve(__dirname, './fixtures/pizza-blueprint') // todo: refactor to import @wmfs/pizza-blueprint
+          path.resolve(__dirname, './fixtures/pizza-blueprint'), // todo: refactor to import @wmfs/pizza-blueprint
+          path.resolve(__dirname, './fixtures/clock-blueprint')
         ],
         config: {
           auth: {
@@ -376,11 +377,63 @@ describe('Watching', function () {
     expect(ctx.subscriptionId).to.eql(watchId)
   })
 
-  it('refresh user query, check the watching entry exists', async () => {
+  it('refresh user query, check the watching entry has been removed', async () => {
     await sdk.requestUserQuery()
 
     const { watching } = store.state.app
     expect(watching.length).to.eql(0)
+  })
+})
+
+describe('Long Running Tasks', function () {
+  this.timeout(process.env.TIMEOUT || 5000)
+
+  let clockExecutionName
+
+  it('no long running tasks', async () => {
+    await sdk.requestUserQuery()
+
+    const { tasks } = store.state.app
+
+    expect(sdk.tasks.complete.length).to.equal(0)
+    expect(sdk.tasks.running.length).to.equal(0)
+
+    expect(tasks.complete.length).to.equal(0)
+    expect(tasks.running.length).to.equal(0)
+  })
+
+  it('start clock', async () => {
+    const { executionName } = await sdk.executions.execute({
+      stateMachineName: 'clock_clockUi_1_0',
+      input: { },
+      sendResponse: 'AFTER_RESOURCE_CALLBACK.TYPE:awaitingHumanInput'
+    })
+
+    clockExecutionName = executionName
+  })
+
+  it('one task running', async () => {
+    await sdk.requestUserQuery()
+
+    expect(sdk.tasks.complete.length).to.equal(0)
+
+    const running = sdk.tasks.running
+    expect(running.length).to.equal(1)
+    expect(running[0].executionName).to.equal(clockExecutionName)
+  })
+
+  it('stop clock', async () => {
+    await sdk.executions.StopExecution(clockExecutionName)
+  })
+
+  it('one task completed', async () => {
+    await sdk.requestUserQuery()
+
+    expect(sdk.tasks.running.length).to.equal(0)
+
+    const complete = sdk.tasks.complete
+    expect(complete.length).to.equal(1)
+    expect(complete[0].executionName).to.equal(clockExecutionName)
   })
 })
 
@@ -389,7 +442,7 @@ describe('Executions', function () {
 
   it('check the executions store in the db', async () => {
     const data = await sdk.db.executions.toArray()
-    expect(data.length).to.eql(19)
+    expect(data.length).to.eql(34)
 
     execName = data[0].executionName
   })
