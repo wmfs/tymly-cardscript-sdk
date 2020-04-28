@@ -1,3 +1,34 @@
+# [1.158.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.157.1...v1.158.0) (2020-04-28)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar to 1.114.0 ([77ab5ad](https://github.com/wmfs/tymly-cardscript-sdk/commit/77ab5ad5de2fc58e90d2cabf81d649d45f2c0ceb))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.135.1 to 1.135.2 ([9f715f3](https://github.com/wmfs/tymly-cardscript-sdk/commit/9f715f3ca5a13961499a303d1af3d90800f900b4))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.135.2 to 1.136.0 ([6147fe8](https://github.com/wmfs/tymly-cardscript-sdk/commit/6147fe8bc566df2406d26cc72556827bdbd87cff))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.136.0 to 1.137.0 ([1cd7332](https://github.com/wmfs/tymly-cardscript-sdk/commit/1cd7332fcf322c558873443ff0ad6e3668867d39))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([8f45497](https://github.com/wmfs/tymly-cardscript-sdk/commit/8f45497e1c1669d1a59a1a8b52c7d0d2c21054da))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([06ee0ab](https://github.com/wmfs/tymly-cardscript-sdk/commit/06ee0ab76436a42373ac9b5518f9c0eecc3f7d57))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([4900fd3](https://github.com/wmfs/tymly-cardscript-sdk/commit/4900fd33f9a6821f7ccfe2b73f1f386bf1713095))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-express-plugin from 1.37.0 to 1.37.1 ([aaa2553](https://github.com/wmfs/tymly-cardscript-sdk/commit/aaa2553f646656c9a37d9f7117ea8aef75ea19c0))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-express-plugin from 1.37.1 to 1.38.0 ([6b63b27](https://github.com/wmfs/tymly-cardscript-sdk/commit/6b63b27a06800ddae8913a08a4d884657df65f7d))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin from 1.17.0 to 1.17.1 ([7a9e91a](https://github.com/wmfs/tymly-cardscript-sdk/commit/7a9e91a1f5e7c270ec24d79e54c9f4539ed1182b))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin from 1.17.1 to 1.17.2 ([bdaad12](https://github.com/wmfs/tymly-cardscript-sdk/commit/bdaad12b526a2a07cb43a624a4387a0ff59d5bea))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.7.0 to 2.7.1 ([0a78151](https://github.com/wmfs/tymly-cardscript-sdk/commit/0a78151bbfe7947a78e4d7329712e3e3b70dcf68))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.7.1 to 2.7.2 ([5dee883](https://github.com/wmfs/tymly-cardscript-sdk/commit/5dee883aee071ba4ae185e40782ef82fe06eeca9))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.7.2 to 2.8.0 ([0500ee4](https://github.com/wmfs/tymly-cardscript-sdk/commit/0500ee48bd0670f39939be2923a75df88a4c887a))
+* **deps-dev:** bump mocha from 7.1.1 to 7.1.2 ([1be1c95](https://github.com/wmfs/tymly-cardscript-sdk/commit/1be1c9548d6123cb9e5b9d5580ffac53ebba2bf3))
+* **deps-dev:** bump semantic-release from 17.0.4 to 17.0.5 ([3a4ec32](https://github.com/wmfs/tymly-cardscript-sdk/commit/3a4ec32e2d08add7f1a8528bd946000f20151233))
+* **deps-dev:** bump semantic-release from 17.0.5 to 17.0.6 ([fbe3443](https://github.com/wmfs/tymly-cardscript-sdk/commit/fbe344314f4bea0a51260958b0c43d0455e97bc7))
+* **deps-dev:** bump semantic-release from 17.0.6 to 17.0.7 ([5e7c69e](https://github.com/wmfs/tymly-cardscript-sdk/commit/5e7c69e425732b5746ffb1776c417e57b5ef36d2))
+* **deps-dev:** bump vuex from 3.1.3 to 3.2.0 ([a27a8d5](https://github.com/wmfs/tymly-cardscript-sdk/commit/a27a8d5c0d2d6a43ba78eddbd2de23efae5c8275))
+* **deps-dev:** bump vuex from 3.2.0 to 3.3.0 ([0743617](https://github.com/wmfs/tymly-cardscript-sdk/commit/07436179876ce202690857b5c6e36ab8d87dbf1f))
+
+
+### 📦 Code Refactoring
+
+* remove upgrade from previous db versions ([fb8823f](https://github.com/wmfs/tymly-cardscript-sdk/commit/fb8823f5ae1d8db7f63a4fde44b9b3434e6e1cfb))
+
 ## [1.157.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.157.0...v1.157.1) (2020-04-16)
 
 
