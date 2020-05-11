@@ -1,3 +1,20 @@
+# [1.160.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.159.0...v1.160.0) (2020-05-11)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-to-quasar from 1.115.0 to 1.116.0 ([f4bb37a](https://github.com/wmfs/tymly-cardscript-sdk/commit/f4bb37ac7f77d27f7da50dc788874d68122dc272))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.137.0 to 1.137.1 ([232a03e](https://github.com/wmfs/tymly-cardscript-sdk/commit/232a03eaf8b0651c4884aae2f77503ac2c76e876))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.137.1 to 1.137.2 ([01d04a1](https://github.com/wmfs/tymly-cardscript-sdk/commit/01d04a127d9db7f5e218efde62c70837da119d79))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.137.2 to 1.137.3 ([f8eec43](https://github.com/wmfs/tymly-cardscript-sdk/commit/f8eec4397247bc397990c1784210ecda388f5b76))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([0bf6074](https://github.com/wmfs/tymly-cardscript-sdk/commit/0bf607433fdb43703bc2561c32c471a95d99b1da))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([94723a2](https://github.com/wmfs/tymly-cardscript-sdk/commit/94723a26eccce95258065314845470d914cbb9a7))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-express-plugin from 1.38.0 to 1.38.1 ([b03ff39](https://github.com/wmfs/tymly-cardscript-sdk/commit/b03ff396ad5ae8236df9f61ce100b38798d1abe1))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-express-plugin from 1.38.1 to 1.38.2 ([d25d248](https://github.com/wmfs/tymly-cardscript-sdk/commit/d25d248b0522f5ffb6358644648636f2b5b38513))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin from 1.17.2 to 1.17.3 ([1d85333](https://github.com/wmfs/tymly-cardscript-sdk/commit/1d85333feb218062cbb669f5aa8e2efd6a1865b6))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.8.0 to 2.8.1 ([28acc1e](https://github.com/wmfs/tymly-cardscript-sdk/commit/28acc1e15dbe26f1095d808c60b4b8fcbc72de63))
+* **deps-dev:** bump cz-conventional-changelog from 3.1.0 to 3.2.0 ([928a87c](https://github.com/wmfs/tymly-cardscript-sdk/commit/928a87ce9d649868c629f339bf2e67b4d73216c7))
+
 # [1.159.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.158.0...v1.159.0) (2020-04-28)
 
 
