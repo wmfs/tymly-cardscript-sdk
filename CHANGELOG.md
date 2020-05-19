@@ -1,3 +1,11 @@
+# [1.162.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.161.0...v1.162.0) (2020-05-19)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar to 1.117.1 ([f93f34b](https://github.com/wmfs/tymly-cardscript-sdk/commit/f93f34b6a607293dd921b48494032ec162859b97))
+* **deps-dev:** bump codecov from 3.6.5 to 3.7.0 ([c2cc1b0](https://github.com/wmfs/tymly-cardscript-sdk/commit/c2cc1b0bd25173028120be83a7e20e639eaebd54))
+
 # [1.161.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.160.0...v1.161.0) (2020-05-13)
 
 
