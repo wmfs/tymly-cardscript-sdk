@@ -1,3 +1,19 @@
+# [1.163.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.162.0...v1.163.0) (2020-06-02)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar to 1.118.0 ([9b62912](https://github.com/wmfs/tymly-cardscript-sdk/commit/9b629125dd0281a8e5a6c981c6c0d8cb28edbd2e))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.140.0 to 1.141.0 ([c7e4efb](https://github.com/wmfs/tymly-cardscript-sdk/commit/c7e4efb9eeaae0fae4f3ff1127c999190247bd1b))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.141.0 to 1.142.0 ([c724e0b](https://github.com/wmfs/tymly-cardscript-sdk/commit/c724e0b7d9a12feddae77cab8e846438692e6567))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.142.0 to 1.143.0 ([8c2d763](https://github.com/wmfs/tymly-cardscript-sdk/commit/8c2d763c9f9c52aacf93f0d7407f26e61cc7b5ef))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.143.0 to 1.144.0 ([5dcbd75](https://github.com/wmfs/tymly-cardscript-sdk/commit/5dcbd75b9a8ce9f19f55d391bce20f76d61f624c))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.8.1 to 2.8.3 ([8d01259](https://github.com/wmfs/tymly-cardscript-sdk/commit/8d01259270be071fd29ce4deff35ecb7d31ae43b))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.8.3 to 2.9.0 ([6598d05](https://github.com/wmfs/tymly-cardscript-sdk/commit/6598d05ead0062bad15695f73bac8fc87d04a4a6))
+* **deps-dev:** bump mocha from 7.1.2 to 7.2.0 ([2448530](https://github.com/wmfs/tymly-cardscript-sdk/commit/2448530afa338bf84c9229d8ab3f1f0bfae5ea8a))
+* **deps-dev:** bump nyc from 15.0.1 to 15.1.0 ([228bf77](https://github.com/wmfs/tymly-cardscript-sdk/commit/228bf778c20c47b95c26083c8978bcc7f7dbeaf7))
+* **deps-dev:** bump semantic-release from 17.0.7 to 17.0.8 ([990ce17](https://github.com/wmfs/tymly-cardscript-sdk/commit/990ce176d02cf68823986a789dd3cd8db46d73a7))
+
 # [1.162.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.161.0...v1.162.0) (2020-05-19)
 
 
