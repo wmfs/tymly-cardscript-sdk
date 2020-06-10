@@ -1,3 +1,10 @@
+# [1.164.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.163.0...v1.164.0) (2020-06-10)
+
+
+### ✨ Features
+
+* process cardscript function is now asynchronous [ch1083] ([aac1412](https://github.com/wmfs/tymly-cardscript-sdk/commit/aac141295cf02cf23f873c700c218302c032eee4))
+
 # [1.163.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.162.0...v1.163.0) (2020-06-02)
 
 
