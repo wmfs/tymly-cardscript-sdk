@@ -1,3 +1,17 @@
+# [1.167.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.166.0...v1.167.0) (2020-06-22)
+
+
+### ✨ Features
+
+* Add Download support ([7d86381](https://github.com/wmfs/tymly-cardscript-sdk/commit/7d86381b0c91254166437b47c2936e6fb66c74c1))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([50c8c05](https://github.com/wmfs/tymly-cardscript-sdk/commit/50c8c057a171bb06a202973e51791f20b33a367d))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.9.0 to 2.10.0 ([8b1447c](https://github.com/wmfs/tymly-cardscript-sdk/commit/8b1447c192c78a8baa2a5792565cc5382d202905))
+* **deps-dev:** bump mocha from 7.2.0 to 8.0.1 ([413ce82](https://github.com/wmfs/tymly-cardscript-sdk/commit/413ce821d33a348ed6c93bd014595faf7b0900eb))
+
 # [1.166.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.165.0...v1.166.0) (2020-06-10)
 
 
