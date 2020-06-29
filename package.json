@@ -47,7 +47,7 @@
     "semantic-release": "17.1.1",
     "standard": "14.3.4",
     "vue": "2.6.11",
-    "vuex": "3.4.0"
+    "vuex": "3.5.1"
   },
   "scripts": {
     "lint": "standard",
