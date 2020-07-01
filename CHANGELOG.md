@@ -1,3 +1,20 @@
+# [1.170.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.169.0...v1.170.0) (2020-07-01)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar ([9168105](https://github.com/wmfs/tymly-cardscript-sdk/commit/9168105a21f4673ca9589f197f3431ec8353a81f))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.144.0 to 1.145.0 ([5fd799e](https://github.com/wmfs/tymly-cardscript-sdk/commit/5fd799ed981a265dde3ba07df29f755d3eed1ea1))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.145.0 to 1.146.0 ([35a3a1b](https://github.com/wmfs/tymly-cardscript-sdk/commit/35a3a1bea14fafddd9ea49917d312fba8f00900e))
+* **deps-dev:** bump indexeddbshim from 6.1.0 to 6.6.0 ([409a800](https://github.com/wmfs/tymly-cardscript-sdk/commit/409a8008679209e32d3e7c7bafcded5b8650425f))
+* **deps-dev:** bump semantic-release from 17.1.0 to 17.1.1 ([887cfc6](https://github.com/wmfs/tymly-cardscript-sdk/commit/887cfc6a0561cee58c667100a108d06b303ba95f))
+* **deps-dev:** bump vuex from 3.4.0 to 3.5.1 ([00e9f96](https://github.com/wmfs/tymly-cardscript-sdk/commit/00e9f9612f0fc624120e5ec818b1d2412117b9d1))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** use updated circle node image [skip ci] ([dabd86b](https://github.com/wmfs/tymly-cardscript-sdk/commit/dabd86b5becb6977f3c1ac82721ce4f11b60f4b9))
+
 # [1.169.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.168.0...v1.169.0) (2020-06-25)
 
 
