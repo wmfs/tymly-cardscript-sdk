@@ -1,3 +1,25 @@
+# [1.179.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.178.0...v1.179.0) (2020-08-24)
+
+
+### 🛠 Builds
+
+* **deps:** bump axios from 0.19.2 to 0.20.0 ([4e3e0a9](https://github.com/wmfs/tymly-cardscript-sdk/commit/4e3e0a994f7b0c410c735bb5b4851f6f76a1770e))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.153.0 to 1.154.0 ([c60ee8f](https://github.com/wmfs/tymly-cardscript-sdk/commit/c60ee8f12afdc3ba05dbd323fef872f8b81882e7))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.154.0 to 1.156.0 ([fe5af54](https://github.com/wmfs/tymly-cardscript-sdk/commit/fe5af547e65c56d9ca70163da32252892c1410c9))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.156.0 to 1.157.0 ([ded85bd](https://github.com/wmfs/tymly-cardscript-sdk/commit/ded85bd1aa05b9c21b966be7d9ba743730996e04))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([71e71eb](https://github.com/wmfs/tymly-cardscript-sdk/commit/71e71eb17672e80834478490c52b25827973bc30))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-express-plugin from 1.40.0 to 1.42.0 ([7c2783a](https://github.com/wmfs/tymly-cardscript-sdk/commit/7c2783a340bb83ead9d19a379e5355d366ff5931))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.11.0 to 2.12.0 ([20cc37c](https://github.com/wmfs/tymly-cardscript-sdk/commit/20cc37ccb90586029cea61d9a445e638ffdbed9d))
+* **deps-dev:** bump indexeddbshim from 6.6.0 to 7.0.0 ([eae429f](https://github.com/wmfs/tymly-cardscript-sdk/commit/eae429f2c4cc26888f072c4ae5aed1ab50619210))
+* **deps-dev:** bump mocha from 8.0.1 to 8.1.0 ([dbf1513](https://github.com/wmfs/tymly-cardscript-sdk/commit/dbf15132f7eb362100cf51a1e9ab7291f64b88ff))
+* **deps-dev:** bump mocha from 8.1.0 to 8.1.1 ([d57e42a](https://github.com/wmfs/tymly-cardscript-sdk/commit/d57e42af2850fb10dafb9863aca683f2670ae921))
+* **deps-dev:** bump vue from 2.6.11 to 2.6.12 ([1e63b9a](https://github.com/wmfs/tymly-cardscript-sdk/commit/1e63b9a398662704f8bee1d8007819befa0a5fc3))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** separate lint job [ch1009] ([6d7bac2](https://github.com/wmfs/tymly-cardscript-sdk/commit/6d7bac216b3f87eaf3b4aed335d21b7f014ca29e))
+
 # [1.178.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.177.0...v1.178.0) (2020-07-22)
 
 
