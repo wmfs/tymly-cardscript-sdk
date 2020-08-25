@@ -29,7 +29,7 @@
     "@wmfs/tymly": "1.157.0",
     "@wmfs/tymly-express-plugin": "1.43.0",
     "@wmfs/tymly-rbac-plugin": "1.17.3",
-    "@wmfs/tymly-solr-plugin": "2.12.0",
+    "@wmfs/tymly-solr-plugin": "2.13.0",
     "@wmfs/tymly-cardscript-plugin": "1.18.0",
     "babel-plugin-transform-es2015-destructuring": "6.23.0",
     "babel-plugin-transform-object-rest-spread": "6.26.0",
