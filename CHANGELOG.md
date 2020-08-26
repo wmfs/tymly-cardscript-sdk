@@ -1,3 +1,10 @@
+# [1.181.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.180.0...v1.181.0) (2020-08-26)
+
+
+### 🛠 Builds
+
+* **deps:** bump cardscript-to-quasar ([c9e193d](https://github.com/wmfs/tymly-cardscript-sdk/commit/c9e193dfedb1f373ca56572f7f596fb526324fcd))
+
 # [1.180.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.179.0...v1.180.0) (2020-08-26)
 
 
