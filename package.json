@@ -21,7 +21,7 @@
     "@wmfs/cardscript-table-of-contents": "1.1.0",
     "@wmfs/cardscript-extract-defaults": "1.19.0",
     "@wmfs/cardscript-to-quasar": "1.129.1",
-    "@wmfs/cardscript-to-vuelidate": "1.16.0"
+    "@wmfs/cardscript-to-vuelidate": "1.17.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "5.0.1",
