@@ -1,3 +1,13 @@
+# [1.185.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.184.0...v1.185.0) (2020-09-28)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-schema from 1.23.0 to 1.24.0 ([b7db045](https://github.com/wmfs/tymly-cardscript-sdk/commit/b7db045ac176a2d0b8f51c5fd4ed0b0d716e770c))
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-to-vuelidate from 1.16.0 to 1.17.0 ([f6bc543](https://github.com/wmfs/tymly-cardscript-sdk/commit/f6bc5436ac5201cb0d66ebfbba2f09e341e2b015))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([517c136](https://github.com/wmfs/tymly-cardscript-sdk/commit/517c136967daacc31712e31225405b961871db7d))
+* **deps-dev:** bump semantic-release from 17.1.1 to 17.1.2 ([82d79e4](https://github.com/wmfs/tymly-cardscript-sdk/commit/82d79e4ea5416b1e501efae495113cd7c472f9b2))
+
 # [1.184.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.183.0...v1.184.0) (2020-09-07)
 
 
