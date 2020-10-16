@@ -238,7 +238,7 @@ describe('General tests', function () {
     expect(watching.length).to.eql(0)
     expect(favourites.length).to.eql(0)
     expect(todos.length).to.eql(0)
-    expect(settings.categoryRelevance).to.eql(['food', 'pizza', 'system'])
+    expect(settings.categoryRelevance).to.eql(['food', 'pizza', 'help', 'system'])
   })
 })
 
