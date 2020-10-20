@@ -1,3 +1,11 @@
+# [1.188.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.187.0...v1.188.0) (2020-10-20)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-to-vuelidate from 1.17.0 to 1.18.0 ([9b506c2](https://github.com/wmfs/tymly-cardscript-sdk/commit/9b506c20c1075e371449d1f6cf69bc9663b77dd3))
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar to 1.130.0 ([34e011c](https://github.com/wmfs/tymly-cardscript-sdk/commit/34e011c56d26eb924741d5ead734b7fe4b7e5bfc))
+
 # [1.187.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.186.0...v1.187.0) (2020-10-19)
 
 
