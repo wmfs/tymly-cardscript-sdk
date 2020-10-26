@@ -1,3 +1,17 @@
+# [1.190.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.189.0...v1.190.0) (2020-10-26)
+
+
+### 🛠 Builds
+
+* **deps:** bump axios from 0.20.0 to 0.21.0 ([dde6a78](https://github.com/wmfs/tymly-cardscript-sdk/commit/dde6a78f7cb6b51b312b1e9b226458112c303bb8))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.14.0 to 2.15.0 ([029570c](https://github.com/wmfs/tymly-cardscript-sdk/commit/029570cc90c7d54b3f56383a28a32c1b01a1c72c))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** authenticate Docker image pull [ch2767] ([9f69738](https://github.com/wmfs/tymly-cardscript-sdk/commit/9f69738abb4af6cf8d218613132aea9df0d22e0f))
+* **circle:** cache dependencies [ch2770] ([ff8c275](https://github.com/wmfs/tymly-cardscript-sdk/commit/ff8c27537c80733bf90fe62b2372cd462ce8b8e3))
+
 # [1.189.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.188.0...v1.189.0) (2020-10-22)
 
 
