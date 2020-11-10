@@ -45,7 +45,7 @@
     "mocha": "8.2.1",
     "nyc": "15.1.0",
     "semantic-release": "17.2.2",
-    "standard": "16.0.1",
+    "standard": "15.0.0",
     "vue": "2.6.12",
     "vuex": "3.5.1"
   },
