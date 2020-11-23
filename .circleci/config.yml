@@ -19,7 +19,7 @@ jobs:
           name: install
           command: |
             npm install node-pre-gyp
-            npm install sqlite3 --build-from-source
+            npm install sqlite3
             npm install
       - save_cache:
           key: v1-deps-{{ checksum "package.json" }}
