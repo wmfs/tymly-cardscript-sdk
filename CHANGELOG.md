@@ -1,3 +1,43 @@
+# [1.191.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.190.0...v1.191.0) (2020-11-23)
+
+
+### ✨ Features
+
+* force build ([77881cf](https://github.com/wmfs/tymly-cardscript-sdk/commit/77881cf0e56c65ca8bb0a7b2dcb834ef310d950c))
+
+
+### 🛠 Builds
+
+* **deps:** add sqlite3 ([af767a2](https://github.com/wmfs/tymly-cardscript-sdk/commit/af767a234dc3522bd98d20045c877863d9834f19))
+* **deps:** remove sqlite3 ([8898c0f](https://github.com/wmfs/tymly-cardscript-sdk/commit/8898c0fea9dd7d357bb1124cadd2ab817acc5ecb))
+* **deps:** revert peer deps ([e7eda0e](https://github.com/wmfs/tymly-cardscript-sdk/commit/e7eda0ec552014d61ff139d440fc3bc8c60b18f7))
+* **deps:** update all ([35a4e30](https://github.com/wmfs/tymly-cardscript-sdk/commit/35a4e30b77c7221d0ebf74446bf1d2cb37165d4a))
+* **deps-dev:** add sqlite3 ([e82bc14](https://github.com/wmfs/tymly-cardscript-sdk/commit/e82bc14ad4d3f06eea81471172e36d7a6c19d55a))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.166.0 to 1.167.0 ([6a3b678](https://github.com/wmfs/tymly-cardscript-sdk/commit/6a3b67874facebfa2a35c3470f2c7f368e41f3be))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-express-plugin from 1.44.0 to 1.45.0 ([005dd7a](https://github.com/wmfs/tymly-cardscript-sdk/commit/005dd7a296286a6ad0e09cfa5dc55d4b6564f047))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.15.0 to 2.16.0 ([9cad532](https://github.com/wmfs/tymly-cardscript-sdk/commit/9cad532c56b07c6360ba799e51acba8267803633))
+* **deps-dev:** bump standard from 15.0.0 to 16.0.1 ([a567a70](https://github.com/wmfs/tymly-cardscript-sdk/commit/a567a7030ea5df60e4b235d9f3ed9f1152653fe7))
+* **deps-dev:** remove indexeddbshim ([1004360](https://github.com/wmfs/tymly-cardscript-sdk/commit/1004360bbe20d8e484dfb423cd99d4b145619340))
+* **deps-dev:** update standard to 16.0.1 ([5a35887](https://github.com/wmfs/tymly-cardscript-sdk/commit/5a35887b896ef82983a24f7910e41bb1f2548022))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add sqlite3@5.0.0 as dep ([7b844a7](https://github.com/wmfs/tymly-cardscript-sdk/commit/7b844a7ce7037c781562cbfd3670c79785f6f358))
+* **circle:** add step to install sqlite3 ([3ed9a95](https://github.com/wmfs/tymly-cardscript-sdk/commit/3ed9a9557a0e080bdb4ff160529c6f1e5703fd69))
+* **circle:** comment out test jobs ([4a8360f](https://github.com/wmfs/tymly-cardscript-sdk/commit/4a8360f1bbd933f9d4794375857dc263b2d00420))
+* **circle:** don't install sqlite3 from source ([197e0c1](https://github.com/wmfs/tymly-cardscript-sdk/commit/197e0c132ef6fdf7d6a044f48d583701b1022c73))
+* **circle:** don't restore cache ([9aa131d](https://github.com/wmfs/tymly-cardscript-sdk/commit/9aa131dab55e169502669dcff032be39ad30e635))
+* **circle:** install node-pre-gyp ([840ca39](https://github.com/wmfs/tymly-cardscript-sdk/commit/840ca39b5814491767e8f126ac83fd5aca67c1a3))
+* **circle:** install sqlite3 from source ([7fabf65](https://github.com/wmfs/tymly-cardscript-sdk/commit/7fabf65152e92b53a4fd1b602b4e8b27087dc822))
+* **circle:** update build environment variable context name [ch2771] ([b0b5e30](https://github.com/wmfs/tymly-cardscript-sdk/commit/b0b5e304a3d8589d2d3774701a18f2ac39ae110e))
+* **circle:** use yarn instead of npm to install ([7abc44a](https://github.com/wmfs/tymly-cardscript-sdk/commit/7abc44ab62528f4394122000a65cd750f3692d1a))
+
+
+### 🗑 Reverts
+
+* standard to 15.0.0 ([3ec2c34](https://github.com/wmfs/tymly-cardscript-sdk/commit/3ec2c34863d4ec0ca19c229dd3009f480e0bb012))
+
 # [1.190.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.189.0...v1.190.0) (2020-10-26)
 
 
