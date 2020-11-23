@@ -1,3 +1,12 @@
+# [1.192.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.191.0...v1.192.0) (2020-11-23)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-to-quasar from 1.132.0 to 1.133.0 ([a0711ab](https://github.com/wmfs/tymly-cardscript-sdk/commit/a0711abcad6fe43881b3dbc38b4666f57dd28794))
+* **deps-dev:** [security] bump semantic-release from 17.2.2 to 17.3.0 ([1d39182](https://github.com/wmfs/tymly-cardscript-sdk/commit/1d3918241e3713722a9d837da7a34eda344bd6ec))
+* **deps-dev:** bump standard from 16.0.1 to 16.0.3 ([7eaff77](https://github.com/wmfs/tymly-cardscript-sdk/commit/7eaff77c3f3ce3cbceb02cd385433252a3cb700e))
+
 # [1.191.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.190.0...v1.191.0) (2020-11-23)
 
 
