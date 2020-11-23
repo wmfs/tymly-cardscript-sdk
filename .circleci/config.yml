@@ -18,6 +18,9 @@ jobs:
       - run:
           name: install
           command: npm install
+      - run:
+          name: install sqlite3
+          commad: npm install sqlite3 --build-from-source
       - save_cache:
           key: v1-deps-{{ checksum "package.json" }}
           paths:
