@@ -11,19 +11,23 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
+      - restore_cache:
+          keys:
+            - v1-deps-{{ checksum "package.json" }}
+            - v1-deps-
       - run:
           name: install
-          command: yarn install
+          command: npm install
       - save_cache:
           key: v1-deps-{{ checksum "package.json" }}
           paths:
             - node_modules
-      - run:
-          name: test
-          command: npm test
-      - run:
-          name: codecov
-          command: npm run coverage
+      #- run:
+      #    name: test
+      #    command: npm test
+      #- run:
+      #    name: codecov
+      #    command: npm run coverage
   lint:
     docker:
       - image: cimg/node:lts
