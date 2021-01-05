@@ -1,3 +1,15 @@
+# [1.195.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.194.0...v1.195.0) (2021-01-05)
+
+
+### 🛠 Builds
+
+* **deps:** bump axios from 0.21.0 to 0.21.1 ([12bd5ae](https://github.com/wmfs/tymly-cardscript-sdk/commit/12bd5aec5b6d49156f3f8186d594ce56e0808d1b))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.175.0 to 1.176.0 ([216583e](https://github.com/wmfs/tymly-cardscript-sdk/commit/216583eb558d5e11acbdffc64a51db0b7d51a008))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.176.0 to 1.176.1 ([f21520f](https://github.com/wmfs/tymly-cardscript-sdk/commit/f21520fba0d4a7d6d8630784915d856449515700))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.16.0 to 2.17.0 ([a040d73](https://github.com/wmfs/tymly-cardscript-sdk/commit/a040d73b9c87fa4bd47cd939f04899ff85bf69e0))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.17.0 to 2.17.1 ([3195456](https://github.com/wmfs/tymly-cardscript-sdk/commit/31954560645c05fec42e0a2fe4759b554cf5a415))
+* **deps-dev:** bump semantic-release from 17.3.0 to 17.3.1 ([beff1a0](https://github.com/wmfs/tymly-cardscript-sdk/commit/beff1a03d4d1256a4b4692efa9ee01ac96c119bf))
+
 # [1.194.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.193.0...v1.194.0) (2020-12-07)
 
 
