@@ -1,3 +1,14 @@
+# [1.203.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.202.0...v1.203.0) (2021-01-27)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-extract-defaults ([44a1245](https://github.com/wmfs/tymly-cardscript-sdk/commit/44a1245f5b7bc0085f79668600d991d8879c75cb))
+* **deps-dev:** bump semantic-release from 17.3.4 to 17.3.6 ([b1bb362](https://github.com/wmfs/tymly-cardscript-sdk/commit/b1bb36200e6a0c35e18fb300d224f9ab5ba30d4f))
+* **deps-dev:** bump semantic-release from 17.3.6 to 17.3.7 ([d7ec19a](https://github.com/wmfs/tymly-cardscript-sdk/commit/d7ec19a6808e7bc6e995c3d1e469976df6d0864d))
+* **deps-dev:** bump vuex from 3.6.0 to 3.6.1 ([e492f3b](https://github.com/wmfs/tymly-cardscript-sdk/commit/e492f3be42aafd9816d9c63c20d5442b2636031c))
+* **deps-dev:** bump vuex from 3.6.1 to 3.6.2 ([e178acb](https://github.com/wmfs/tymly-cardscript-sdk/commit/e178acb707f82db62aef08342e758c26085b150d))
+
 # [1.202.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.201.0...v1.202.0) (2021-01-20)
 
 
