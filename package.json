@@ -9,7 +9,7 @@
   ],
   "main": "./lib/index.js",
   "dependencies": {
-    "@wmfs/cardscript-extract-defaults": "1.22.0",
+    "@wmfs/cardscript-extract-defaults": "1.23.0",
     "@wmfs/cardscript-extract-graphs": "1.0.0",
     "@wmfs/cardscript-extract-lists": "1.8.0",
     "@wmfs/cardscript-schema": "1.26.0",
