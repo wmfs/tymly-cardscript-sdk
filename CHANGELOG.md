@@ -1,3 +1,11 @@
+# [1.205.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.204.0...v1.205.0) (2021-02-03)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-to-vuelidate from 1.21.0 to 1.22.0 ([3062acc](https://github.com/wmfs/tymly-cardscript-sdk/commit/3062acc86777c741741a344aa4cea4991fe56a97))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.19.0 to 2.20.0 ([f31b24b](https://github.com/wmfs/tymly-cardscript-sdk/commit/f31b24b93f733d7c34de4558156102438c952332))
+
 # [1.204.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.203.0...v1.204.0) (2021-01-28)
 
 
