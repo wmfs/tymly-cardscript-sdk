@@ -1,3 +1,19 @@
+# [1.213.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.212.0...v1.213.0) (2021-03-08)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-to-quasar from 1.136.0 to 1.136.1 ([e9b0395](https://github.com/wmfs/tymly-cardscript-sdk/commit/e9b0395598e785b8e101a14e3e00fa2ec823ddbb))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.191.0 to 1.192.0 ([c3653fc](https://github.com/wmfs/tymly-cardscript-sdk/commit/c3653fcf9f82965caf4da9a6d198c6a278655523))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([5d0ab87](https://github.com/wmfs/tymly-cardscript-sdk/commit/5d0ab87fdd1603f8ec73d4fadfc210bdaf043b01))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.21.0 to 2.22.0 ([24d74e1](https://github.com/wmfs/tymly-cardscript-sdk/commit/24d74e1e38df232cb535b1e469e83f0fdb50e4a4))
+* **deps-dev:** bump chai from 4.3.0 to 4.3.1 ([afc2e7e](https://github.com/wmfs/tymly-cardscript-sdk/commit/afc2e7e4903928d0154638f416a5aa822b4198f7))
+* **deps-dev:** bump chai from 4.3.1 to 4.3.2 ([9151fd3](https://github.com/wmfs/tymly-cardscript-sdk/commit/9151fd3c8333be4075ef6041133ab33b08f4a30e))
+* **deps-dev:** bump chai from 4.3.2 to 4.3.3 ([af045ac](https://github.com/wmfs/tymly-cardscript-sdk/commit/af045acc8f5cab0b24dd2a0e4a0ae6eaa428ec98))
+* **deps-dev:** bump mocha from 8.3.0 to 8.3.1 ([38dd6a0](https://github.com/wmfs/tymly-cardscript-sdk/commit/38dd6a0f9115b5770a3b9b0e8bfba88d320cc892))
+* **deps-dev:** bump semantic-release from 17.3.9 to 17.4.0 ([714daf5](https://github.com/wmfs/tymly-cardscript-sdk/commit/714daf5be9f134cf74522d4557a27185d1af6094))
+* **deps-dev:** bump semantic-release from 17.4.0 to 17.4.1 ([5b012cc](https://github.com/wmfs/tymly-cardscript-sdk/commit/5b012cc6e44e781d5b9ee805c880ba16e5e79c18))
+
 # [1.212.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.211.0...v1.212.0) (2021-02-24)
 
 
