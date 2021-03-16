@@ -1,3 +1,13 @@
+# [1.214.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.213.0...v1.214.0) (2021-03-16)
+
+
+### 🛠 Builds
+
+* **deps:** update deps ([e232d0d](https://github.com/wmfs/tymly-cardscript-sdk/commit/e232d0d21b3de75646f28b478d35082373a96509))
+* **deps-dev:** bump chai from 4.3.3 to 4.3.4 ([6fbb5c8](https://github.com/wmfs/tymly-cardscript-sdk/commit/6fbb5c88fa4a7c8f6b8ce6a0f99e2d5945eb4047))
+* **deps-dev:** bump mocha from 8.3.1 to 8.3.2 ([e57fe57](https://github.com/wmfs/tymly-cardscript-sdk/commit/e57fe5750c0bcf0cbb0a2a83d9e3007c99b3fc92))
+* **deps-dev:** bump semantic-release from 17.4.1 to 17.4.2 ([2bb7c6f](https://github.com/wmfs/tymly-cardscript-sdk/commit/2bb7c6fa7965a500117f088a79672b77a4876395))
+
 # [1.213.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.212.0...v1.213.0) (2021-03-08)
 
 
