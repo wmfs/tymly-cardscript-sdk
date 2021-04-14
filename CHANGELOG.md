@@ -1,3 +1,10 @@
+# [1.218.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.217.0...v1.218.0) (2021-04-14)
+
+
+### 🛠 Builds
+
+* **deps:** bump deps ([7f1f332](https://github.com/wmfs/tymly-cardscript-sdk/commit/7f1f33234eaf3a5daf803ef1873c1deb173dba5b))
+
 # [1.217.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.216.0...v1.217.0) (2021-04-14)
 
 
