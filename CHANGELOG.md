@@ -1,3 +1,11 @@
+# [1.219.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.218.0...v1.219.0) (2021-04-26)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-extract-defaults ([7cfe805](https://github.com/wmfs/tymly-cardscript-sdk/commit/7cfe8058429d933d88e5882c712d5803696e48c9))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.195.1 to 1.196.0 ([c164342](https://github.com/wmfs/tymly-cardscript-sdk/commit/c1643424dfe8548772d4b918408d46451e6b33cf))
+
 # [1.218.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.217.0...v1.218.0) (2021-04-14)
 
 
