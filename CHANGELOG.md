@@ -1,3 +1,10 @@
+# [1.226.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.225.0...v1.226.0) (2021-05-06)
+
+
+### ✨ Features
+
+* force build ([add1a0b](https://github.com/wmfs/tymly-cardscript-sdk/commit/add1a0b7d61b28f8bfae12681705601fbc5a229b))
+
 # [1.225.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.224.0...v1.225.0) (2021-05-06)
 
 
