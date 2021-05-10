@@ -1,3 +1,10 @@
+# [1.229.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.228.0...v1.229.0) (2021-05-10)
+
+
+### ✨ Features
+
+* save route to db [ch6178] ([1f085fe](https://github.com/wmfs/tymly-cardscript-sdk/commit/1f085fed306f0b54890cfff27bb369f0aaf0828f))
+
 # [1.228.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.227.0...v1.228.0) (2021-05-10)
 
 
