@@ -43,7 +43,7 @@
     "esm": "3.2.25",
     "mocha": "8.4.0",
     "nyc": "15.1.0",
-    "semantic-release": "17.4.2",
+    "semantic-release": "17.4.3",
     "standard": "16.0.3",
     "vue": "2.6.12",
     "vuex": "3.6.2"
