@@ -1,3 +1,13 @@
+# [1.246.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.245.0...v1.246.0) (2021-06-07)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-extract-defaults ([2c79568](https://github.com/wmfs/tymly-cardscript-sdk/commit/2c79568184ce75351702563431785190b6cb9a93))
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-extract-lists from 1.8.0 to 1.9.0 ([58f2146](https://github.com/wmfs/tymly-cardscript-sdk/commit/58f214695c2ba7b670d6aaaa49ca235bd9bfebd7))
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-to-quasar from 1.174.0 to 1.175.0 ([ac28e97](https://github.com/wmfs/tymly-cardscript-sdk/commit/ac28e97a5af0c793abdf38636c50e118f7a469d1))
+* **deps-dev:** bump vue from 2.6.12 to 2.6.13 ([f78bd06](https://github.com/wmfs/tymly-cardscript-sdk/commit/f78bd06b3ec3b2d69a6fef8467eeb811d0cf030b))
+
 # [1.245.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.244.0...v1.245.0) (2021-06-01)
 
 
