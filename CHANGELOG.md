@@ -1,3 +1,12 @@
+# [1.247.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.246.0...v1.247.0) (2021-06-08)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-vuelidate to 1.28.0 ([26ebf98](https://github.com/wmfs/tymly-cardscript-sdk/commit/26ebf98889a6f4d120f39c248b5d813f49e6cb0a))
+* **deps-dev:** bump mocha from 8.4.0 to 9.0.0 ([b18d057](https://github.com/wmfs/tymly-cardscript-sdk/commit/b18d05770c24320f4b3b55c287481c4cdad3df1f))
+* **deps-dev:** bump vue from 2.6.13 to 2.6.14 ([2bf4fe0](https://github.com/wmfs/tymly-cardscript-sdk/commit/2bf4fe02f4357fdabbb42572d6244517f73f3bc0))
+
 # [1.246.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.245.0...v1.246.0) (2021-06-07)
 
 
