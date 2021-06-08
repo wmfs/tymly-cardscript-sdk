@@ -1,3 +1,10 @@
+# [1.248.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.247.0...v1.248.0) (2021-06-08)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-vuelidate to 1.29.0 ([205efde](https://github.com/wmfs/tymly-cardscript-sdk/commit/205efdeb16e5a0ce3f03870253ad24849d5ff48b))
+
 # [1.247.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.246.0...v1.247.0) (2021-06-08)
 
 
