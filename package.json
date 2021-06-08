@@ -15,7 +15,7 @@
     "@wmfs/cardscript-schema": "1.29.1",
     "@wmfs/cardscript-table-of-contents": "1.1.0",
     "@wmfs/cardscript-to-quasar": "1.175.0",
-    "@wmfs/cardscript-to-vuelidate": "1.28.0",
+    "@wmfs/cardscript-to-vuelidate": "1.29.0",
     "@wmfs/cardscript-vue-sdk": "1.2.1",
     "axios": "0.21.1",
     "dexie": "3.0.3",
