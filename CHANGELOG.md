@@ -1,3 +1,11 @@
+# [1.252.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.251.0...v1.252.0) (2021-06-09)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar to 1.177.0 ([fc67508](https://github.com/wmfs/tymly-cardscript-sdk/commit/fc67508f37e61f84055f50a2f8a94a5dc8e2bfaa))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.24.0 to 2.24.1 ([89c2de1](https://github.com/wmfs/tymly-cardscript-sdk/commit/89c2de15f63885f2101b940794e255648f91ffbe))
+
 # [1.251.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.250.0...v1.251.0) (2021-06-09)
 
 
