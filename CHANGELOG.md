@@ -1,3 +1,12 @@
+# [1.257.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.256.0...v1.257.0) (2021-07-06)
+
+
+### 🛠 Builds
+
+* **deps:** update deps ([a1a80bb](https://github.com/wmfs/tymly-cardscript-sdk/commit/a1a80bba50a31b65c9a333485bfe87c46c3d61aa))
+* **deps:** update deps ([88e8f86](https://github.com/wmfs/tymly-cardscript-sdk/commit/88e8f86de4ea75fd48171839cf7f41100e06881a))
+* **deps-dev:** bump mocha from 9.0.1 to 9.0.2 ([f8324f4](https://github.com/wmfs/tymly-cardscript-sdk/commit/f8324f4b9a37ef257de1659d3b609da8f70e38cb))
+
 # [1.256.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.255.0...v1.256.0) (2021-06-25)
 
 
