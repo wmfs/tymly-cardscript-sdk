@@ -1,0 +1,26 @@
+version: 2
+registries:
+  npm-registry-registry-npmjs-org:
+    type: npm-registry
+    url: https://registry.npmjs.org
+    token: "${{secrets.NPM_REGISTRY_REGISTRY_NPMJS_ORG_TOKEN}}"
+
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "01:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@wmfs/cardscript-to-quasar"
+    versions:
+    - 1.135.0
+    - 1.137.0
+    - 1.138.0
+    - 1.139.0
+  - dependency-name: "@wmfs/cardscript-extract-defaults"
+    versions:
+    - 1.27.0
+  registries:
+  - npm-registry-registry-npmjs-org
