@@ -1,3 +1,16 @@
+# [1.265.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.264.0...v1.265.0) (2021-07-29)
+
+
+### 🛠 Builds
+
+* **deps:** bump cardscript-to-quasar ([4f764b7](https://github.com/wmfs/tymly-cardscript-sdk/commit/4f764b7ffc2a78181f3b55356887bf4640eff526))
+* **deps-dev:** bump mocha from 9.0.2 to 9.0.3 ([82725c3](https://github.com/wmfs/tymly-cardscript-sdk/commit/82725c37c161a0282ae612dc9fddda826f7321ea))
+
+
+### ♻️ Chores
+
+* add renovate config [ch6600] ([3b3dae1](https://github.com/wmfs/tymly-cardscript-sdk/commit/3b3dae147e070fa55735adbb7dc84ec6e5721ed2))
+
 # [1.264.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.263.0...v1.264.0) (2021-07-21)
 
 
