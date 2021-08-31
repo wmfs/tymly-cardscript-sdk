@@ -1,3 +1,16 @@
+# [1.267.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.266.0...v1.267.0) (2021-08-31)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency [@wmfs](https://github.com/wmfs)/cardscript-to-quasar to v1.191.0 ([20afb29](https://github.com/wmfs/tymly-cardscript-sdk/commit/20afb29066c09b7c7a07d12caf4ecef7f2b180ce))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.212.2 ([a0b496a](https://github.com/wmfs/tymly-cardscript-sdk/commit/a0b496a51183b065cb3de2fce06f8e5332b45591))
+* **deps-dev:** update dependency mocha to v9.1.0 ([06a900a](https://github.com/wmfs/tymly-cardscript-sdk/commit/06a900a8a9d1ccd422ce94565b56c64c8fb5527b))
+* **deps-dev:** update dependency mocha to v9.1.1 ([5a8a08c](https://github.com/wmfs/tymly-cardscript-sdk/commit/5a8a08c76f899cd79521f2a3622b7fa782f361fa))
+* **deps-dev:** update dependency semantic-release to v17.4.5 ([8cf2ea2](https://github.com/wmfs/tymly-cardscript-sdk/commit/8cf2ea272d5e093a599e30101b7f39f2b0731682))
+* **deps-dev:** update dependency semantic-release to v17.4.6 ([93f2e31](https://github.com/wmfs/tymly-cardscript-sdk/commit/93f2e3148eb79533455da0e54b8501581b240405))
+* **deps-dev:** update dependency semantic-release to v17.4.7 ([22779a3](https://github.com/wmfs/tymly-cardscript-sdk/commit/22779a3e2c68a02554251e832dd6e0082f0b0011))
+
 # [1.266.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.265.0...v1.266.0) (2021-07-29)
 
 
