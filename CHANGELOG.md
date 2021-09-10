@@ -1,3 +1,12 @@
+# [1.269.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.268.0...v1.269.0) (2021-09-10)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency axios to v0.21.2 [security] ([8e6f145](https://github.com/wmfs/tymly-cardscript-sdk/commit/8e6f1457d793382bbb6aee1608eb69ced13bcfdd))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.212.4 ([8cac378](https://github.com/wmfs/tymly-cardscript-sdk/commit/8cac37869e1781f2bd5c1c3f080d66db659417a9))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.213.0 ([a4c2673](https://github.com/wmfs/tymly-cardscript-sdk/commit/a4c2673415b0e22a535bfbecb012f8a2a2cc5b4d))
+
 # [1.268.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.267.0...v1.268.0) (2021-09-07)
 
 
