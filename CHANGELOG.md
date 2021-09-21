@@ -1,3 +1,19 @@
+## [1.269.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.269.0...v1.269.1) (2021-09-21)
+
+
+### 🐛 Bug Fixes
+
+* don't store execution response if noauth ([97da3a6](https://github.com/wmfs/tymly-cardscript-sdk/commit/97da3a6935633b9f65207549b16526438ea92be4))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v10 ([e32d739](https://github.com/wmfs/tymly-cardscript-sdk/commit/e32d7396a28f8b3cfb3c6d69ad1e5c985ca25e00))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.216.0 ([f80f0df](https://github.com/wmfs/tymly-cardscript-sdk/commit/f80f0df7af3c3a3a349b28e9f19da5e9635bf422))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.32.0 ([04d0371](https://github.com/wmfs/tymly-cardscript-sdk/commit/04d037122395c7b4e23007c512d7c9daedb2c1ab))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.26.0 ([99dd9a1](https://github.com/wmfs/tymly-cardscript-sdk/commit/99dd9a1435e780f17048fb7f56958e9b889dc104))
+* **deps-dev:** update dependency semantic-release to v18 ([b53563a](https://github.com/wmfs/tymly-cardscript-sdk/commit/b53563a493a690394b28242906723ee1fdee8d21))
+
 # [1.269.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.268.0...v1.269.0) (2021-09-10)
 
 
