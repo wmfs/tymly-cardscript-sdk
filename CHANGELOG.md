@@ -1,3 +1,16 @@
+# [1.270.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.269.1...v1.270.0) (2021-09-23)
+
+
+### ✨ Features
+
+* stopwatch to debug how long sync takes ([0a445af](https://github.com/wmfs/tymly-cardscript-sdk/commit/0a445afe3575e100ba51fc1d7ea99323a6e06aa3))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6 ([d51cc58](https://github.com/wmfs/tymly-cardscript-sdk/commit/d51cc589ff9d376345f4761b4158e594d5ff73c3))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.27.0 ([f6680ed](https://github.com/wmfs/tymly-cardscript-sdk/commit/f6680edf4caf66fa65c68619061982447f1816d1))
+
 ## [1.269.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.269.0...v1.269.1) (2021-09-21)
 
 
