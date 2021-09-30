@@ -1,3 +1,17 @@
+# [1.271.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.270.0...v1.271.0) (2021-09-30)
+
+
+### ✨ Features
+
+* extend stop watch labels for user query and save with info ([68b0d0b](https://github.com/wmfs/tymly-cardscript-sdk/commit/68b0d0b21e3e1eb7e4a20904179dc33ae8c87e0d))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.34.0 ([32f29e6](https://github.com/wmfs/tymly-cardscript-sdk/commit/32f29e6bac5e41c2966e198a7207f21d86e9d349))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.28.0 ([a25a5e2](https://github.com/wmfs/tymly-cardscript-sdk/commit/a25a5e2930410e8b1586ed0dc20ef7a51f472590))
+* **deps-dev:** update dependency mocha to v9.1.2 ([5a281b1](https://github.com/wmfs/tymly-cardscript-sdk/commit/5a281b1978b4b9b99c561cfe2504932732c47130))
+
 # [1.270.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.269.1...v1.270.0) (2021-09-23)
 
 
