@@ -1,3 +1,10 @@
+# [1.273.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.272.0...v1.273.0) (2021-10-04)
+
+
+### ✨ Features
+
+* handle state machines not existing ([c099dd1](https://github.com/wmfs/tymly-cardscript-sdk/commit/c099dd14103dc8903673f0fad042c482f45e8896))
+
 # [1.272.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.271.0...v1.272.0) (2021-10-04)
 
 
