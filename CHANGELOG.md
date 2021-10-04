@@ -1,3 +1,15 @@
+# [1.272.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.271.0...v1.272.0) (2021-10-04)
+
+
+### ✨ Features
+
+* get todo changes on user remit ([4dfb88f](https://github.com/wmfs/tymly-cardscript-sdk/commit/4dfb88fea210d8025cbb6d9f45acd84091fa7c14))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency standard to v16.0.4 ([70f738e](https://github.com/wmfs/tymly-cardscript-sdk/commit/70f738eab47aff1001de315383b1bc80f396384e))
+
 # [1.271.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.270.0...v1.271.0) (2021-09-30)
 
 
