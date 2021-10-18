@@ -1,3 +1,14 @@
+# [1.274.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.273.0...v1.274.0) (2021-10-18)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-vuelidate to 1.32.0 ([9b9bfde](https://github.com/wmfs/tymly-cardscript-sdk/commit/9b9bfde7386940aa885edfa4d56e49099693a9a6))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.217.0 ([caba206](https://github.com/wmfs/tymly-cardscript-sdk/commit/caba2067b568163973117a930da442bfd3c3216f))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.35.1 ([8437df3](https://github.com/wmfs/tymly-cardscript-sdk/commit/8437df35b8d0c0235aa31b0eb8c5094c30efc7ce))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.29.1 ([4c89fd2](https://github.com/wmfs/tymly-cardscript-sdk/commit/4c89fd226964e9b048bda5c0c9bbef3493534491))
+* **deps-dev:** update dependency mocha to v9.1.3 ([04badeb](https://github.com/wmfs/tymly-cardscript-sdk/commit/04badeb27e9684e71ff48fce85db2182700db7b4))
+
 # [1.273.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.272.0...v1.273.0) (2021-10-04)
 
 
