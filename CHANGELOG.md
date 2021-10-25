@@ -1,3 +1,17 @@
+# [1.280.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.279.0...v1.280.0) (2021-10-25)
+
+
+### ✨ Features
+
+* add/remove startables asynchronously ([08c8de5](https://github.com/wmfs/tymly-cardscript-sdk/commit/08c8de5c2017fdcee4043d8f3899dbbbf0082d66))
+* perform all persist/load tasks asynchronously ([20b8dbb](https://github.com/wmfs/tymly-cardscript-sdk/commit/20b8dbbb78eb74adc9ae53d546fb816b6b18e528))
+* persist/load from user query to be asynchronous and more logs ([bd6d61d](https://github.com/wmfs/tymly-cardscript-sdk/commit/bd6d61dad1f96b20938dab12c726410772d4de24))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.218.0 ([ba4080c](https://github.com/wmfs/tymly-cardscript-sdk/commit/ba4080c44015db0fce72cac159cee655ed78aed0))
+
 # [1.279.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.278.0...v1.279.0) (2021-10-22)
 
 
