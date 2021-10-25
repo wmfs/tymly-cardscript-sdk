@@ -1,3 +1,10 @@
+# [1.281.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.280.1...v1.281.0) (2021-10-25)
+
+
+### ✨ Features
+
+* make persisting to-dos asynchronous ([6ab26f5](https://github.com/wmfs/tymly-cardscript-sdk/commit/6ab26f5aa6ac5e5078a92e5619a5c87fea6df619))
+
 ## [1.280.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.280.0...v1.280.1) (2021-10-25)
 
 
