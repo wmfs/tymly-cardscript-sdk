@@ -1,3 +1,10 @@
+## [1.282.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.282.0...v1.282.1) (2021-10-25)
+
+
+### 🐛 Bug Fixes
+
+* stringify todos before generating shasum ([e646419](https://github.com/wmfs/tymly-cardscript-sdk/commit/e6464191cad55ef6f60720db949e6fa864b61c30))
+
 # [1.282.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.281.1...v1.282.0) (2021-10-25)
 
 
