@@ -1,3 +1,11 @@
+# [1.279.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.278.0...v1.279.0) (2021-10-22)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/cardscript-to-quasar to 1.196.2 ([78d5491](https://github.com/wmfs/tymly-cardscript-sdk/commit/78d549179009332def5e274f14037b8f9274118b))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.19.0 ([b1664a8](https://github.com/wmfs/tymly-cardscript-sdk/commit/b1664a8a13124bca051e7c1d563672390096205c))
+
 # [1.278.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.277.0...v1.278.0) (2021-10-21)
 
 
