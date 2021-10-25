@@ -1,3 +1,10 @@
+## [1.281.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.281.0...v1.281.1) (2021-10-25)
+
+
+### 🐛 Bug Fixes
+
+* swap around add times for logs ([137c51c](https://github.com/wmfs/tymly-cardscript-sdk/commit/137c51cdedeb0149262809039860d377f41bd0e0))
+
 # [1.281.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.280.1...v1.281.0) (2021-10-25)
 
 
