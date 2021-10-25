@@ -1,3 +1,10 @@
+## [1.280.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.280.0...v1.280.1) (2021-10-25)
+
+
+### 🐛 Bug Fixes
+
+* startablesToRemove is an array, not object ([cc0d809](https://github.com/wmfs/tymly-cardscript-sdk/commit/cc0d8093fb30d8ab74967d3bb3d47d407ca66b8c))
+
 # [1.280.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.279.0...v1.280.0) (2021-10-25)
 
 
