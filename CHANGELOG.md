@@ -1,3 +1,10 @@
+# [1.282.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.281.1...v1.282.0) (2021-10-25)
+
+
+### ✨ Features
+
+* add logs for duration of each persist user query function ([0d2b926](https://github.com/wmfs/tymly-cardscript-sdk/commit/0d2b926bb0772643e194029283a04ad30a29451e))
+
 ## [1.281.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.281.0...v1.281.1) (2021-10-25)
 
 
