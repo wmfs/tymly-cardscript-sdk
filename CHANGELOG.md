@@ -1,3 +1,20 @@
+# [1.284.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.283.0...v1.284.0) (2021-10-29)
+
+
+### ✨ Features
+
+* also make templates/watching asynchronous ([8693e63](https://github.com/wmfs/tymly-cardscript-sdk/commit/8693e63bf3aa431fbda4736ecadc8c4480be2817))
+
+
+### 🐛 Bug Fixes
+
+* simplify filter ([54f762f](https://github.com/wmfs/tymly-cardscript-sdk/commit/54f762f5cec34e98239922b89c3a2397f343f935))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.218.1 ([5e79727](https://github.com/wmfs/tymly-cardscript-sdk/commit/5e797273df995593eb937171a5adfce30504a199))
+
 # [1.283.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.282.1...v1.283.0) (2021-10-29)
 
 
