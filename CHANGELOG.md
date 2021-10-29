@@ -1,3 +1,10 @@
+# [1.285.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.284.0...v1.285.0) (2021-10-29)
+
+
+### ✨ Features
+
+* enforce limit on storing executions in db to avoid excessive usage [sc-11199] ([0c19cdc](https://github.com/wmfs/tymly-cardscript-sdk/commit/0c19cdc8a491d43940adc1e658764a5430dc7245))
+
 # [1.284.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.283.0...v1.284.0) (2021-10-29)
 
 
