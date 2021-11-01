@@ -1,3 +1,11 @@
+# [1.286.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.285.0...v1.286.0) (2021-11-01)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency [@wmfs](https://github.com/wmfs)/cardscript-to-vuelidate to v1.34.0 ([00bb0e0](https://github.com/wmfs/tymly-cardscript-sdk/commit/00bb0e0d2713d86eb4911cddc8fec3980d3eb6cb))
+* **deps-dev:** update semantic-release monorepo ([f97f433](https://github.com/wmfs/tymly-cardscript-sdk/commit/f97f4333fe57c469ea47d413bac80fc648f758a1))
+
 # [1.285.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.284.0...v1.285.0) (2021-10-29)
 
 
