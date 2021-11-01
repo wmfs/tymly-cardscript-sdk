@@ -30,7 +30,7 @@ describe('Set up', function () {
     tymly.boot(
       {
         pluginPaths: [
-          require.resolve('@wmfs/tymly-express-plugin'),
+          require.resolve('@wmfs/tymly-fastify-plugin'),
           require.resolve('@wmfs/tymly-cardscript-plugin'),
           require.resolve('@wmfs/tymly-solr-plugin'),
           require.resolve('@wmfs/tymly-rbac-plugin')
