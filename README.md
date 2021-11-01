@@ -24,4 +24,3 @@ $ npm run test
 
 ## <a name="license"></a>License
 [MIT](https://github.com/wmfs/cardscript/blob/master/LICENSE)
-
