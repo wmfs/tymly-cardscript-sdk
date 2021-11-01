@@ -1,3 +1,33 @@
+# [1.287.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.286.2...v1.287.0) (2021-11-01)
+
+
+### ✨ Features
+
+* bulk delete templates [sc-11199] ([187afe9](https://github.com/wmfs/tymly-cardscript-sdk/commit/187afe90252f281da6aafbff310fab836f0beb84))
+
+
+### 🐛 Bug Fixes
+
+* categories bulk put and bulk delete [sc-11199] ([0899365](https://github.com/wmfs/tymly-cardscript-sdk/commit/0899365acc0af536905e85ab0621f7df9c9d6b21))
+* declare modified as variable for re-usage [sc-11199] ([7e90c5d](https://github.com/wmfs/tymly-cardscript-sdk/commit/7e90c5d29232eb8c92e69e041df7bd0214ba57e8))
+* declare variable before usage [sc-11199] ([e9cffc9](https://github.com/wmfs/tymly-cardscript-sdk/commit/e9cffc94578a3d22aef0c05a4ef143b733f4077f))
+* default todosToAdd to empty array [sc-11199] ([b409388](https://github.com/wmfs/tymly-cardscript-sdk/commit/b409388794f291922fe6e4a0de80ef5c2c28232b))
+* only go to delete/put functions if there are any card templates [sc-11199] ([ada7238](https://github.com/wmfs/tymly-cardscript-sdk/commit/ada7238cb52723536eca82c7790b3aff266ea63b))
+* use bulkPut/bulkDelete for startables [sc-11199] ([9b419c3](https://github.com/wmfs/tymly-cardscript-sdk/commit/9b419c3c19856182f0f6b3c8e4d46b1e6e2b4d4f))
+* use bulkPut/bulkDelete for tasks [sc-11199] ([0941c51](https://github.com/wmfs/tymly-cardscript-sdk/commit/0941c51f35e6f87047d95984c149a59d6c5f5444))
+* use bulkPut/bulkDelete for todos [sc-11199] ([de337cb](https://github.com/wmfs/tymly-cardscript-sdk/commit/de337cb63077e0b3542d01905ac069cd278a34a4))
+* use bulkPut/bulkDelete for watching [sc-11199] ([8e5794d](https://github.com/wmfs/tymly-cardscript-sdk/commit/8e5794dba83be92ed44c0e1d2aba261e74b2a440))
+
+
+### 📦 Code Refactoring
+
+* re-arrange variables for order of function call [sc-11199] ([20eaef1](https://github.com/wmfs/tymly-cardscript-sdk/commit/20eaef16cbad381c63b1f75cfbc48a4ce27e4b7f))
+
+
+### 💎 Styles
+
+* standard fix [sc-11199] ([51ffa1d](https://github.com/wmfs/tymly-cardscript-sdk/commit/51ffa1d3212607bc5bcbb6eab5ef2d932e5cebef))
+
 ## [1.286.2](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.286.1...v1.286.2) (2021-11-01)
 
 
