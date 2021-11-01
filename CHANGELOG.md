@@ -1,3 +1,10 @@
+## [1.287.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.287.0...v1.287.1) (2021-11-01)
+
+
+### 🐛 Bug Fixes
+
+* for-loop better performing than .reduce() ([5a41e81](https://github.com/wmfs/tymly-cardscript-sdk/commit/5a41e817d0221bcdfbe24fd3305579e9332e44d2))
+
 # [1.287.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.286.2...v1.287.0) (2021-11-01)
 
 
