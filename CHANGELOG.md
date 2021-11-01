@@ -1,3 +1,15 @@
+## [1.286.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.286.0...v1.286.1) (2021-11-01)
+
+
+### 🐛 Bug Fixes
+
+* force release ([c62946d](https://github.com/wmfs/tymly-cardscript-sdk/commit/c62946d0c8671e906db0e66a47404408f6f0fa56))
+
+
+### 🛠 Builds
+
+* **deps-dev:** change from express to fastify plugin ([571fe6e](https://github.com/wmfs/tymly-cardscript-sdk/commit/571fe6e7ada81d917389a94bbc57bbc2d9c3cca0))
+
 # [1.286.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.285.0...v1.286.0) (2021-11-01)
 
 
