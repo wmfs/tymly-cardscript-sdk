@@ -1,3 +1,10 @@
+## [1.286.2](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.286.1...v1.286.2) (2021-11-01)
+
+
+### 🐛 Bug Fixes
+
+* change adding templates to use bulkPut ([b77f9c4](https://github.com/wmfs/tymly-cardscript-sdk/commit/b77f9c4665b0ec2e47a39323c7b46744657ac047))
+
 ## [1.286.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.286.0...v1.286.1) (2021-11-01)
 
 
