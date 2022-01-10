@@ -1,3 +1,24 @@
+# [1.288.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.287.1...v1.288.0) (2022-01-10)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.220.0 ([2eace6c](https://github.com/wmfs/tymly-cardscript-sdk/commit/2eace6ce06a9374d6dade9c703ab51d6b69c9da8))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.221.0 ([ffff981](https://github.com/wmfs/tymly-cardscript-sdk/commit/ffff981d5a954a090f526f706809e64c7427de57))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.222.0 ([d8bb4b8](https://github.com/wmfs/tymly-cardscript-sdk/commit/d8bb4b8745e40670e6b1b5a548fd37b2114a6f16))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.224.2 ([c0dca2b](https://github.com/wmfs/tymly-cardscript-sdk/commit/c0dca2b4cda00036bad2029c00787d1d2e352858))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.226.0 ([1bd9ba5](https://github.com/wmfs/tymly-cardscript-sdk/commit/1bd9ba52f6967c633fa55066a2aa61cb9bfaf56c))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.227.0 ([38a8fcd](https://github.com/wmfs/tymly-cardscript-sdk/commit/38a8fcd8e07d89318fc7ab57c1398653d9858ab9))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.36.2 ([8f48e4d](https://github.com/wmfs/tymly-cardscript-sdk/commit/8f48e4d5f8c064c889439403f21d6042d18efc61))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.37.0 ([f96a712](https://github.com/wmfs/tymly-cardscript-sdk/commit/f96a712a760bedf78b9a45b5ad3748a37236b393))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.37.1 ([f79a998](https://github.com/wmfs/tymly-cardscript-sdk/commit/f79a998c6d4136ee134c25ff77a156e7dbfa329a))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.38.0 ([b4d8cc6](https://github.com/wmfs/tymly-cardscript-sdk/commit/b4d8cc660748a341c8e903c70ddd6850eab610b4))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.20.0 ([b065d79](https://github.com/wmfs/tymly-cardscript-sdk/commit/b065d796820b9e8d5090a7f8b4565a6c9170d6f4))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.20.1 ([679c240](https://github.com/wmfs/tymly-cardscript-sdk/commit/679c240f75f7e6b8d7cf92fd8b4b2e08166d1e03))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.21.0 ([41e8b6e](https://github.com/wmfs/tymly-cardscript-sdk/commit/41e8b6ef982bda5981a89ecdeb84dc702bed8eba))
+* **deps-dev:** update dependency semantic-release to v18.0.1 ([7348eeb](https://github.com/wmfs/tymly-cardscript-sdk/commit/7348eebb57e3401a6013c7bfc3108e4503067aab))
+* **deps:** update dependency [@wmfs](https://github.com/wmfs)/cardscript-to-quasar to v1.196.3 ([8a75de3](https://github.com/wmfs/tymly-cardscript-sdk/commit/8a75de39833c05a7d4fe4786e168bacc2a7ac69c))
+
 ## [1.287.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.287.0...v1.287.1) (2021-11-01)
 
 
