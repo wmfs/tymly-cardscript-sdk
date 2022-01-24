@@ -1,3 +1,12 @@
+# [1.290.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.289.0...v1.290.0) (2022-01-24)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency mocha to v9.1.4 ([dca7e0b](https://github.com/wmfs/tymly-cardscript-sdk/commit/dca7e0b71a3ee453ea824161540140aae0ca9cf4))
+* **deps-dev:** update dependency semantic-release to v19 ([02a4994](https://github.com/wmfs/tymly-cardscript-sdk/commit/02a4994b5115aef988c19bf6308559cfcccb3fce))
+* **deps:** update cardscript dependencies ([55c2d03](https://github.com/wmfs/tymly-cardscript-sdk/commit/55c2d036ff90bc8e919932bd7488e778e34cb60f))
+
 # [1.289.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.288.0...v1.289.0) (2022-01-11)
 
 
