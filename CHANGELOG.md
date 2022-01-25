@@ -1,3 +1,10 @@
+# [1.293.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.292.0...v1.293.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency dexie to v3.2.0 ([5e56283](https://github.com/wmfs/tymly-cardscript-sdk/commit/5e56283e5af9e2730fba67bceea2b4bd914d53f9))
+
 # [1.292.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.291.0...v1.292.0) (2022-01-24)
 
 
