@@ -1,3 +1,16 @@
+# [1.295.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.294.0...v1.295.0) (2022-01-27)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.234.0 ([6cf5293](https://github.com/wmfs/tymly-cardscript-sdk/commit/6cf52930d4a86f163c49175e8e6c6ceeff287614))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin to v1.39.0 ([51ac676](https://github.com/wmfs/tymly-cardscript-sdk/commit/51ac6768e9bd17f79c9654b7bfc75bb044cba833))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-fastify-plugin to v1.59.0 ([0571e6c](https://github.com/wmfs/tymly-cardscript-sdk/commit/0571e6cc28412e68ae3d6ef1bb42f6b22190c6eb))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.32.0 ([53351a8](https://github.com/wmfs/tymly-cardscript-sdk/commit/53351a8f1609f832e544a26553841035c075c618))
+* **deps-dev:** update dependency chai to v4.3.5 ([59a209a](https://github.com/wmfs/tymly-cardscript-sdk/commit/59a209acc627f221868d68a1123f557cdc39c68c))
+* **deps-dev:** update dependency chai to v4.3.6 ([e4604ad](https://github.com/wmfs/tymly-cardscript-sdk/commit/e4604ad1ceec1afde01a5c2a617d737e53c91ea4))
+* **deps:** update [@wmfs](https://github.com/wmfs)/cardscript-to-quasar to 1.199.0 ([6f47707](https://github.com/wmfs/tymly-cardscript-sdk/commit/6f47707eedff81bbbdf96d07959258e735f7abfe))
+
 # [1.294.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.293.0...v1.294.0) (2022-01-25)
 
 
