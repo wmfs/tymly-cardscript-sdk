@@ -1,3 +1,14 @@
+# [1.296.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.295.0...v1.296.0) (2022-02-21)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.235.0 ([2386a5f](https://github.com/wmfs/tymly-cardscript-sdk/commit/2386a5fb98a2190839f30ad561989bbbad02f91c))
+* **deps-dev:** update dependency mocha to v9.2.1 ([5f9f8b7](https://github.com/wmfs/tymly-cardscript-sdk/commit/5f9f8b7bf4f8c55c74bc01e2d5477a8f844d028f))
+* **deps-dev:** update dependency vue to v3.2.31 ([1757d52](https://github.com/wmfs/tymly-cardscript-sdk/commit/1757d528edd8ef9d52dfae37432b950e1eae4a45))
+* **deps-dev:** update vue monorepo ([2468ca8](https://github.com/wmfs/tymly-cardscript-sdk/commit/2468ca874c7213d31a974ede11fc357341821185))
+* **deps:** update dependency [@wmfs](https://github.com/wmfs)/cardscript-to-quasar to v1.200.0 ([2f229d9](https://github.com/wmfs/tymly-cardscript-sdk/commit/2f229d964502d348b15a19fdb4ea70dd86265476))
+
 # [1.295.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.294.0...v1.295.0) (2022-01-27)
 
 
