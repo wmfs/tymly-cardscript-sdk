@@ -1,3 +1,24 @@
+## [1.301.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.301.0...v1.301.1) (2022-04-07)
+
+
+### 🐛 Bug Fixes
+
+* missing categories ([af5df37](https://github.com/wmfs/tymly-cardscript-sdk/commit/af5df3799c6e29eca4185c147ffbf80f56731cd0))
+* remove covid block ([414cb77](https://github.com/wmfs/tymly-cardscript-sdk/commit/414cb7798c508d769db732730f528a1d775f72ac))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.235.2 ([f17f98d](https://github.com/wmfs/tymly-cardscript-sdk/commit/f17f98da7ad6ccec4f751740c1c32b90df54847f))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-fastify-plugin to v1.60.0 ([4f19e68](https://github.com/wmfs/tymly-cardscript-sdk/commit/4f19e68986b322ec899276ee48a54d754cd88a5f))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-fastify-plugin to v1.62.0 ([bb28998](https://github.com/wmfs/tymly-cardscript-sdk/commit/bb2899859b3304a0b0cb4539875c20a186913c23))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.22.0 ([732dcef](https://github.com/wmfs/tymly-cardscript-sdk/commit/732dcef283912af9091bee10d592af5645915e86))
+
+
+### ♻️ Chores
+
+* standard ([7cfc6e4](https://github.com/wmfs/tymly-cardscript-sdk/commit/7cfc6e4a16f4c9cf4041dc8f1d4144fb3a953cf1))
+
 # [1.301.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.300.0...v1.301.0) (2022-03-29)
 
 
