@@ -231,7 +231,7 @@ describe('General tests', function () {
       logs,
       favourites,
       settings
-    } = store.state.app
+    } = store
 
     expect(logs.length).to.eql(0)
     expect(startables.length).to.eql(3)
@@ -250,7 +250,7 @@ describe('Favourites', function () {
   })
 
   it('check the vuex store if the favourite startable \'test_orderPizza_1_0\' has been added', () => {
-    const { favourites } = store.state.app
+    const { favourites } = store
     expect(favourites).to.eql(['test_orderPizza_1_0'])
   })
 
@@ -273,7 +273,7 @@ describe('Favourites', function () {
   })
 
   it('check the vuex store if the favourite startable \'test_orderPizza_1_0\' has been removed', () => {
-    const { favourites } = store.state.app
+    const { favourites } = store
     expect(favourites).to.eql([])
   })
 
@@ -326,7 +326,7 @@ describe('To-dos', function () {
   it('refresh user query, check new todo entry exists', async () => {
     await sdk.requestUserQuery()
 
-    const { todos } = store.state.app
+    const { todos } = store
     expect(todos.length).to.eql(1)
     expect(todos[0].id).to.eql(todoId)
   })
@@ -335,7 +335,7 @@ describe('To-dos', function () {
     await sdk.todo.remove(todoId)
     await sdk.requestUserQuery()
 
-    const { todos } = store.state.app
+    const { todos } = store
     expect(todos.length).to.eql(0)
   })
 })
@@ -366,7 +366,7 @@ describe('Watching', function () {
   it('refresh user query, check the watching entry exists', async () => {
     await sdk.requestUserQuery()
 
-    const { watching } = store.state.app
+    const { watching } = store
     expect(watching.length).to.eql(1)
     expect(watching[0].subscriptionId).to.eql(watchId)
   })
@@ -380,7 +380,7 @@ describe('Watching', function () {
   it('refresh user query, check the watching entry has been removed', async () => {
     await sdk.requestUserQuery()
 
-    const { watching } = store.state.app
+    const { watching } = store
     expect(watching.length).to.eql(0)
   })
 })
@@ -393,7 +393,7 @@ describe('Long Running Tasks', function () {
   it('no long running tasks', async () => {
     await sdk.requestUserQuery()
 
-    const { tasks } = store.state.app
+    const { tasks } = store
 
     expect(sdk.tasks.complete.length).to.equal(0)
     expect(sdk.tasks.running.length).to.equal(0)
@@ -459,7 +459,7 @@ describe('Executions', function () {
 
   it('load execution into store', async () => {
     await sdk.executions.load(execName)
-    const { execution } = store.state.app
+    const { execution } = store
     expect(execution.executionName).to.eql(execName)
   })
 
@@ -529,7 +529,7 @@ describe('Logs', function () {
   })
 
   it('check the store for logs', async () => {
-    const { logs } = store.state.app
+    const { logs } = store
     expect(logs.length).to.eql(12)
   })
 
@@ -544,7 +544,7 @@ describe('Logs', function () {
   it('load the logs to the store', async () => {
     await sdk.logs.loadLogs({})
 
-    const { logs } = store.state.app
+    const { logs } = store
     expect(logs.length).to.eql(LOG_LIMIT)
   })
 
@@ -576,20 +576,20 @@ describe('Logs', function () {
     // A log request of level p in a logger with level q is enabled if p >= q
     for (const level of LOG_LEVELS) {
       await sdk.logs.loadLogs({ logLevel: level })
-      const { logs } = store.state.app
+      const { logs } = store
       expect(logs.length).eql(LOG_LEVELS.indexOf(level) + 1)
     }
   })
 
   it('Should get logs with logLevel = `ALL`', async () => {
     await sdk.logs.loadLogs({ logLevel: 'ALL' })
-    const { logs } = store.state.app
+    const { logs } = store
     expect(logs.length).eql(logs.length)
   })
 
   it('Should get no logs with logLevel = `OFF`', async () => {
     await sdk.logs.loadLogs({ logLevel: 'OFF' })
-    const { logs } = store.state.app
+    const { logs } = store
     expect(logs).eql([])
   })
 
@@ -600,7 +600,7 @@ describe('Logs', function () {
       logLevel: 'ALL'
     })
 
-    const { logs } = store.state.app
+    const { logs } = store
     expect(logs.length).eql(3)
   })
 })
