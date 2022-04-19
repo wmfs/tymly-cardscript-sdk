@@ -47,7 +47,8 @@
     "semantic-release": "19.0.2",
     "standard": "16.0.4",
     "vue": "3.2.33",
-    "vuex": "4.0.2"
+    "pinia": "2.0.13",
+    "indexeddbshim": "9.0.0"
   },
   "scripts": {
     "lint": "standard",

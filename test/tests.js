@@ -9,22 +9,28 @@ const PRETEND_AUTH_SECRET = 'Shhh!!!'
 const PRETEND_AUDIENCE = 'I am the audience'
 const TYMLY_USERNAME = 'Dave'
 const { TymlySDK, Auth0 } = require('../lib')
-const vuexStore = require('./fixtures/store')
 const tymly = require('@wmfs/tymly')
 const path = require('path')
 const expect = require('chai').expect
 const setGlobalVars = require('indexeddbshim')
-const Vuex = require('vuex')
-const Vue = require('vue')
+const { useAppStore } = require('./fixtures/app-store')
+const { useTrackerStore } = require('./fixtures/tracker-store')
+const { createPinia, setActivePinia } = require('pinia')
 // const logLevels = ['FATAL', 'ERROR', 'WARN', 'INFO', 'DEBUG', 'TRACE']
 // const util = require('util')
 // const setTimeoutPromise = util.promisify(setTimeout)
 const LOG_LEVELS = ['FATAL', 'ERROR', 'WARN', 'INFO', 'DEBUG', 'TRACE']
 
-let sdk, auth, tymlyServices, indexedDB, IDBKeyRange, store, todoId, watchId, execName, authToken, server
+let sdk, auth, tymlyServices, indexedDB, IDBKeyRange, appStore, trackerStore, todoId, watchId, execName, authToken, server
 
 describe('Set up', function () {
   this.timeout(process.env.TIMEOUT || 5000)
+
+  it('set up the store', () => {
+    setActivePinia(createPinia())
+    appStore = useAppStore()
+    trackerStore = useTrackerStore()
+  })
 
   it('boot Tymly', done => {
     tymly.boot(
@@ -104,11 +110,6 @@ describe('Set up', function () {
     // indexedDB.__debug(true)
   })
 
-  it('set up the Vuex store', () => {
-    Vue.use(Vuex)
-    store = new Vuex.Store(vuexStore)
-  })
-
   it('set up the TymlySDK', () => {
     sdk = new TymlySDK({
       logLimit: LOG_LIMIT,
@@ -121,7 +122,8 @@ describe('Set up', function () {
         console,
         setTimeout
       },
-      store
+      appStore,
+      trackerStore
     })
   })
 
@@ -223,7 +225,7 @@ describe('General tests', function () {
     await sdk.logs.loadLogs({})
   })
 
-  it('check if the vuex store has been populated', () => {
+  it('check if the store has been populated', () => {
     const {
       startables,
       watching,
@@ -231,7 +233,7 @@ describe('General tests', function () {
       logs,
       favourites,
       settings
-    } = store
+    } = appStore
 
     expect(logs.length).to.eql(0)
     expect(startables.length).to.eql(3)
@@ -249,8 +251,8 @@ describe('Favourites', function () {
     await sdk.startables.favourite('test_orderPizza_1_0')
   })
 
-  it('check the vuex store if the favourite startable \'test_orderPizza_1_0\' has been added', () => {
-    const { favourites } = store
+  it('check the store if the favourite startable \'test_orderPizza_1_0\' has been added', () => {
+    const { favourites } = appStore
     expect(favourites).to.eql(['test_orderPizza_1_0'])
   })
 
@@ -272,8 +274,8 @@ describe('Favourites', function () {
     await sdk.startables.unfavourite('test_orderPizza_1_0')
   })
 
-  it('check the vuex store if the favourite startable \'test_orderPizza_1_0\' has been removed', () => {
-    const { favourites } = store
+  it('check the store if the favourite startable \'test_orderPizza_1_0\' has been removed', () => {
+    const { favourites } = appStore
     expect(favourites).to.eql([])
   })
 
@@ -326,7 +328,7 @@ describe('To-dos', function () {
   it('refresh user query, check new todo entry exists', async () => {
     await sdk.requestUserQuery()
 
-    const { todos } = store
+    const { todos } = appStore
     expect(todos.length).to.eql(1)
     expect(todos[0].id).to.eql(todoId)
   })
@@ -335,7 +337,7 @@ describe('To-dos', function () {
     await sdk.todo.remove(todoId)
     await sdk.requestUserQuery()
 
-    const { todos } = store
+    const { todos } = appStore
     expect(todos.length).to.eql(0)
   })
 })
@@ -366,7 +368,7 @@ describe('Watching', function () {
   it('refresh user query, check the watching entry exists', async () => {
     await sdk.requestUserQuery()
 
-    const { watching } = store
+    const { watching } = appStore
     expect(watching.length).to.eql(1)
     expect(watching[0].subscriptionId).to.eql(watchId)
   })
@@ -380,7 +382,7 @@ describe('Watching', function () {
   it('refresh user query, check the watching entry has been removed', async () => {
     await sdk.requestUserQuery()
 
-    const { watching } = store
+    const { watching } = appStore
     expect(watching.length).to.eql(0)
   })
 })
@@ -393,7 +395,7 @@ describe('Long Running Tasks', function () {
   it('no long running tasks', async () => {
     await sdk.requestUserQuery()
 
-    const { tasks } = store
+    const { tasks } = appStore
 
     expect(sdk.tasks.complete.length).to.equal(0)
     expect(sdk.tasks.running.length).to.equal(0)
@@ -459,7 +461,7 @@ describe('Executions', function () {
 
   it('load execution into store', async () => {
     await sdk.executions.load(execName)
-    const { execution } = store
+    const { execution } = appStore
     expect(execution.executionName).to.eql(execName)
   })
 
@@ -529,7 +531,7 @@ describe('Logs', function () {
   })
 
   it('check the store for logs', async () => {
-    const { logs } = store
+    const { logs } = appStore
     expect(logs.length).to.eql(12)
   })
 
@@ -544,7 +546,7 @@ describe('Logs', function () {
   it('load the logs to the store', async () => {
     await sdk.logs.loadLogs({})
 
-    const { logs } = store
+    const { logs } = appStore
     expect(logs.length).to.eql(LOG_LIMIT)
   })
 
@@ -576,20 +578,20 @@ describe('Logs', function () {
     // A log request of level p in a logger with level q is enabled if p >= q
     for (const level of LOG_LEVELS) {
       await sdk.logs.loadLogs({ logLevel: level })
-      const { logs } = store
+      const { logs } = appStore
       expect(logs.length).eql(LOG_LEVELS.indexOf(level) + 1)
     }
   })
 
   it('Should get logs with logLevel = `ALL`', async () => {
     await sdk.logs.loadLogs({ logLevel: 'ALL' })
-    const { logs } = store
+    const { logs } = appStore
     expect(logs.length).eql(logs.length)
   })
 
   it('Should get no logs with logLevel = `OFF`', async () => {
     await sdk.logs.loadLogs({ logLevel: 'OFF' })
-    const { logs } = store
+    const { logs } = appStore
     expect(logs).eql([])
   })
 
@@ -600,7 +602,7 @@ describe('Logs', function () {
       logLevel: 'ALL'
     })
 
-    const { logs } = store
+    const { logs } = appStore
     expect(logs.length).eql(3)
   })
 })
