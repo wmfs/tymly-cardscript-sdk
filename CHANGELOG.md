@@ -1,3 +1,15 @@
+# [1.303.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.302.0...v1.303.0) (2022-05-09)
+
+
+### ✨ Features
+
+* last described now passed into url ([de0f974](https://github.com/wmfs/tymly-cardscript-sdk/commit/de0f9741ae54054d8b57242275260451bce62483))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.235.3 ([3b20b4a](https://github.com/wmfs/tymly-cardscript-sdk/commit/3b20b4a8cc47a0eb7256dfc2a0d9b7823fa6ee40))
+
 # [1.302.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.301.1...v1.302.0) (2022-05-06)
 
 
