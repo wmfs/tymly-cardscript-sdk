@@ -45,7 +45,7 @@
     "nyc": "15.1.0",
     "semantic-release": "19.0.2",
     "standard": "16.0.4",
-    "vue": "3.2.35",
+    "vue": "3.2.36",
     "vuex": "4.0.2"
   },
   "scripts": {
