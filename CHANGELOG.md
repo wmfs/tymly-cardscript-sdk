@@ -1,3 +1,19 @@
+# [1.304.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.303.0...v1.304.0) (2022-06-08)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.237.0 ([aa92010](https://github.com/wmfs/tymly-cardscript-sdk/commit/aa920108c794103979462686504d199cec65baec))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.239.0 ([358d3ad](https://github.com/wmfs/tymly-cardscript-sdk/commit/358d3adb6bf452150482e8f237ebd47a9ee0c4d9))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.239.1 ([41d1810](https://github.com/wmfs/tymly-cardscript-sdk/commit/41d1810a3df0efcc1f6031ba116f43714d4e15c2))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-fastify-plugin to v1.62.1 ([65906e4](https://github.com/wmfs/tymly-cardscript-sdk/commit/65906e4d4be108a55d8ad3316dbac7803c59a3d1))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-fastify-plugin to v1.62.2 ([d5f688e](https://github.com/wmfs/tymly-cardscript-sdk/commit/d5f688e4f60726886f71ae334a7929aa49344e32))
+* **deps-dev:** update dependency vue to v3.2.34 ([dbae80f](https://github.com/wmfs/tymly-cardscript-sdk/commit/dbae80f5a39c032f451d80208ac46ec5589739c6))
+* **deps-dev:** update dependency vue to v3.2.35 ([68a0879](https://github.com/wmfs/tymly-cardscript-sdk/commit/68a08795e16a0207badb5c3c022ce906701ef557))
+* **deps-dev:** update dependency vue to v3.2.36 ([a1c7129](https://github.com/wmfs/tymly-cardscript-sdk/commit/a1c7129f264e4cce5fcb7671cb135b994fddb3d3))
+* **deps-dev:** update dependency vue to v3.2.37 ([3a08eef](https://github.com/wmfs/tymly-cardscript-sdk/commit/3a08eef8d84e4976aa8ae4b120177b1e8a99d2be))
+* **deps:** update dependency [@wmfs](https://github.com/wmfs)/cardscript-to-quasar to v1.204.2 ([52d6be8](https://github.com/wmfs/tymly-cardscript-sdk/commit/52d6be89aa121a86965e35131f8c678c5437f6fc))
+
 # [1.303.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.302.0...v1.303.0) (2022-05-09)
 
 
