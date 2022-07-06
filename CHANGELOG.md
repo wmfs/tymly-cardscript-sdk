@@ -1,3 +1,11 @@
+# [1.308.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.307.0...v1.308.0) (2022-07-06)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency [@wmfs](https://github.com/wmfs)/cardscript-extract-lists to v1.12.0 ([a0b7f4e](https://github.com/wmfs/tymly-cardscript-sdk/commit/a0b7f4ea448a7270cb9b8f91d0cd9c98fc74acb5))
+* **deps:** update dependency [@wmfs](https://github.com/wmfs)/cardscript-post-processor to v1.4.0 ([4400ff0](https://github.com/wmfs/tymly-cardscript-sdk/commit/4400ff00b2574461d96bdd8dc416a3456f8abf8e))
+
 # [1.307.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.306.0...v1.307.0) (2022-07-06)
 
 
