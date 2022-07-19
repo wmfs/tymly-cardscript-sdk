@@ -1,3 +1,10 @@
+# [1.314.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.313.0...v1.314.0) (2022-07-19)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency [@wmfs](https://github.com/wmfs)/cardscript-to-quasar to v1.212.0 ([5f53822](https://github.com/wmfs/tymly-cardscript-sdk/commit/5f5382220cfd5770bea99906516cbb9608433573))
+
 # [1.313.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.312.0...v1.313.0) (2022-07-15)
 
 
