@@ -1,3 +1,11 @@
+# [1.318.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.317.0...v1.318.0) (2022-07-26)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency pinia to v2.0.17 ([637722a](https://github.com/wmfs/tymly-cardscript-sdk/commit/637722af0b1100075808a9e8adb294c5eeb91ab8))
+* **deps:** update dependency [@wmfs](https://github.com/wmfs)/cardscript-to-quasar to v1.217.0 ([7d47a32](https://github.com/wmfs/tymly-cardscript-sdk/commit/7d47a320a8ffcc62e7a83b268a8e06874a3c19ee))
+
 # [1.317.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.316.0...v1.317.0) (2022-07-19)
 
 
