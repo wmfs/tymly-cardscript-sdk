@@ -11,7 +11,7 @@
   "dependencies": {
     "@wmfs/cardscript-post-processor": "1.4.0",
     "@wmfs/cardscript-to-vuelidate": "1.38.0",
-    "@wmfs/cardscript-extract-defaults": "1.35.1",
+    "@wmfs/cardscript-extract-defaults": "1.35.2",
     "@wmfs/cardscript-extract-graphs": "1.1.0",
     "@wmfs/cardscript-extract-lists": "1.14.0",
     "@wmfs/cardscript-schema": "1.32.0",
