@@ -1,3 +1,10 @@
+## [1.334.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.334.0...v1.334.1) (2022-09-08)
+
+
+### 🐛 Bug Fixes
+
+* if title supplied for saving data then store as subtitle ([7865e88](https://github.com/wmfs/tymly-cardscript-sdk/commit/7865e883a2c6cdeb5c6ff0bc845e590d7ebff06a))
+
 # [1.334.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.333.0...v1.334.0) (2022-09-06)
 
 
