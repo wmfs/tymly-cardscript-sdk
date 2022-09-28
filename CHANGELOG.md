@@ -1,3 +1,16 @@
+# [1.338.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.337.0...v1.338.0) (2022-09-28)
+
+
+### ✨ Features
+
+* pass config object to save data and include category ([6894876](https://github.com/wmfs/tymly-cardscript-sdk/commit/6894876ae8d262508736909a34cea7d1b93f5c8c))
+
+
+### 🛠 Builds
+
+* **deps:** set cardscript-to-quasar to dev branch ([57aaf4b](https://github.com/wmfs/tymly-cardscript-sdk/commit/57aaf4bb3cf43183d302c99d04c557ba6e06178b))
+* **deps:** update cardscript to quasar to 1.232.0 ([2479fc6](https://github.com/wmfs/tymly-cardscript-sdk/commit/2479fc68eaa9cefe284d6d5c6ba27de8bcd4b5a4))
+
 # [1.336.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.335.0...v1.336.0) (2022-09-08)
 
 
