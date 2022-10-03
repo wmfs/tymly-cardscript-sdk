@@ -1,3 +1,10 @@
+## [1.338.1](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.338.0...v1.338.1) (2022-10-03)
+
+
+### 🐛 Bug Fixes
+
+* Unable to reach drafts, outbox, long running tasks from suggestions [sc-17270] ([858ace8](https://github.com/wmfs/tymly-cardscript-sdk/commit/858ace812e5c640fdc22f5eee9d6b92492195797))
+
 # [1.338.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.337.0...v1.338.0) (2022-09-28)
 
 
