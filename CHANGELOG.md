@@ -1,3 +1,10 @@
+# [1.345.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.344.0...v1.345.0) (2022-11-01)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency uuid to v9 ([a9f010a](https://github.com/wmfs/tymly-cardscript-sdk/commit/a9f010affbf5a8b871a053908330fb5d9fdec407))
+
 # [1.344.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.343.0...v1.344.0) (2022-10-25)
 
 
