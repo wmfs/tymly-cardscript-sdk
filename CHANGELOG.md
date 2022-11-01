@@ -1,3 +1,10 @@
+# [1.346.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.345.0...v1.346.0) (2022-11-01)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency axios to v1 ([afb0a00](https://github.com/wmfs/tymly-cardscript-sdk/commit/afb0a00aeb76fa7202a5d5236cca0d0852cf3d1d))
+
 # [1.345.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.344.0...v1.345.0) (2022-11-01)
 
 
