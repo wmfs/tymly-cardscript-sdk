@@ -27,7 +27,7 @@
   "devDependencies": {
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "10.0.1",
-    "@wmfs/tymly": "1.247.0",
+    "@wmfs/tymly": "1.247.1",
     "@wmfs/tymly-fastify-plugin": "1.67.0",
     "@wmfs/tymly-rbac-plugin": "1.23.0",
     "@wmfs/tymly-solr-plugin": "2.36.0",
