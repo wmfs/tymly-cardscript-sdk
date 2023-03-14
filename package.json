@@ -28,7 +28,7 @@
     "@semantic-release/changelog": "6.0.2",
     "@semantic-release/git": "10.0.1",
     "@wmfs/tymly": "1.256.0",
-    "@wmfs/tymly-fastify-plugin": "1.68.0",
+    "@wmfs/tymly-fastify-plugin": "1.71.0",
     "@wmfs/tymly-rbac-plugin": "1.23.0",
     "@wmfs/tymly-solr-plugin": "2.37.0",
     "@wmfs/tymly-cardscript-plugin": "1.43.2",
