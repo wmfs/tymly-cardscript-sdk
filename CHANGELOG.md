@@ -1,3 +1,12 @@
+# [1.354.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.353.0...v1.354.0) (2023-07-26)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency [@wmfs](https://github.com/wmfs)/cardscript-post-processor to v1.5.0 ([1f9cd4d](https://github.com/wmfs/tymly-cardscript-sdk/commit/1f9cd4d9bba2164833b6fd8a1a433940223586c7))
+* **deps:** update dependency [@wmfs](https://github.com/wmfs)/cardscript-to-quasar to v1.240.0 ([2fbd2de](https://github.com/wmfs/tymly-cardscript-sdk/commit/2fbd2de1b1d0c326394453616c7f51dd6d95a2e5))
+* **deps:** update dependency [@wmfs](https://github.com/wmfs)/cardscript-to-vuelidate to v1.46.0 ([60a2f7c](https://github.com/wmfs/tymly-cardscript-sdk/commit/60a2f7ca33e6b781a67de12b74db83d40b39c716))
+
 # [1.353.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.352.0...v1.353.0) (2023-07-26)
 
 
