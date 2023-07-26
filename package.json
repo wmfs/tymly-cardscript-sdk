@@ -9,7 +9,7 @@
   ],
   "main": "./lib/index.js",
   "dependencies": {
-    "@wmfs/cardscript-post-processor": "1.5.0",
+    "@wmfs/cardscript-post-processor": "1.6.0",
     "@wmfs/cardscript-to-vuelidate": "1.46.0",
     "@wmfs/cardscript-extract-defaults": "1.39.0",
     "@wmfs/cardscript-extract-graphs": "1.1.0",
