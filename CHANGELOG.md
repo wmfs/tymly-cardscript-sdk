@@ -1,3 +1,19 @@
+# [1.351.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.350.0...v1.351.0) (2023-07-26)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.258.0 ([a76fe2c](https://github.com/wmfs/tymly-cardscript-sdk/commit/a76fe2ce735265faeb743dc0162cfbfc5f60b3e1))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-fastify-plugin to v1.72.0 ([4ac2e37](https://github.com/wmfs/tymly-cardscript-sdk/commit/4ac2e371ad96d39934a4dd1985980413f2efccb4))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-fastify-plugin to v1.74.0 ([edc5538](https://github.com/wmfs/tymly-cardscript-sdk/commit/edc553845ffb64260acb1174b709278c1aa8e7ca))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.28.0 ([b13b3c0](https://github.com/wmfs/tymly-cardscript-sdk/commit/b13b3c08dd2b45566ee116ab955984f789e53d95))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.39.0 ([d6bb075](https://github.com/wmfs/tymly-cardscript-sdk/commit/d6bb075992f2e6afe62d2288970650cff0629fd2))
+* **deps-dev:** update dependency pinia to v2.1.4 ([fc8a769](https://github.com/wmfs/tymly-cardscript-sdk/commit/fc8a769347a7d5a93d58ddf2a93baf680726e27d))
+* **deps-dev:** update dependency semantic-release to v21.0.5 ([3a8b358](https://github.com/wmfs/tymly-cardscript-sdk/commit/3a8b358952323b3e83288eae67924e0805f133fb))
+* **deps-dev:** update dependency semantic-release to v21.0.6 ([3bc0002](https://github.com/wmfs/tymly-cardscript-sdk/commit/3bc00023807ab82843414db18720fa8d84f2da84))
+* **deps-dev:** update dependency semantic-release to v21.0.7 ([adbd094](https://github.com/wmfs/tymly-cardscript-sdk/commit/adbd0948ea6908a93615e3d7a42fb5475332b140))
+* **deps:** update dependency [@wmfs](https://github.com/wmfs)/cardscript-extract-lists to v1.18.0 ([d679056](https://github.com/wmfs/tymly-cardscript-sdk/commit/d679056bf82ae3c94fcaad5edf79d0ccdf0cf28b))
+
 # [1.350.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.349.0...v1.350.0) (2023-06-07)
 
 
