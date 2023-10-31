@@ -13,7 +13,7 @@
     "@wmfs/cardscript-to-vuelidate": "1.46.0",
     "@wmfs/cardscript-extract-defaults": "1.39.0",
     "@wmfs/cardscript-extract-graphs": "1.1.0",
-    "@wmfs/cardscript-extract-lists": "1.18.0",
+    "@wmfs/cardscript-extract-lists": "1.19.1",
     "@wmfs/cardscript-schema": "1.35.0",
     "@wmfs/cardscript-table-of-contents": "1.1.0",
     "@wmfs/cardscript-to-quasar": "1.242.0",
