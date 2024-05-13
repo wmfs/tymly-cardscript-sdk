@@ -1,3 +1,5 @@
+# [1.373.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.372.0...v1.373.0) (2024-05-13)
+
 # [1.372.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.371.0...v1.372.0) (2024-05-07)
 
 # [1.371.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.370.0...v1.371.0) (2024-05-02)
