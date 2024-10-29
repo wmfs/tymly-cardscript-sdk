@@ -46,7 +46,7 @@
     "nyc": "17.1.0",
     "semantic-release": "24.2.0",
     "standard": "17.1.2",
-    "pinia": "2.2.4",
+    "pinia": "2.2.5",
     "indexeddbshim": "15.2.0"
   },
   "scripts": {
