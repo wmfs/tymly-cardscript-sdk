@@ -1,3 +1,9 @@
+## [1.408.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.407.0...v1.408.0) (2025-01-17)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency dexie to v4.0.11 ([#1120](https://github.com/wmfs/tymly-cardscript-sdk/issues/1120)) ([a1e8693](https://github.com/wmfs/tymly-cardscript-sdk/commit/a1e86937419d75051b4cacdbbe4c4c9807c490d5))
+
 ## [1.407.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.406.0...v1.407.0) (2025-01-15)
 
 ### Build system dependencies :hammer:
