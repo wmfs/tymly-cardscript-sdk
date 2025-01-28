@@ -40,7 +40,7 @@ jobs:
       - run:
           name: install standard
           command: 
-            npm install node-pre-gyp
+            npm install @mapbox/node-pre-gyp
             npm install
       - run:
           name: lint
