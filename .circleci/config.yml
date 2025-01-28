@@ -17,7 +17,9 @@ jobs:
             - v1-deps-
       - run:
           name: install
-          command: npm install
+          command: 
+            npm install node-pre-gyp
+            npm install
       - save_cache:
           key: v1-deps-{{ checksum "package.json" }}
           paths:
