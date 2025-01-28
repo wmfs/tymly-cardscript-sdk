@@ -1,3 +1,15 @@
+## [1.411.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.410.0...v1.411.0) (2025-01-28)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency pinia to v2.3.1 ([#1123](https://github.com/wmfs/tymly-cardscript-sdk/issues/1123)) ([2dc2bf5](https://github.com/wmfs/tymly-cardscript-sdk/commit/2dc2bf53ea38498c5fbb93148806f559f3b13279))
+* **deps:** rollback ([7757bff](https://github.com/wmfs/tymly-cardscript-sdk/commit/7757bffe30921982a248bee2b6b6d9b887292ad0))
+
+### CICD Configuration Changes :construction_worker:
+
+* rollback node version from lts to latest 21 release ([ddcf9ec](https://github.com/wmfs/tymly-cardscript-sdk/commit/ddcf9ecec352c1a8004f8a9e8c7b00395a53aa02))
+* rollback node version from lts to latest 21 release ([9b038b8](https://github.com/wmfs/tymly-cardscript-sdk/commit/9b038b828a72b10f2c9cd3f3b0340a71dc55383a))
+
 ## [1.410.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.409.0...v1.410.0) (2025-01-17)
 
 ### Build system dependencies :hammer:
