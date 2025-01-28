@@ -39,10 +39,7 @@ jobs:
       - checkout
       - run:
           name: install standard
-          command: 
-            npm install @mapbox/node-pre-gyp
-            npm install canvas
-            npm install
+          command: npm install
       - run:
           name: lint
           command: npm run lint
