@@ -41,6 +41,7 @@ jobs:
           name: install standard
           command: 
             npm install @mapbox/node-pre-gyp
+            npm install canvas
             npm install
       - run:
           name: lint
