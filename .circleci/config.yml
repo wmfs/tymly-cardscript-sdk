@@ -30,7 +30,7 @@ jobs:
       #    command: npm run coverage
   lint:
     docker:
-      - image: cimg/node:lts
+      - image: cimg/node:21.7.3
         auth:
           username: $DOCKERHUB_USERNAME
           password: $DOCKERHUB_PASSWORD
@@ -45,7 +45,7 @@ jobs:
           command: npm run lint
   release:
     docker:
-      - image: cimg/node:lts
+      - image: cimg/node:21.7.3
         auth:
           username: $DOCKERHUB_USERNAME
           password: $DOCKERHUB_PASSWORD
