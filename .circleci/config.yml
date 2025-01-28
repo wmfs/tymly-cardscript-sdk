@@ -30,7 +30,7 @@ jobs:
       #    command: npm run coverage
   lint:
     docker:
-      - image: cimg/node:19.9.0
+      - image: cimg/node:21.7.3
         auth:
           username: $DOCKERHUB_USERNAME
           password: $DOCKERHUB_PASSWORD
