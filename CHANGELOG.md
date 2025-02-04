@@ -1,3 +1,11 @@
+## [1.413.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.412.0...v1.413.0) (2025-02-04)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly-fastify-plugin to v1.105.0 ([#1125](https://github.com/wmfs/tymly-cardscript-sdk/issues/1125)) ([62cbfc8](https://github.com/wmfs/tymly-cardscript-sdk/commit/62cbfc8a0429faf9c3e118aa80f982f3f5734c9f))
+* **deps-dev:** update dependency mocha to v11.1.0 ([#1124](https://github.com/wmfs/tymly-cardscript-sdk/issues/1124)) ([d079cb1](https://github.com/wmfs/tymly-cardscript-sdk/commit/d079cb17aa50508d537e90f7a8ebe1f9b62f091c))
+* **deps:** update dependency @wmfs/cardscript-schema to v1.37.0 ([#1128](https://github.com/wmfs/tymly-cardscript-sdk/issues/1128)) ([b03e598](https://github.com/wmfs/tymly-cardscript-sdk/commit/b03e598faa9d3a973229da64238e874af7a9467a))
+
 ## [1.412.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.411.0...v1.412.0) (2025-01-28)
 
 ### Build system dependencies :hammer:
