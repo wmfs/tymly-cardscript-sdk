@@ -1,3 +1,13 @@
+## [1.416.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.415.0...v1.416.0) (2025-02-20)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly-fastify-plugin to v1.107.0 ([#1139](https://github.com/wmfs/tymly-cardscript-sdk/issues/1139)) ([a6af152](https://github.com/wmfs/tymly-cardscript-sdk/commit/a6af152b99bb41ea5eaecfd54c502e69a2ef260f))
+* **deps-dev:** update dependency chai to v5.2.0 ([#1137](https://github.com/wmfs/tymly-cardscript-sdk/issues/1137)) ([e71fa3e](https://github.com/wmfs/tymly-cardscript-sdk/commit/e71fa3e14aee2aa935535eec7e00c215b0018a01))
+* **deps-dev:** update dependency pinia to v3.0.1 ([#1136](https://github.com/wmfs/tymly-cardscript-sdk/issues/1136)) ([c241fa5](https://github.com/wmfs/tymly-cardscript-sdk/commit/c241fa5356f2535b3ba668d6ab8ba39da4d15b72))
+* **deps-dev:** update dependency semantic-release to v24.2.3 ([#1138](https://github.com/wmfs/tymly-cardscript-sdk/issues/1138)) ([2596e94](https://github.com/wmfs/tymly-cardscript-sdk/commit/2596e94b93fa9fb649dd46798944d30b624a1517))
+* **deps:** update dependency uuid to v11.1.0 ([#1140](https://github.com/wmfs/tymly-cardscript-sdk/issues/1140)) ([55cd8a3](https://github.com/wmfs/tymly-cardscript-sdk/commit/55cd8a3e44f4c1092c707c76d96dde387617aac2))
+
 ## [1.415.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.414.0...v1.415.0) (2025-02-12)
 
 ### Build system dependencies :hammer:
