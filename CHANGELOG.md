@@ -1,3 +1,11 @@
+## [1.423.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.422.0...v1.423.0) (2025-03-14)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly-fastify-plugin to v1.116.0 ([#1159](https://github.com/wmfs/tymly-cardscript-sdk/issues/1159)) ([fde2211](https://github.com/wmfs/tymly-cardscript-sdk/commit/fde2211617967fb3d34a14e2d4b1f4b2fbbe926d))
+* **deps-dev:** update dependency @wmfs/tymly-solr-plugin to v2.51.0 ([#1161](https://github.com/wmfs/tymly-cardscript-sdk/issues/1161)) ([8739fa5](https://github.com/wmfs/tymly-cardscript-sdk/commit/8739fa5e900d0231bd09ace902185bc00320a7ac))
+* **deps:** update dependency @wmfs/cardscript-to-quasar to v1.266.0 ([#1162](https://github.com/wmfs/tymly-cardscript-sdk/issues/1162)) ([91d1ee0](https://github.com/wmfs/tymly-cardscript-sdk/commit/91d1ee03c79f2200b646d28ef0215e0a0f82695a))
+
 ## [1.422.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.421.0...v1.422.0) (2025-03-12)
 
 ### Build system dependencies :hammer:
