@@ -1,3 +1,16 @@
+## [1.425.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.424.0...v1.425.0) (2025-04-08)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.300.0 ([#1168](https://github.com/wmfs/tymly-cardscript-sdk/issues/1168)) ([1df4409](https://github.com/wmfs/tymly-cardscript-sdk/commit/1df4409dbd70ce6212e163efee269e4e979e77c5))
+* **deps-dev:** update dependency @wmfs/tymly to v1.303.0 ([#1170](https://github.com/wmfs/tymly-cardscript-sdk/issues/1170)) ([02e0aea](https://github.com/wmfs/tymly-cardscript-sdk/commit/02e0aea6ec7d747e0ca7e248a58353317bab9ed6))
+* **deps-dev:** update dependency @wmfs/tymly to v1.305.0 ([#1172](https://github.com/wmfs/tymly-cardscript-sdk/issues/1172)) ([1fb9a0a](https://github.com/wmfs/tymly-cardscript-sdk/commit/1fb9a0a26962c784d4a04a94c94f2d35126e6a59))
+* **deps-dev:** update dependency @wmfs/tymly to v1.306.0 ([#1173](https://github.com/wmfs/tymly-cardscript-sdk/issues/1173)) ([80850a6](https://github.com/wmfs/tymly-cardscript-sdk/commit/80850a68565da3b9d3a515bb73ef422063b3dbdf))
+* **deps-dev:** update dependency @wmfs/tymly-fastify-plugin to v1.118.0 ([#1167](https://github.com/wmfs/tymly-cardscript-sdk/issues/1167)) ([53f9ffe](https://github.com/wmfs/tymly-cardscript-sdk/commit/53f9ffe9229eafcd6a552e0be05bd0bec7d4c7da))
+* **deps-dev:** update dependency @wmfs/tymly-fastify-plugin to v1.120.0 ([#1171](https://github.com/wmfs/tymly-cardscript-sdk/issues/1171)) ([00a94a2](https://github.com/wmfs/tymly-cardscript-sdk/commit/00a94a2247c97adbc27b044426a4b36588adbcaa))
+* **deps-dev:** update dependency @wmfs/tymly-solr-plugin to v2.53.0 ([#1169](https://github.com/wmfs/tymly-cardscript-sdk/issues/1169)) ([9b0e441](https://github.com/wmfs/tymly-cardscript-sdk/commit/9b0e441bd5e86b90b12a5fe42067a8bdbd8fafe9))
+* **deps:** update dependency @wmfs/cardscript-extract-defaults to v1.56.0 ([#1174](https://github.com/wmfs/tymly-cardscript-sdk/issues/1174)) ([7d22dc1](https://github.com/wmfs/tymly-cardscript-sdk/commit/7d22dc1575a7141bacfcfa73c027dbc764d06e53))
+
 ## [1.424.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.423.0...v1.424.0) (2025-03-20)
 
 ### Build system dependencies :hammer:
