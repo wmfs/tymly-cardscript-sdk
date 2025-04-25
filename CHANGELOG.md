@@ -1,3 +1,9 @@
+## [1.427.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.426.0...v1.427.0) (2025-04-25)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency axios to v1.9.0 ([#1180](https://github.com/wmfs/tymly-cardscript-sdk/issues/1180)) ([74dd253](https://github.com/wmfs/tymly-cardscript-sdk/commit/74dd253194bed7033b9c66e214eedbd92f4c0eea))
+
 ## [1.426.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.425.0...v1.426.0) (2025-04-23)
 
 ### Build system dependencies :hammer:
