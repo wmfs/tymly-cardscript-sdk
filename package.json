@@ -28,7 +28,7 @@
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/release-notes-generator": "14.0.3",
     "@semantic-release/git": "10.0.1",
-    "@wmfs/tymly": "1.310.0",
+    "@wmfs/tymly": "1.311.0",
     "@wmfs/tymly-fastify-plugin": "1.123.0",
     "@wmfs/tymly-rbac-plugin": "1.32.0",
     "@wmfs/tymly-solr-plugin": "2.54.0",
