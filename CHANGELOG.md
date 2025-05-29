@@ -1,3 +1,9 @@
+## [1.435.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.434.0...v1.435.0) (2025-05-29)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency @wmfs/cardscript-to-vuelidate to v1.59.0 ([#1203](https://github.com/wmfs/tymly-cardscript-sdk/issues/1203)) ([16fa937](https://github.com/wmfs/tymly-cardscript-sdk/commit/16fa9370cbcfacf14054d27983d8908ba67b6278))
+
 ## [1.434.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.433.0...v1.434.0) (2025-05-28)
 
 ### Build system dependencies :hammer:
