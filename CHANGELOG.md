@@ -1,3 +1,14 @@
+## [1.436.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.435.0...v1.436.0) (2025-06-16)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.312.0 ([#1206](https://github.com/wmfs/tymly-cardscript-sdk/issues/1206)) ([7d92931](https://github.com/wmfs/tymly-cardscript-sdk/commit/7d92931d0a8e418f9a503bb21368ee52d08fc551))
+* **deps-dev:** update dependency @wmfs/tymly-fastify-plugin to v1.126.0 ([#1207](https://github.com/wmfs/tymly-cardscript-sdk/issues/1207)) ([0bce810](https://github.com/wmfs/tymly-cardscript-sdk/commit/0bce810f7f1d8e1a95e386a59fbcc7048770472f))
+* **deps-dev:** update dependency indexeddbshim to v16 ([#1208](https://github.com/wmfs/tymly-cardscript-sdk/issues/1208)) ([f017b42](https://github.com/wmfs/tymly-cardscript-sdk/commit/f017b4297a777d48d7ed097e87bb3b3c9fe0a385))
+* **deps-dev:** update dependency mocha to v11.6.0 ([#1205](https://github.com/wmfs/tymly-cardscript-sdk/issues/1205)) ([8195c3c](https://github.com/wmfs/tymly-cardscript-sdk/commit/8195c3cb233ed4c4632da031da95ce592e4e6460))
+* **deps-dev:** update dependency pinia to v3.0.3 ([#1204](https://github.com/wmfs/tymly-cardscript-sdk/issues/1204)) ([6c3b493](https://github.com/wmfs/tymly-cardscript-sdk/commit/6c3b4937495f89343688086c396a963c471e327c))
+* **deps:** update dependency axios to v1.10.0 ([#1209](https://github.com/wmfs/tymly-cardscript-sdk/issues/1209)) ([72e8fef](https://github.com/wmfs/tymly-cardscript-sdk/commit/72e8fef8e0a0acc94f54644faa128f9146f1969c))
+
 ## [1.435.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.434.0...v1.435.0) (2025-05-29)
 
 ### Build system dependencies :hammer:
