@@ -1,3 +1,10 @@
+## [1.438.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.437.0...v1.438.0) (2025-06-20)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency mocha to v11.7.0 ([#1213](https://github.com/wmfs/tymly-cardscript-sdk/issues/1213)) ([86ec760](https://github.com/wmfs/tymly-cardscript-sdk/commit/86ec7601c2f254c7d3fa45fb1bb94078c634eae9))
+* **deps:** update dependency @wmfs/cardscript-to-vuelidate to v1.61.0 ([#1214](https://github.com/wmfs/tymly-cardscript-sdk/issues/1214)) ([4a7758f](https://github.com/wmfs/tymly-cardscript-sdk/commit/4a7758f8b12c620a3ea44f86c9e502b06bf72359))
+
 ## [1.437.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.436.0...v1.437.0) (2025-06-17)
 
 ### Build system dependencies :hammer:
