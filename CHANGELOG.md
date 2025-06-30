@@ -1,3 +1,11 @@
+## [1.439.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.438.0...v1.439.0) (2025-06-30)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency mocha to v11.7.1 ([#1215](https://github.com/wmfs/tymly-cardscript-sdk/issues/1215)) ([920582a](https://github.com/wmfs/tymly-cardscript-sdk/commit/920582a4db6e85bc1f8cdb30db5154ac972de2a4))
+* **deps-dev:** update dependency semantic-release to v24.2.6 ([#1216](https://github.com/wmfs/tymly-cardscript-sdk/issues/1216)) ([1c4ed55](https://github.com/wmfs/tymly-cardscript-sdk/commit/1c4ed5543f27c0c57565b7185a3bfb8ad03f9edf))
+* **deps:** update dependency @wmfs/cardscript-extract-defaults to v1.60.0 ([#1217](https://github.com/wmfs/tymly-cardscript-sdk/issues/1217)) ([88b8f18](https://github.com/wmfs/tymly-cardscript-sdk/commit/88b8f189c84dddc658f0ee59f19ed18aea3ba30d))
+
 ## [1.438.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.437.0...v1.438.0) (2025-06-20)
 
 ### Build system dependencies :hammer:
