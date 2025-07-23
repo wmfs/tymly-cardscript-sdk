@@ -1,3 +1,15 @@
+## [1.441.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.440.0...v1.441.0) (2025-07-23)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly to v1.313.0 ([#1220](https://github.com/wmfs/tymly-cardscript-sdk/issues/1220)) ([7dc6b20](https://github.com/wmfs/tymly-cardscript-sdk/commit/7dc6b205d8329c27afce53c408b7dcfc26d017e7))
+* **deps-dev:** update dependency @wmfs/tymly to v1.314.0 ([#1222](https://github.com/wmfs/tymly-cardscript-sdk/issues/1222)) ([fb4e25c](https://github.com/wmfs/tymly-cardscript-sdk/commit/fb4e25cf6872fc7b4cc352b4b86956fc2054d11a))
+* **deps-dev:** update dependency @wmfs/tymly to v1.315.0 ([#1224](https://github.com/wmfs/tymly-cardscript-sdk/issues/1224)) ([93ade87](https://github.com/wmfs/tymly-cardscript-sdk/commit/93ade87dd1f04aa8e0cc7006157341c10187ee97))
+* **deps-dev:** update dependency chai to v5.2.1 ([#1219](https://github.com/wmfs/tymly-cardscript-sdk/issues/1219)) ([008e2c1](https://github.com/wmfs/tymly-cardscript-sdk/commit/008e2c174e4f8c7a3b2b066f93a997ced36b0157))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v9.1.0 ([#1221](https://github.com/wmfs/tymly-cardscript-sdk/issues/1221)) ([ebd9364](https://github.com/wmfs/tymly-cardscript-sdk/commit/ebd93642b1f7b0a4a4913a6085700abb0d8fcea3))
+* **deps-dev:** update dependency semantic-release to v24.2.7 ([#1223](https://github.com/wmfs/tymly-cardscript-sdk/issues/1223)) ([2c3f19f](https://github.com/wmfs/tymly-cardscript-sdk/commit/2c3f19f0d8dced777993e0d207df6331fd016887))
+* **deps:** update axios from 1.10.0 to 1.11.0 ([a5c61cd](https://github.com/wmfs/tymly-cardscript-sdk/commit/a5c61cd12b5f5dd13867ee3bf5e96ac6c0753882))
+
 ## [1.440.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.439.0...v1.440.0) (2025-07-01)
 
 ### Build system dependencies :hammer:
