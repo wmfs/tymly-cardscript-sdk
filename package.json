@@ -22,7 +22,7 @@
     "dexie": "4.0.11",
     "lodash.takeright": "4.1.1",
     "shasum": "1.0.2",
-    "uuid": "11.1.0"
+    "uuid": "13.0.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
