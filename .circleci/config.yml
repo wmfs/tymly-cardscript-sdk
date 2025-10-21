@@ -2,7 +2,7 @@ version: 2
 jobs:
   unit test:
     docker:
-      - image: cimg/node:21.7.3
+      - image: cimg/node:lts
         auth:
           username: $DOCKERHUB_USERNAME
           password: $DOCKERHUB_PASSWORD
