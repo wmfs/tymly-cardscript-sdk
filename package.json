@@ -19,7 +19,7 @@
     "@wmfs/cardscript-to-quasar": "1.270.0",
     "@wmfs/cardscript-vue-sdk": "1.3.0",
     "axios": "1.11.0",
-    "dexie": "4.0.11",
+    "dexie": "4.3.0",
     "lodash.takeright": "4.1.1",
     "shasum": "1.0.2",
     "uuid": "11.1.0"
