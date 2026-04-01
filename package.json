@@ -12,7 +12,7 @@
     "@wmfs/cardscript-post-processor": "1.11.0",
     "@wmfs/cardscript-to-vuelidate": "1.61.0",
     "@wmfs/cardscript-extract-defaults": "1.63.0",
-    "@wmfs/cardscript-extract-graphs": "1.1.0",
+    "@wmfs/cardscript-extract-graphs": "1.2.0",
     "@wmfs/cardscript-extract-lists": "1.22.0",
     "@wmfs/cardscript-schema": "1.38.0",
     "@wmfs/cardscript-table-of-contents": "1.2.0",
