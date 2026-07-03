@@ -1,3 +1,5 @@
+## [1.444.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.443.0...v1.444.0) (2026-07-03)
+
 ## [1.443.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.442.0...v1.443.0) (2026-04-10)
 
 ### Build system dependencies :hammer:
