@@ -45,7 +45,7 @@
     "esm": "3.2.25",
     "mocha": "11.7.6",
     "nyc": "18.0.0",
-    "semantic-release": "25.0.7",
+    "semantic-release": "25.0.8",
     "standard": "17.1.2",
     "pinia": "4.0.2",
     "indexeddbshim": "16.1.0"
