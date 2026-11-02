@@ -1,3 +1,11 @@
+## [1.447.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.446.0...v1.447.0) (2026-11-02)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** fix conventionalcommit versions [sc-34125] ([d959b86](https://github.com/wmfs/tymly-cardscript-sdk/commit/d959b864dc66e46c89e86fe3f5cd33fc5657f539))
+* **deps-dev:** update devdependencies (non-major) ([#1319](https://github.com/wmfs/tymly-cardscript-sdk/issues/1319)) ([cf9db2a](https://github.com/wmfs/tymly-cardscript-sdk/commit/cf9db2ab3236d08b9c1b266cac431040b1d39cae))
+* **deps:** update dependency axios to v1.21.0 ([#1320](https://github.com/wmfs/tymly-cardscript-sdk/issues/1320)) ([15a570c](https://github.com/wmfs/tymly-cardscript-sdk/commit/15a570c7555fac869b7704d6bf8f2d8baa5fafe9))
+
 ## [1.446.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.445.0...v1.446.0) (2026-10-26)
 
 ## [1.445.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.444.1...v1.445.0) (2026-10-26)
