@@ -48,7 +48,7 @@
     "semantic-release": "25.0.9",
     "standard": "17.1.2",
     "pinia": "4.1.0",
-    "indexeddbshim": "17.7.0"
+    "indexeddbshim": "19.0.7"
   },
   "scripts": {
     "lint": "standard",
