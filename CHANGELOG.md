@@ -1,3 +1,11 @@
+## [1.451.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.450.0...v1.451.0) (2026-11-05)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency indexeddbshim to v19 ([#1324](https://github.com/wmfs/tymly-cardscript-sdk/issues/1324)) ([886c3e2](https://github.com/wmfs/tymly-cardscript-sdk/commit/886c3e25c2947f47c7e4c256dc5d9b4cd664e241))
+* **deps-dev:** update dependency mocha to v12 ([#1325](https://github.com/wmfs/tymly-cardscript-sdk/issues/1325)) ([59d4d7f](https://github.com/wmfs/tymly-cardscript-sdk/commit/59d4d7f1bac524ea8104f90d1ee73a2d767e787b))
+* **deps:** update dependency uuid to v14 ([#1326](https://github.com/wmfs/tymly-cardscript-sdk/issues/1326)) ([d001501](https://github.com/wmfs/tymly-cardscript-sdk/commit/d001501f8763311c94a39965ddeca86dead864c6))
+
 ## [1.450.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.449.0...v1.450.0) (2026-11-04)
 
 ### Build system dependencies :hammer:
