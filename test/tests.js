@@ -506,8 +506,28 @@ describe('Executions', function () {
 describe('Search', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
+  let kebabSearch
+
   it('attempt to search for \'Kebab\'', async () => {
-    await sdk.search.search({ query: 'Kebab' })
+    kebabSearch = await sdk.search.search({ query: 'Kebab' })
+  })
+
+  it('record a click on a search result', async function () {
+    // searchLogId needs a tymly-solr-plugin release with search analytics (sc-34389)
+    if (!kebabSearch || !kebabSearch.searchLogId) this.skip()
+
+    const logged = await sdk.search.recordClick({
+      searchLogId: kebabSearch.searchLogId,
+      docId: 'kebab#1',
+      docType: 'pizza',
+      position: 1
+    })
+    expect(logged).to.eql(true)
+  })
+
+  it('a click without a searchLogId is not sent', async () => {
+    const logged = await sdk.search.recordClick({ docId: 'kebab#1', position: 1 })
+    expect(logged).to.eql(false)
   })
 })
 
