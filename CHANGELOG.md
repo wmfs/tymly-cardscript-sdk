@@ -1,3 +1,9 @@
+## [1.454.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.453.0...v1.454.0) (2026-11-20)
+
+### Build system dependencies :hammer:
+
+* **deps:** update [@wmfs](https://github.com/wmfs) packages ([#1331](https://github.com/wmfs/tymly-cardscript-sdk/issues/1331)) ([734a391](https://github.com/wmfs/tymly-cardscript-sdk/commit/734a3916ed0cb67c16505e1b8888c8ed95825a7b))
+
 ## [1.453.0](https://github.com/wmfs/tymly-cardscript-sdk/compare/v1.452.0...v1.453.0) (2026-11-16)
 
 ### Build system dependencies :hammer:
